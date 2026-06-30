@@ -15,7 +15,7 @@ export async function sendAlert(subject, lines, recipients, apiKey) {
       method: "POST",
       headers: { Authorization: `Bearer ${apiKey}`, "Content-Type": "application/json" },
       body: JSON.stringify({
-        from: "onboarding@resend.dev", // swap to a verified-domain sender to reach all recipients
+        from: "Rapid Roofing Dashboards <alerts@updates.mycoresystem.com>", // verified Resend domain
         to: recipients,
         subject,
         html,
