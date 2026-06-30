@@ -1,4 +1,4 @@
-# dashboard-engine
+# Dashboard-engine
 
 Auto-updates the Rapid Roofing dashboards (rr1 quarterly thermometer, rr2 sales scoreboard)
 from Acculynx — no manual CSV downloads, no retyping.
