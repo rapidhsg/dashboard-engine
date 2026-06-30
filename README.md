@@ -90,11 +90,3 @@ node transform/test-local.mjs /path/to/csv-folder 2026-06-30   # offline, from C
 ACCULYNX_API_KEY=… RESEND_API_KEY=… node transform/build.mjs    # live pull + write JSON
 ```
 
-## Alerts: reaching all recipients
-`alert.mjs` sends from `onboarding@resend.dev`, which (on a free Resend account) only delivers to the
-account owner. To also email joseph@rapidrestore.com, verify a sending domain in Resend and change the
-`from:` address in `transform/lib/alert.mjs`.
-
-## Rollback
-Each refresh is one commit. To revert, `git revert` the latest data commit — the dashboards' inline
-fallback also covers any gap.
