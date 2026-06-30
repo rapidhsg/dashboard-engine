@@ -1,0 +1,78 @@
+{
+  "quarter": {
+    "label": "Q2 2026",
+    "startDate": "2026-04-01",
+    "endDate": "2026-06-30",
+    "refreshDate": "2026-06-30"
+  },
+  "metrics": [
+    {
+      "key": "sales",
+      "label": "Sales $$$ Contracted",
+      "type": "currency",
+      "tier": "headline",
+      "verb": "SELL",
+      "actual": 2038720,
+      "goal": 2055000
+    },
+    {
+      "key": "in_progress",
+      "label": "Revenue In Progress",
+      "type": "currency",
+      "tier": "headline",
+      "isCoverage": true,
+      "greenThreshold": 98,
+      "actual": 449562,
+      "goal": 151754
+    },
+    {
+      "key": "revenue",
+      "label": "Revenue Installed",
+      "type": "currency",
+      "tier": "headline",
+      "verb": "INSTALL",
+      "actual": 1830997,
+      "goal": 1972800
+    },
+    {
+      "key": "upsells",
+      "label": "Upsells $",
+      "type": "currency",
+      "tier": "headline",
+      "verb": "ADD",
+      "greenThreshold": 98,
+      "actual": 189853,
+      "goal": 143850
+    },
+    {
+      "key": "leads",
+      "label": "Leads",
+      "type": "count",
+      "tier": "funnel",
+      "verb": "GET",
+      "greenThreshold": 98,
+      "actual": 697,
+      "goal": 768
+    },
+    {
+      "key": "sits",
+      "label": "Sits",
+      "type": "count",
+      "tier": "funnel",
+      "verb": "BOOK",
+      "greenThreshold": 98,
+      "actual": 360,
+      "goal": 326
+    },
+    {
+      "key": "jobs",
+      "label": "Total Jobs Installed",
+      "type": "count",
+      "tier": "funnel",
+      "verb": "INSTALL",
+      "greenThreshold": 98,
+      "actual": 139,
+      "goal": 114
+    }
+  ]
+}

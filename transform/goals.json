@@ -1,0 +1,21 @@
+{
+  "_comment": "Quarterly goals — the ONLY thing updated by hand each quarter. Keys are the rr1 metric keys. 'in_progress' is the weekly install target (Revenue Installed goal / 13 weeks). Update these 7 numbers at the start of each quarter.",
+  "Q2 2026": {
+    "sales": 2055000,
+    "in_progress": 151754,
+    "revenue": 1972800,
+    "upsells": 143850,
+    "leads": 768,
+    "sits": 326,
+    "jobs": 114
+  },
+  "Q3 2026": {
+    "sales": 2055000,
+    "in_progress": 151754,
+    "revenue": 1972800,
+    "upsells": 143850,
+    "leads": 768,
+    "sits": 326,
+    "jobs": 114
+  }
+}

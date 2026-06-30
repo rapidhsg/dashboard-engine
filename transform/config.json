@@ -1,0 +1,34 @@
+{
+  "acculynxBaseUrl": "https://api.acculynx.com/api/v2",
+  "reports": {
+    "completed_jobs": "95aa8ce4-c719-4420-b741-cbf2707887bb",
+    "sales_revenue": "0d43a761-4913-47bf-bb1c-bf41fe60a308",
+    "revenue_in_progress": "a8efff80-8385-4421-ac8d-6d8274e75af8",
+    "leads_by_source": "d16cc2fd-1833-4ca1-89c7-21e3d5fefa3f",
+    "sits_tev": "71056e69-49f2-4be3-a068-a862c55d2892"
+  },
+  "rollingWindowDays": 90,
+  "weeksInQuarter": 13,
+  "salesWorkTypes": ["New", "Repair", "Upsell / Change Order"],
+  "upsellWorkType": "Upsell / Change Order",
+  "soldMilestones": ["Approved", "Completed", "Invoiced", "Closed"],
+  "rr1Metrics": [
+    { "key": "sales",       "label": "Sales $$$ Contracted", "type": "currency", "tier": "headline", "verb": "SELL" },
+    { "key": "in_progress", "label": "Revenue In Progress",   "type": "currency", "tier": "headline", "isCoverage": true, "greenThreshold": 98 },
+    { "key": "revenue",     "label": "Revenue Installed",     "type": "currency", "tier": "headline", "verb": "INSTALL" },
+    { "key": "upsells",     "label": "Upsells $",             "type": "currency", "tier": "headline", "verb": "ADD", "greenThreshold": 98 },
+    { "key": "leads",       "label": "Leads",                 "type": "count",    "tier": "funnel",   "verb": "GET", "greenThreshold": 98 },
+    { "key": "sits",        "label": "Sits",                  "type": "count",    "tier": "funnel",   "verb": "BOOK", "greenThreshold": 98 },
+    { "key": "jobs",        "label": "Total Jobs Installed",  "type": "count",    "tier": "funnel",   "verb": "INSTALL", "greenThreshold": 98 }
+  ],
+  "reps": [
+    { "fullName": "Francesco Ambrosio", "short": "FRANCESCO",    "role": "OUTSIDE SALES LEAD" },
+    { "fullName": "Michael Dietrich",   "short": "MIKE DIETRICH","role": "OUTSIDE SALES" },
+    { "fullName": "Joseph Young",       "short": "JOE YOUNG",    "role": "OUTSIDE SALES" },
+    { "fullName": "Joseph Cassara",     "short": "JOE CASSARA",  "role": "OUTSIDE SALES" }
+  ],
+  "setterNames": ["Kelly", "Joshua", "Janet"],
+  "settersToShow": 2,
+  "rhsg": "LONG ISLAND, NY",
+  "alertRecipients": ["joseph@rapidrestore.com", "segun@mycoresystem.com"]
+}

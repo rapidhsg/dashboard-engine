@@ -1,0 +1,24 @@
+# Place this at the ROOT of the dashboard-engine repo.
+# The API key lives ONLY in GitHub Actions Secrets — never commit it.
+
+# Secrets / env
+.env
+.env.*
+*.key
+secrets*.json
+
+# Node
+node_modules/
+npm-debug.log*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+
+# Local scratch (never commit pulled CSVs or local test output)
+/tmp/
+*.csv
+
+# NOTE: do NOT ignore rr1-data.json / rr2-data.json — those are the published
+# outputs that GitHub Pages serves and the Action commits.
