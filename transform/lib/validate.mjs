@@ -10,6 +10,17 @@ const MIN_ROWS = {
   sits_tev: 40,
 };
 
+// Columns each report MUST contain. Catches Acculynx schema changes (a renamed/removed
+// column would otherwise silently compute to 0). This replaces the old ">0" check, which
+// wrongly blocked legitimate quarter-start data (QTD is naturally 0 on day 1 of a quarter).
+const REQUIRED_COLS = {
+  completed_jobs: ["Current Milestone", "Completed Milestone Date", "Contract Amount", "Work Type"],
+  sales_revenue: ["Contract Amount", "Approved Date", "Work Type", "Primary Salesperson"],
+  revenue_in_progress: ["Job Value"],
+  leads_by_source: ["Lead Milestone Date"],
+  sits_tev: ["Initial Appointment Date", "Primary Estimate Amount", "Primary Salesperson", "Appointment Set By", "Current Milestone", "Job Value"],
+};
+
 const finite = (n) => typeof n === "number" && Number.isFinite(n);
 
 export function validate({ rows, rr1Data, rr2Data, runDates }, config) {
@@ -24,6 +35,12 @@ export function validate({ rows, rr1Data, rr2Data, runDates }, config) {
     }
     const min = MIN_ROWS[name] ?? 0;
     if (r.length < min) errors.push(`report "${name}" has ${r.length} rows (< ${min})`);
+    // schema check: required columns must be present
+    if (r.length > 0) {
+      for (const col of REQUIRED_COLS[name] || []) {
+        if (!(col in r[0])) errors.push(`report "${name}" is missing expected column "${col}"`);
+      }
+    }
   }
 
   // 2. Freshness — every report's run must be within ~2 days.
@@ -36,7 +53,9 @@ export function validate({ rows, rr1Data, rr2Data, runDates }, config) {
     }
   }
 
-  // 3. rr1 — every metric numeric; the must-be-positive ones are positive; goals set.
+  // 3. rr1 — every metric is a finite number and has a goal. (No ">0" rule: quarter-to-date
+  //    is legitimately 0 at the start of a quarter. Empty/broken reports are caught by the
+  //    row-count + required-column checks above.)
   const r1 = rr1Data && rr1Data.metrics;
   if (!Array.isArray(r1) || r1.length !== config.rr1Metrics.length) {
     errors.push("rr1 metrics malformed");
@@ -44,11 +63,6 @@ export function validate({ rows, rr1Data, rr2Data, runDates }, config) {
     for (const m of r1) {
       if (!finite(m.actual)) errors.push(`rr1 "${m.key}" actual is not a number`);
       if (!finite(m.goal) || m.goal <= 0) errors.push(`rr1 "${m.key}" goal missing/invalid`);
-    }
-    const need = ["sales", "revenue", "upsells", "leads", "sits", "jobs"];
-    for (const k of need) {
-      const m = r1.find((x) => x.key === k);
-      if (m && m.actual <= 0) errors.push(`rr1 "${k}" actual is ${m.actual} (expected > 0)`);
     }
   }
 
