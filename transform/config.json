@@ -1,4 +1,6 @@
 {
+  "asOfDate": "2026-06-30",
+  "_asOfDate_note": "Pins the dashboards to this date's quarter/window (keeps Q2-final on screen until Q3 goals are set). Set to null to auto-roll with the calendar.",
   "acculynxBaseUrl": "https://api.acculynx.com/api/v2",
   "reports": {
     "completed_jobs": "95aa8ce4-c719-4420-b741-cbf2707887bb",

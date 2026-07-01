@@ -50,7 +50,11 @@ async function main() {
   }
 
   // 3. Run date / quarter / goals.
-  const runYmd = isoDate(runDates.sits_tev) || new Date().toISOString().slice(0, 10);
+  // `asOfDate` in config pins the whole view to a specific date's quarter/window — e.g. keep
+  // showing last quarter's FINAL numbers until the new quarter's goals are set. Set it to null
+  // to auto-roll with the calendar. It still uses the latest reports, so the pinned quarter's
+  // numbers stay complete/up-to-date.
+  const runYmd = config.asOfDate || isoDate(runDates.sits_tev) || new Date().toISOString().slice(0, 10);
   const qLabel = quarterFor(runYmd).label;
   const goals = goalsAll[qLabel];
   if (!goals) {
