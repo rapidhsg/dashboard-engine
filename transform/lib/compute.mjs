@@ -72,8 +72,9 @@ export function computeRr1(rows, runYmd, goals, config) {
     ),
     in_progress: round(rip.reduce((s, r) => s + parseMoney(r["Job Value"]), 0)),
     revenue: round(compInQ.reduce((s, r) => s + parseMoney(r["Contract Amount"]), 0)),
+    // Upsells = INSTALLED basis (Completed Jobs completed-in-quarter, per CEO), not approved.
     upsells: round(
-      apprInQ
+      compInQ
         .filter((r) => r["Work Type"] === config.upsellWorkType)
         .reduce((s, r) => s + parseMoney(r["Contract Amount"]), 0)
     ),
