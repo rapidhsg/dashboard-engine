@@ -5,7 +5,7 @@ from Acculynx — no manual CSV downloads, no retyping.
 
 ## How it works
 Every ~2 hours a GitHub Action runs `transform/build.mjs`, which:
-1. Pulls the 5 scheduled Acculynx CSV reports via the API (`runs/latest → recipients → download fileUrl`).
+1. Pulls the **freshest copy of each report** via the API — across the *bundled* schedules (each delivers all 5 reports) and the individual single-report schedules as a fallback (`runs/latest → recipients → download fileUrl`).
 2. Computes both dashboards' numbers with calibrated formulas (`transform/lib/compute.mjs`).
 3. Runs a **validation gate** — if any report is missing/short/stale, it publishes nothing
    (dashboards keep the last good numbers) and emails an alert.
@@ -16,19 +16,24 @@ Every ~2 hours a GitHub Action runs `transform/build.mjs`, which:
 
 ## How it gets the data, and how often
 
-It uses Acculynx's official **API**. The same 5 scheduled reports that get emailed are also available
-through the API, so the engine asks Acculynx for the *latest run* of each report and downloads the
-**exact CSV** — byte-for-byte identical to the email copy. Access is via a secure Acculynx API key
-(`ACCULYNX_API_KEY`, stored encrypted in GitHub Actions secrets — never in code).
-
-Per report it's three calls: **get latest run → get the file link → download the file**
+It uses Acculynx's official **API**. The same scheduled reports that get emailed are also available
+through the API, so the engine downloads the **exact CSV** — byte-for-byte identical to the email copy.
+Access is via a secure Acculynx API key (`ACCULYNX_API_KEY`, stored encrypted in GitHub Actions secrets
+— never in code). Per report it's three calls: **get latest run → get the file link → download the file**
 (`runs/latest → recipients → fileUrl`).
+
+**It always uses the freshest copy of each report.** The engine checks every schedule in
+`config.json` — the **bundled** schedules (each one delivers all 5 reports) *and* the individual
+single-report schedules — and for each report picks the file from the **most recent run**. Files are
+matched to reports by filename prefix (`completed_jobs`, `sales_revenue`, …). If a bundled schedule
+hasn't fired yet, it silently falls back to the individual reports, so the board never goes dark.
 
 **Frequency — two layers:**
 - The engine runs **every ~2 hours** (GitHub Actions cron + on-demand "Run workflow").
-- Data is only as fresh as Acculynx *generates* the reports. They currently run **once daily (~5am)**,
-  so in practice numbers refresh about once a day. Increase the reports' frequency inside Acculynx
-  (e.g. every few hours) and the engine automatically picks up the fresher run — no code change.
+- Data is only as fresh as Acculynx *generates* the reports. The bundled schedules run **intraday
+  (e.g. 12pm + 4pm)** on top of the **5am** individual reports — so numbers refresh a few times a day,
+  and the engine auto-picks whichever ran most recently. Add more scheduled times in Acculynx (drop
+  the new schedule id into `config.bundledScheduleIds`) for even fresher data.
 - The TVs **auto-reload every 5 minutes**, so they always show the latest published numbers.
 
 ## Metric definitions (the rule set)
@@ -41,7 +46,7 @@ Exact definition of every number, straight from the source reports.
 | Sales $$$ Contracted | Sales Revenue | Σ Contract Amount where **Approved Date** is in the quarter and Work Type ∈ {New, Repair, Upsell/Change Order} (excludes Insurance, Inspection, Service) |
 | Revenue In Progress | Revenue In Progress | Σ Job Value of all jobs currently in production |
 | Revenue Installed | Completed Jobs | Σ Contract Amount where **Completed Milestone Date** is in the quarter |
-| Upsells $ | Sales Revenue | Σ Contract Amount, Approved in quarter, Work Type = Upsell / Change Order |
+| Upsells $ | Completed Jobs | Σ Contract Amount where **Completed Milestone Date** is in the quarter and Work Type = Upsell / Change Order (installed basis — matches the CEO's "Upgrades") |
 | Leads | Leads by Source | Count where **Lead Milestone Date** is in the quarter |
 | Sits | Sits & Tev | Count where **Initial Appointment Date** is in the quarter |
 | Total Jobs Installed | Completed Jobs | Count completed in quarter, **excluding** Upsell / Change Order (not separate installs) |
@@ -69,7 +74,7 @@ Exact definition of every number, straight from the source reports.
 - `transform/build.mjs` — entry point.
 - `transform/lib/` — `acculynx.mjs` (pull chain), `csv.mjs` (parser), `compute.mjs` (formulas),
   `validate.mjs` (gate), `alert.mjs` (Resend email).
-- `transform/config.json` — report IDs, rep roster, setter names, rr1 metric metadata. Rarely changes.
+- `transform/config.json` — schedule IDs (`bundledScheduleIds` = all-5 bundled schedules + individual `reports` fallbacks), rep roster, setter names, rr1 metric metadata, and `asOfDate` (see "Hold a quarter"). Rarely changes.
 - `transform/goals.json` — **the 7 quarterly goal numbers** (the only thing edited each quarter).
 - `transform/test-local.mjs` — run the formulas against a folder of CSVs (no API).
 - `rr1-data.json` / `rr2-data.json` — generated outputs (served by Pages).
@@ -83,6 +88,12 @@ Exact definition of every number, straight from the source reports.
 Edit `transform/goals.json`: add/adjust the block for the quarter, e.g. `"Q3 2026": { ... 7 numbers ... }`.
 Quarter **dates roll automatically** from the calendar — you only set the 7 targets.
 (`in_progress` = the weekly install target = Revenue Installed goal ÷ 13 weeks.)
+
+## Hold a quarter (`asOfDate`)
+At a quarter changeover the new quarter starts near-zero, which can look empty before its goals are set.
+Set `config.json` `"asOfDate": "YYYY-MM-DD"` to **pin** the dashboards to that date's quarter/window
+(it still pulls the latest reports, so the pinned quarter stays complete). Set it back to `null` to
+**auto-roll** with the calendar. (Used to keep Q2-final on screen until the Q3 goals were entered.)
 
 ## Run locally
 ```bash
