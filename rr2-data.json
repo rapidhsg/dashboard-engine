@@ -6,11 +6,11 @@
     "refreshDate": "2026-07-03"
   },
   "team": {
-    "demos": 328,
+    "demos": 330,
     "sold": 94,
     "soldDollars": 1889795,
-    "closeRate": 28.7,
-    "revPerSit": 5762
+    "closeRate": 28.5,
+    "revPerSit": 5727
   },
   "reps": [
     {
@@ -27,11 +27,11 @@
       "name": "Michael Dietrich",
       "short": "MIKE DIETRICH",
       "role": "OUTSIDE SALES",
-      "demos": 139,
+      "demos": 140,
       "sold": 48,
       "soldDollars": 862799,
-      "closeRate": 34.5,
-      "revPerSit": 6207
+      "closeRate": 34.3,
+      "revPerSit": 6163
     },
     {
       "name": "Joseph Young",
@@ -47,11 +47,11 @@
       "name": "Joseph Cassara",
       "short": "JOE CASSARA",
       "role": "OUTSIDE SALES",
-      "demos": 41,
+      "demos": 42,
       "sold": 7,
       "soldDollars": 150301,
-      "closeRate": 17.1,
-      "revPerSit": 3666
+      "closeRate": 16.7,
+      "revPerSit": 3579
     }
   ],
   "setters": [
