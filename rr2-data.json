@@ -3,14 +3,14 @@
     "label": "Q3 2026",
     "startDate": "2026-07-01",
     "endDate": "2026-09-30",
-    "refreshDate": "2026-07-03"
+    "refreshDate": "2026-07-04"
   },
   "team": {
-    "demos": 330,
+    "demos": 331,
     "sold": 94,
     "soldDollars": 1889795,
-    "closeRate": 28.5,
-    "revPerSit": 5727
+    "closeRate": 28.4,
+    "revPerSit": 5709
   },
   "reps": [
     {
@@ -47,11 +47,11 @@
       "name": "Joseph Cassara",
       "short": "JOE CASSARA",
       "role": "OUTSIDE SALES",
-      "demos": 42,
+      "demos": 43,
       "sold": 7,
       "soldDollars": 150301,
-      "closeRate": 16.7,
-      "revPerSit": 3579
+      "closeRate": 16.3,
+      "revPerSit": 3495
     }
   ],
   "setters": [
