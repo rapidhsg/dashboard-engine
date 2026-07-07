@@ -142,11 +142,17 @@ export function computeRr2(rows, runYmd, config) {
     revPerSit: tDemos ? round(tDollars / tDemos) : 0,
   };
 
-  const setters = config.setterNames
+  // Setters: show EVERY distinct "Appointment Set By" in the window, EXCEPT the excluded junk
+  // buckets (config.setterExclude — e.g. Other, N/A, Bryan, Janet-left) and blanks. New CSRs
+  // (like Marco) auto-appear without a code change.
+  const excluded = new Set((config.setterExclude || []).map((x) => x.toLowerCase()));
+  const winSits = st.filter((r) => inWin(toYmd(r["Initial Appointment Date"])));
+  const setterNames = [...new Set(winSits.map((r) => (r["Appointment Set By"] || "").trim()))].filter(
+    (n) => n && !excluded.has(n.toLowerCase())
+  );
+  const setters = setterNames
     .map((name) => {
-      const set = st.filter(
-        (r) => r["Appointment Set By"] === name && inWin(toYmd(r["Initial Appointment Date"]))
-      );
+      const set = winSits.filter((r) => (r["Appointment Set By"] || "").trim() === name);
       const soldRows = set.filter((r) => config.soldMilestones.includes(r["Current Milestone"]));
       const soldDollars = round(soldRows.reduce((s, r) => s + parseMoney(r["Job Value"]), 0));
       return {
@@ -158,8 +164,7 @@ export function computeRr2(rows, runYmd, config) {
         conversion: set.length ? +((100 * soldRows.length) / set.length).toFixed(1) : 0,
       };
     })
-    .sort((a, b) => b.soldDollars - a.soldDollars)
-    .slice(0, config.settersToShow);
+    .sort((a, b) => b.soldDollars - a.soldDollars);
 
   return {
     quarter: { ...q, refreshDate: runYmd },

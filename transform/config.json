@@ -34,8 +34,8 @@
     { "fullName": "Joseph Young",       "short": "JOE YOUNG",    "role": "OUTSIDE SALES" },
     { "fullName": "Joseph Cassara",     "short": "JOE CASSARA",  "role": "OUTSIDE SALES" }
   ],
-  "setterNames": ["Kelly", "Joshua", "Janet"],
-  "settersToShow": 2,
+  "_setter_note": "Show every 'Appointment Set By' value EXCEPT these junk/inactive buckets (case-insensitive; blanks always excluded). New CSRs auto-appear. Janet excluded — left the company 2026-07-07.",
+  "setterExclude": ["Other", "N/A", "Bryan", "Janet"],
   "rhsg": "LONG ISLAND, NY",
   "alertRecipients": ["joseph@rapidrestore.com", "segun@mycoresystem.com"]
 }
