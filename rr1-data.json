@@ -71,7 +71,7 @@
       "tier": "funnel",
       "verb": "INSTALL",
       "greenThreshold": 98,
-      "actual": 6,
+      "actual": 1,
       "goal": 89
     }
   ]
