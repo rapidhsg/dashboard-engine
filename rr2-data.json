@@ -6,52 +6,52 @@
     "refreshDate": "2026-07-09"
   },
   "team": {
-    "demos": 354,
-    "sold": 99,
-    "soldDollars": 1894716,
-    "closeRate": 28,
-    "revPerSit": 5352
+    "demos": 358,
+    "sold": 100,
+    "soldDollars": 1897096,
+    "closeRate": 27.9,
+    "revPerSit": 5299
   },
   "reps": [
     {
       "name": "Francesco Ambrosio",
       "short": "FRANCESCO",
       "role": "OUTSIDE SALES LEAD",
-      "demos": 77,
+      "demos": 78,
       "sold": 26,
       "soldDollars": 529225,
-      "closeRate": 33.8,
-      "revPerSit": 6873
+      "closeRate": 33.3,
+      "revPerSit": 6785
     },
     {
       "name": "Michael Dietrich",
       "short": "MIKE DIETRICH",
       "role": "OUTSIDE SALES",
       "demos": 149,
-      "sold": 48,
-      "soldDollars": 862722,
-      "closeRate": 32.2,
-      "revPerSit": 5790
+      "sold": 49,
+      "soldDollars": 865102,
+      "closeRate": 32.9,
+      "revPerSit": 5806
     },
     {
       "name": "Joseph Young",
       "short": "JOE YOUNG",
       "role": "OUTSIDE SALES",
-      "demos": 75,
+      "demos": 77,
       "sold": 17,
       "soldDollars": 346228,
-      "closeRate": 22.7,
-      "revPerSit": 4616
+      "closeRate": 22.1,
+      "revPerSit": 4496
     },
     {
       "name": "Joseph Cassara",
       "short": "JOE CASSARA",
       "role": "OUTSIDE SALES",
-      "demos": 53,
+      "demos": 54,
       "sold": 8,
       "soldDollars": 156541,
-      "closeRate": 15.1,
-      "revPerSit": 2954
+      "closeRate": 14.8,
+      "revPerSit": 2899
     }
   ],
   "setters": [
@@ -66,18 +66,18 @@
     {
       "name": "JOSHUA",
       "role": "APPT SETTER",
-      "apptsSet": 124,
+      "apptsSet": 123,
       "sold": 26,
       "soldDollars": 465026,
-      "conversion": 21
+      "conversion": 21.1
     },
     {
       "name": "MARCO",
       "role": "APPT SETTER",
       "apptsSet": 13,
-      "sold": 4,
-      "soldDollars": 56371,
-      "conversion": 30.8
+      "sold": 5,
+      "soldDollars": 58751,
+      "conversion": 38.5
     }
   ]
 }
