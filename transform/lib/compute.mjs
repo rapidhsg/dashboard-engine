@@ -80,7 +80,11 @@ export function computeRr1(rows, runYmd, goals, config) {
     ),
     leads: lb.filter((r) => inRange(toYmd(r["Lead Milestone Date"]), lo, hi)).length,
     sits: st.filter((r) => inRange(toYmd(r["Initial Appointment Date"]), lo, hi)).length,
-    jobs: compInQ.filter((r) => r["Work Type"] !== config.upsellWorkType).length,
+    // Total Jobs Installed = real installs: completed-in-quarter, excl Upsell, and Contract > 0
+    // (drops $0 call-backs/warranty jobs, per CEO — matches his "Total Jobs" number).
+    jobs: compInQ.filter(
+      (r) => r["Work Type"] !== config.upsellWorkType && parseMoney(r["Contract Amount"]) > 0
+    ).length,
   };
 
   const metrics = config.rr1Metrics.map((m) => ({
