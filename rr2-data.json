@@ -6,11 +6,11 @@
     "refreshDate": "2026-07-11"
   },
   "team": {
-    "demos": 367,
+    "demos": 369,
     "sold": 99,
     "soldDollars": 1890633,
-    "closeRate": 27,
-    "revPerSit": 5152
+    "closeRate": 26.8,
+    "revPerSit": 5124
   },
   "reps": [
     {
@@ -37,21 +37,21 @@
       "name": "Joseph Young",
       "short": "JOE YOUNG",
       "role": "OUTSIDE SALES",
-      "demos": 80,
+      "demos": 81,
       "sold": 17,
       "soldDollars": 346228,
-      "closeRate": 21.3,
-      "revPerSit": 4328
+      "closeRate": 21,
+      "revPerSit": 4274
     },
     {
       "name": "Joseph Cassara",
       "short": "JOE CASSARA",
       "role": "OUTSIDE SALES",
-      "demos": 57,
+      "demos": 58,
       "sold": 8,
       "soldDollars": 156541,
-      "closeRate": 14,
-      "revPerSit": 2746
+      "closeRate": 13.8,
+      "revPerSit": 2699
     }
   ],
   "setters": [
