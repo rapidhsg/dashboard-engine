@@ -3,7 +3,7 @@
     "label": "Q3 2026",
     "startDate": "2026-07-01",
     "endDate": "2026-09-30",
-    "refreshDate": "2026-07-11"
+    "refreshDate": "2026-07-12"
   },
   "team": {
     "demos": 369,
@@ -66,18 +66,18 @@
     {
       "name": "JOSHUA",
       "role": "APPT SETTER",
-      "apptsSet": 133,
+      "apptsSet": 134,
       "sold": 26,
       "soldDollars": 465026,
-      "conversion": 19.5
+      "conversion": 19.4
     },
     {
       "name": "MARCO",
       "role": "APPT SETTER",
-      "apptsSet": 23,
+      "apptsSet": 24,
       "sold": 5,
       "soldDollars": 58288,
-      "conversion": 21.7
+      "conversion": 20.8
     }
   ]
 }
