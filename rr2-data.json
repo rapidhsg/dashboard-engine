@@ -3,65 +3,65 @@
     "label": "Q3 2026",
     "startDate": "2026-07-01",
     "endDate": "2026-09-30",
-    "refreshDate": "2026-07-15"
+    "refreshDate": "2026-07-16"
   },
   "team": {
-    "demos": 374,
+    "demos": 373,
     "sold": 100,
-    "soldDollars": 1914568,
-    "closeRate": 26.7,
-    "revPerSit": 5119
+    "soldDollars": 1896213,
+    "closeRate": 26.8,
+    "revPerSit": 5084
   },
   "reps": [
     {
       "name": "Francesco Ambrosio",
       "short": "FRANCESCO",
       "role": "OUTSIDE SALES LEAD",
-      "demos": 75,
+      "demos": 74,
       "sold": 25,
       "soldDollars": 491890,
-      "closeRate": 33.3,
-      "revPerSit": 6559
+      "closeRate": 33.8,
+      "revPerSit": 6647
     },
     {
       "name": "Michael Dietrich",
       "short": "MIKE DIETRICH",
       "role": "OUTSIDE SALES",
-      "demos": 149,
-      "sold": 50,
-      "soldDollars": 920526,
-      "closeRate": 33.6,
-      "revPerSit": 6178
+      "demos": 148,
+      "sold": 49,
+      "soldDollars": 885671,
+      "closeRate": 33.1,
+      "revPerSit": 5984
     },
     {
       "name": "Joseph Young",
       "short": "JOE YOUNG",
       "role": "OUTSIDE SALES",
-      "demos": 88,
-      "sold": 16,
-      "soldDollars": 324611,
-      "closeRate": 18.2,
-      "revPerSit": 3689
+      "demos": 87,
+      "sold": 17,
+      "soldDollars": 341111,
+      "closeRate": 19.5,
+      "revPerSit": 3921
     },
     {
       "name": "Joseph Cassara",
       "short": "JOE CASSARA",
       "role": "OUTSIDE SALES",
-      "demos": 62,
+      "demos": 64,
       "sold": 9,
       "soldDollars": 177541,
-      "closeRate": 14.5,
-      "revPerSit": 2864
+      "closeRate": 14.1,
+      "revPerSit": 2774
     }
   ],
   "setters": [
     {
       "name": "JOSHUA",
       "role": "APPT SETTER",
-      "apptsSet": 150,
+      "apptsSet": 152,
       "sold": 30,
       "soldDollars": 548294,
-      "conversion": 20
+      "conversion": 19.7
     },
     {
       "name": "KELLY",
@@ -74,10 +74,10 @@
     {
       "name": "MARCO",
       "role": "APPT SETTER",
-      "apptsSet": 28,
+      "apptsSet": 30,
       "sold": 4,
       "soldDollars": 53288,
-      "conversion": 14.3
+      "conversion": 13.3
     }
   ]
 }
