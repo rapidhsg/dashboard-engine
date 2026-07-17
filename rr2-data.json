@@ -3,65 +3,65 @@
     "label": "Q3 2026",
     "startDate": "2026-07-01",
     "endDate": "2026-09-30",
-    "refreshDate": "2026-07-16"
+    "refreshDate": "2026-07-17"
   },
   "team": {
-    "demos": 377,
-    "sold": 102,
-    "soldDollars": 1933998,
+    "demos": 373,
+    "sold": 101,
+    "soldDollars": 1909398,
     "closeRate": 27.1,
-    "revPerSit": 5130
+    "revPerSit": 5119
   },
   "reps": [
     {
       "name": "Francesco Ambrosio",
       "short": "FRANCESCO",
       "role": "OUTSIDE SALES LEAD",
-      "demos": 74,
+      "demos": 72,
       "sold": 25,
       "soldDollars": 491890,
-      "closeRate": 33.8,
-      "revPerSit": 6647
+      "closeRate": 34.7,
+      "revPerSit": 6832
     },
     {
       "name": "Michael Dietrich",
       "short": "MIKE DIETRICH",
       "role": "OUTSIDE SALES",
-      "demos": 149,
-      "sold": 51,
-      "soldDollars": 923456,
-      "closeRate": 34.2,
-      "revPerSit": 6198
+      "demos": 147,
+      "sold": 50,
+      "soldDollars": 898856,
+      "closeRate": 34,
+      "revPerSit": 6115
     },
     {
       "name": "Joseph Young",
       "short": "JOE YOUNG",
       "role": "OUTSIDE SALES",
-      "demos": 89,
+      "demos": 88,
       "sold": 17,
       "soldDollars": 341111,
-      "closeRate": 19.1,
-      "revPerSit": 3833
+      "closeRate": 19.3,
+      "revPerSit": 3876
     },
     {
       "name": "Joseph Cassara",
       "short": "JOE CASSARA",
       "role": "OUTSIDE SALES",
-      "demos": 65,
+      "demos": 66,
       "sold": 9,
       "soldDollars": 177541,
-      "closeRate": 13.8,
-      "revPerSit": 2731
+      "closeRate": 13.6,
+      "revPerSit": 2690
     }
   ],
   "setters": [
     {
       "name": "JOSHUA",
       "role": "APPT SETTER",
-      "apptsSet": 154,
+      "apptsSet": 157,
       "sold": 30,
       "soldDollars": 548290,
-      "conversion": 19.5
+      "conversion": 19.1
     },
     {
       "name": "KELLY",
@@ -74,10 +74,10 @@
     {
       "name": "MARCO",
       "role": "APPT SETTER",
-      "apptsSet": 29,
+      "apptsSet": 32,
       "sold": 4,
       "soldDollars": 53288,
-      "conversion": 13.8
+      "conversion": 12.5
     }
   ]
 }
