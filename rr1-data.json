@@ -22,7 +22,7 @@
       "tier": "headline",
       "isCoverage": true,
       "greenThreshold": 98,
-      "actual": 495380,
+      "actual": 418210,
       "goal": 132000
     },
     {
@@ -31,7 +31,7 @@
       "type": "currency",
       "tier": "headline",
       "verb": "INSTALL",
-      "actual": 201016,
+      "actual": 233703,
       "goal": 1716000
     },
     {
@@ -41,7 +41,7 @@
       "tier": "headline",
       "verb": "ADD",
       "greenThreshold": 98,
-      "actual": 48815,
+      "actual": 55815,
       "goal": 120120
     },
     {
@@ -51,7 +51,7 @@
       "tier": "funnel",
       "verb": "GET",
       "greenThreshold": 98,
-      "actual": 194,
+      "actual": 200,
       "goal": 578
     },
     {
@@ -61,7 +61,7 @@
       "tier": "funnel",
       "verb": "BOOK",
       "greenThreshold": 98,
-      "actual": 124,
+      "actual": 123,
       "goal": 254
     },
     {
@@ -71,7 +71,7 @@
       "tier": "funnel",
       "verb": "INSTALL",
       "greenThreshold": 98,
-      "actual": 14,
+      "actual": 16,
       "goal": 89
     }
   ]

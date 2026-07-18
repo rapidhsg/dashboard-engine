@@ -6,11 +6,11 @@
     "refreshDate": "2026-07-18"
   },
   "team": {
-    "demos": 378,
+    "demos": 379,
     "sold": 99,
     "soldDollars": 1867915,
-    "closeRate": 26.2,
-    "revPerSit": 4942
+    "closeRate": 26.1,
+    "revPerSit": 4929
   },
   "reps": [
     {
@@ -47,21 +47,21 @@
       "name": "Joseph Cassara",
       "short": "JOE CASSARA",
       "role": "OUTSIDE SALES",
-      "demos": 68,
+      "demos": 69,
       "sold": 9,
       "soldDollars": 177541,
-      "closeRate": 13.2,
-      "revPerSit": 2611
+      "closeRate": 13,
+      "revPerSit": 2573
     }
   ],
   "setters": [
     {
       "name": "JOSHUA",
       "role": "APPT SETTER",
-      "apptsSet": 161,
+      "apptsSet": 160,
       "sold": 30,
       "soldDollars": 548290,
-      "conversion": 18.6
+      "conversion": 18.8
     },
     {
       "name": "KELLY",
