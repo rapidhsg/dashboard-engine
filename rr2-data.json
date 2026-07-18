@@ -7,9 +7,9 @@
   },
   "team": {
     "demos": 379,
-    "sold": 99,
+    "sold": 100,
     "soldDollars": 1867915,
-    "closeRate": 26.1,
+    "closeRate": 26.4,
     "revPerSit": 4929
   },
   "reps": [
@@ -28,9 +28,9 @@
       "short": "MIKE DIETRICH",
       "role": "OUTSIDE SALES",
       "demos": 146,
-      "sold": 48,
+      "sold": 49,
       "soldDollars": 857373,
-      "closeRate": 32.9,
+      "closeRate": 33.6,
       "revPerSit": 5872
     },
     {
@@ -59,9 +59,9 @@
       "name": "JOSHUA",
       "role": "APPT SETTER",
       "apptsSet": 160,
-      "sold": 30,
+      "sold": 31,
       "soldDollars": 548290,
-      "conversion": 18.8
+      "conversion": 19.4
     },
     {
       "name": "KELLY",
