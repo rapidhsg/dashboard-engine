@@ -3,7 +3,7 @@
     "label": "Q3 2026",
     "startDate": "2026-07-01",
     "endDate": "2026-09-30",
-    "refreshDate": "2026-07-18"
+    "refreshDate": "2026-07-19"
   },
   "metrics": [
     {
@@ -51,7 +51,7 @@
       "tier": "funnel",
       "verb": "GET",
       "greenThreshold": 98,
-      "actual": 206,
+      "actual": 210,
       "goal": 578
     },
     {
