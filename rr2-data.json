@@ -6,11 +6,11 @@
     "refreshDate": "2026-07-24"
   },
   "team": {
-    "demos": 389,
-    "sold": 105,
-    "soldDollars": 1867131,
+    "demos": 393,
+    "sold": 106,
+    "soldDollars": 2094589,
     "closeRate": 27,
-    "revPerSit": 4800
+    "revPerSit": 5330
   },
   "reps": [
     {
@@ -18,50 +18,50 @@
       "short": "FRANCESCO",
       "role": "OUTSIDE SALES LEAD",
       "demos": 72,
-      "sold": 23,
-      "soldDollars": 466153,
-      "closeRate": 31.9,
-      "revPerSit": 6474
+      "sold": 24,
+      "soldDollars": 693611,
+      "closeRate": 33.3,
+      "revPerSit": 9633
     },
     {
       "name": "Michael Dietrich",
       "short": "MIKE DIETRICH",
       "role": "OUTSIDE SALES",
-      "demos": 147,
+      "demos": 148,
       "sold": 49,
       "soldDollars": 775714,
-      "closeRate": 33.3,
-      "revPerSit": 5277
+      "closeRate": 33.1,
+      "revPerSit": 5241
     },
     {
       "name": "Joseph Young",
       "short": "JOE YOUNG",
       "role": "OUTSIDE SALES",
-      "demos": 93,
+      "demos": 94,
       "sold": 22,
       "soldDollars": 405892,
-      "closeRate": 23.7,
-      "revPerSit": 4364
+      "closeRate": 23.4,
+      "revPerSit": 4318
     },
     {
       "name": "Joseph Cassara",
       "short": "JOE CASSARA",
       "role": "OUTSIDE SALES",
-      "demos": 77,
+      "demos": 79,
       "sold": 11,
       "soldDollars": 219372,
-      "closeRate": 14.3,
-      "revPerSit": 2849
+      "closeRate": 13.9,
+      "revPerSit": 2777
     }
   ],
   "setters": [
     {
       "name": "JOSHUA",
       "role": "APPT SETTER",
-      "apptsSet": 175,
-      "sold": 39,
-      "soldDollars": 655558,
-      "conversion": 22.3
+      "apptsSet": 177,
+      "sold": 40,
+      "soldDollars": 883016,
+      "conversion": 22.6
     },
     {
       "name": "KELLY",
@@ -74,10 +74,10 @@
     {
       "name": "MARCO",
       "role": "APPT SETTER",
-      "apptsSet": 51,
+      "apptsSet": 52,
       "sold": 7,
       "soldDollars": 76889,
-      "conversion": 13.7
+      "conversion": 13.5
     }
   ]
 }
