@@ -58,10 +58,10 @@
     {
       "name": "JOSHUA",
       "role": "APPT SETTER",
-      "apptsSet": 173,
+      "apptsSet": 175,
       "sold": 39,
       "soldDollars": 655558,
-      "conversion": 22.5
+      "conversion": 22.3
     },
     {
       "name": "KELLY",
@@ -74,10 +74,10 @@
     {
       "name": "MARCO",
       "role": "APPT SETTER",
-      "apptsSet": 50,
+      "apptsSet": 51,
       "sold": 7,
       "soldDollars": 76889,
-      "conversion": 14
+      "conversion": 13.7
     }
   ]
 }
