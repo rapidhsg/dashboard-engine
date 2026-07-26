@@ -51,7 +51,7 @@
       "tier": "funnel",
       "verb": "GET",
       "greenThreshold": 98,
-      "actual": 300,
+      "actual": 302,
       "goal": 578
     },
     {
