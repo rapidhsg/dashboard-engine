@@ -12,8 +12,8 @@
       "type": "currency",
       "tier": "headline",
       "verb": "SELL",
-      "actual": 905199,
-      "goal": 1781000
+      "actual": 914199,
+      "goal": 2547000
     },
     {
       "key": "in_progress",
@@ -22,8 +22,8 @@
       "tier": "headline",
       "isCoverage": true,
       "greenThreshold": 98,
-      "actual": 453539,
-      "goal": 132000
+      "actual": 462539,
+      "goal": 188769
     },
     {
       "key": "revenue",
@@ -32,7 +32,7 @@
       "tier": "headline",
       "verb": "INSTALL",
       "actual": 485027,
-      "goal": 1716000
+      "goal": 2454000
     },
     {
       "key": "upsells",
@@ -42,7 +42,7 @@
       "verb": "ADD",
       "greenThreshold": 98,
       "actual": 60915,
-      "goal": 120120
+      "goal": 171780
     },
     {
       "key": "leads",
@@ -51,8 +51,8 @@
       "tier": "funnel",
       "verb": "GET",
       "greenThreshold": 98,
-      "actual": 322,
-      "goal": 578
+      "actual": 326,
+      "goal": 827
     },
     {
       "key": "sits",
@@ -61,8 +61,8 @@
       "tier": "funnel",
       "verb": "BOOK",
       "greenThreshold": 98,
-      "actual": 181,
-      "goal": 254
+      "actual": 180,
+      "goal": 364
     },
     {
       "key": "jobs",
@@ -72,7 +72,7 @@
       "verb": "INSTALL",
       "greenThreshold": 98,
       "actual": 27,
-      "goal": 89
+      "goal": 128
     }
   ]
 }
