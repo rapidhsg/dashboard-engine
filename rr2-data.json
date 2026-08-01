@@ -8,9 +8,9 @@
   "team": {
     "demos": 396,
     "sold": 118,
-    "soldDollars": 2232859,
+    "soldDollars": 2217192,
     "closeRate": 29.8,
-    "revPerSit": 5639
+    "revPerSit": 5599
   },
   "reps": [
     {
@@ -39,9 +39,9 @@
       "role": "OUTSIDE SALES",
       "demos": 93,
       "sold": 28,
-      "soldDollars": 507012,
+      "soldDollars": 491345,
       "closeRate": 30.1,
-      "revPerSit": 5452
+      "revPerSit": 5283
     },
     {
       "name": "Joseph Cassara",
@@ -58,10 +58,10 @@
     {
       "name": "JOSHUA",
       "role": "APPT SETTER",
-      "apptsSet": 200,
+      "apptsSet": 199,
       "sold": 43,
-      "soldDollars": 915877,
-      "conversion": 21.5
+      "soldDollars": 900210,
+      "conversion": 21.6
     },
     {
       "name": "KELLY",
