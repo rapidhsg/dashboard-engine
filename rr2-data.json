@@ -6,11 +6,11 @@
     "refreshDate": "2026-08-01"
   },
   "team": {
-    "demos": 394,
+    "demos": 396,
     "sold": 118,
     "soldDollars": 2232859,
-    "closeRate": 29.9,
-    "revPerSit": 5667
+    "closeRate": 29.8,
+    "revPerSit": 5639
   },
   "reps": [
     {
@@ -27,11 +27,11 @@
       "name": "Michael Dietrich",
       "short": "MIKE DIETRICH",
       "role": "OUTSIDE SALES",
-      "demos": 142,
+      "demos": 144,
       "sold": 53,
       "soldDollars": 763959,
-      "closeRate": 37.3,
-      "revPerSit": 5380
+      "closeRate": 36.8,
+      "revPerSit": 5305
     },
     {
       "name": "Joseph Young",
