@@ -3,14 +3,14 @@
     "label": "Q3 2026",
     "startDate": "2026-07-01",
     "endDate": "2026-09-30",
-    "refreshDate": "2026-08-02"
+    "refreshDate": "2026-08-03"
   },
   "team": {
-    "demos": 396,
-    "sold": 118,
-    "soldDollars": 2217192,
-    "closeRate": 29.8,
-    "revPerSit": 5599
+    "demos": 393,
+    "sold": 115,
+    "soldDollars": 2175519,
+    "closeRate": 29.3,
+    "revPerSit": 5536
   },
   "reps": [
     {
@@ -18,30 +18,30 @@
       "short": "FRANCESCO",
       "role": "OUTSIDE SALES LEAD",
       "demos": 73,
-      "sold": 24,
-      "soldDollars": 695487,
-      "closeRate": 32.9,
-      "revPerSit": 9527
+      "sold": 23,
+      "soldDollars": 694987,
+      "closeRate": 31.5,
+      "revPerSit": 9520
     },
     {
       "name": "Michael Dietrich",
       "short": "MIKE DIETRICH",
       "role": "OUTSIDE SALES",
-      "demos": 144,
-      "sold": 53,
-      "soldDollars": 763959,
-      "closeRate": 36.8,
-      "revPerSit": 5305
+      "demos": 142,
+      "sold": 51,
+      "soldDollars": 722786,
+      "closeRate": 35.9,
+      "revPerSit": 5090
     },
     {
       "name": "Joseph Young",
       "short": "JOE YOUNG",
       "role": "OUTSIDE SALES",
-      "demos": 93,
+      "demos": 92,
       "sold": 28,
       "soldDollars": 491345,
-      "closeRate": 30.1,
-      "revPerSit": 5283
+      "closeRate": 30.4,
+      "revPerSit": 5341
     },
     {
       "name": "Joseph Cassara",
@@ -66,18 +66,18 @@
     {
       "name": "KELLY",
       "role": "APPT SETTER",
-      "apptsSet": 88,
+      "apptsSet": 87,
       "sold": 25,
       "soldDollars": 546330,
-      "conversion": 28.4
+      "conversion": 28.7
     },
     {
       "name": "MARCO",
       "role": "APPT SETTER",
-      "apptsSet": 66,
+      "apptsSet": 65,
       "sold": 15,
       "soldDollars": 226687,
-      "conversion": 22.7
+      "conversion": 23.1
     }
   ]
 }
