@@ -3,45 +3,45 @@
     "label": "Q3 2026",
     "startDate": "2026-07-01",
     "endDate": "2026-09-30",
-    "refreshDate": "2026-08-06"
+    "refreshDate": "2026-08-07"
   },
   "team": {
-    "demos": 407,
-    "sold": 117,
-    "soldDollars": 2180726,
-    "closeRate": 28.7,
-    "revPerSit": 5358
+    "demos": 401,
+    "sold": 116,
+    "soldDollars": 2149606,
+    "closeRate": 28.9,
+    "revPerSit": 5361
   },
   "reps": [
     {
       "name": "Francesco Ambrosio",
       "short": "FRANCESCO",
       "role": "OUTSIDE SALES LEAD",
-      "demos": 72,
+      "demos": 71,
       "sold": 22,
       "soldDollars": 651206,
-      "closeRate": 30.6,
-      "revPerSit": 9045
+      "closeRate": 31,
+      "revPerSit": 9172
     },
     {
       "name": "Michael Dietrich",
       "short": "MIKE DIETRICH",
       "role": "OUTSIDE SALES",
-      "demos": 148,
-      "sold": 53,
-      "soldDollars": 753932,
-      "closeRate": 35.8,
-      "revPerSit": 5094
+      "demos": 145,
+      "sold": 52,
+      "soldDollars": 722812,
+      "closeRate": 35.9,
+      "revPerSit": 4985
     },
     {
       "name": "Joseph Young",
       "short": "JOE YOUNG",
       "role": "OUTSIDE SALES",
-      "demos": 95,
+      "demos": 93,
       "sold": 29,
       "soldDollars": 509187,
-      "closeRate": 30.5,
-      "revPerSit": 5360
+      "closeRate": 31.2,
+      "revPerSit": 5475
     },
     {
       "name": "Joseph Cassara",
@@ -58,26 +58,26 @@
     {
       "name": "JOSHUA",
       "role": "APPT SETTER",
-      "apptsSet": 215,
+      "apptsSet": 218,
       "sold": 44,
       "soldDollars": 944927,
-      "conversion": 20.5
+      "conversion": 20.2
     },
     {
       "name": "KELLY",
       "role": "APPT SETTER",
-      "apptsSet": 83,
+      "apptsSet": 82,
       "sold": 24,
       "soldDollars": 502549,
-      "conversion": 28.9
+      "conversion": 29.3
     },
     {
       "name": "MARCO",
       "role": "APPT SETTER",
-      "apptsSet": 77,
+      "apptsSet": 79,
       "sold": 16,
       "soldDollars": 228863,
-      "conversion": 20.8
+      "conversion": 20.3
     }
   ]
 }
