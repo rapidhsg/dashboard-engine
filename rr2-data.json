@@ -6,52 +6,52 @@
     "refreshDate": "2026-08-07"
   },
   "team": {
-    "demos": 401,
-    "sold": 117,
-    "soldDollars": 2149606,
+    "demos": 407,
+    "sold": 119,
+    "soldDollars": 2173076,
     "closeRate": 29.2,
-    "revPerSit": 5361
+    "revPerSit": 5339
   },
   "reps": [
     {
       "name": "Francesco Ambrosio",
       "short": "FRANCESCO",
       "role": "OUTSIDE SALES LEAD",
-      "demos": 71,
+      "demos": 73,
       "sold": 22,
       "soldDollars": 651206,
-      "closeRate": 31,
-      "revPerSit": 9172
+      "closeRate": 30.1,
+      "revPerSit": 8921
     },
     {
       "name": "Michael Dietrich",
       "short": "MIKE DIETRICH",
       "role": "OUTSIDE SALES",
-      "demos": 145,
-      "sold": 53,
-      "soldDollars": 722812,
-      "closeRate": 36.6,
-      "revPerSit": 4985
+      "demos": 146,
+      "sold": 54,
+      "soldDollars": 743493,
+      "closeRate": 37,
+      "revPerSit": 5092
     },
     {
       "name": "Joseph Young",
       "short": "JOE YOUNG",
       "role": "OUTSIDE SALES",
-      "demos": 93,
+      "demos": 95,
       "sold": 29,
       "soldDollars": 509187,
-      "closeRate": 31.2,
-      "revPerSit": 5475
+      "closeRate": 30.5,
+      "revPerSit": 5360
     },
     {
       "name": "Joseph Cassara",
       "short": "JOE CASSARA",
       "role": "OUTSIDE SALES",
-      "demos": 92,
-      "sold": 13,
-      "soldDollars": 266401,
-      "closeRate": 14.1,
-      "revPerSit": 2896
+      "demos": 93,
+      "sold": 14,
+      "soldDollars": 269190,
+      "closeRate": 15.1,
+      "revPerSit": 2895
     }
   ],
   "setters": [
@@ -59,9 +59,9 @@
       "name": "JOSHUA",
       "role": "APPT SETTER",
       "apptsSet": 218,
-      "sold": 45,
-      "soldDollars": 944927,
-      "conversion": 20.6
+      "sold": 46,
+      "soldDollars": 965609,
+      "conversion": 21.1
     },
     {
       "name": "KELLY",
@@ -75,9 +75,9 @@
       "name": "MARCO",
       "role": "APPT SETTER",
       "apptsSet": 79,
-      "sold": 16,
-      "soldDollars": 228863,
-      "conversion": 20.3
+      "sold": 17,
+      "soldDollars": 231652,
+      "conversion": 21.5
     }
   ]
 }
