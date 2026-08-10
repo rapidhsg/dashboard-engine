@@ -22,7 +22,7 @@
       "tier": "headline",
       "isCoverage": true,
       "greenThreshold": 98,
-      "actual": 300098,
+      "actual": 336595,
       "goal": 188769
     },
     {
@@ -51,7 +51,7 @@
       "tier": "funnel",
       "verb": "GET",
       "greenThreshold": 98,
-      "actual": 484,
+      "actual": 488,
       "goal": 827
     },
     {
