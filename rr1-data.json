@@ -3,7 +3,7 @@
     "label": "Q3 2026",
     "startDate": "2026-07-01",
     "endDate": "2026-09-30",
-    "refreshDate": "2026-08-07"
+    "refreshDate": "2026-08-10"
   },
   "metrics": [
     {
@@ -12,7 +12,7 @@
       "type": "currency",
       "tier": "headline",
       "verb": "SELL",
-      "actual": 1117861,
+      "actual": 1165161,
       "goal": 2547000
     },
     {
@@ -22,7 +22,7 @@
       "tier": "headline",
       "isCoverage": true,
       "greenThreshold": 98,
-      "actual": 202596,
+      "actual": 309289,
       "goal": 188769
     },
     {
@@ -51,7 +51,7 @@
       "tier": "funnel",
       "verb": "GET",
       "greenThreshold": 98,
-      "actual": 460,
+      "actual": 479,
       "goal": 827
     },
     {
@@ -61,7 +61,7 @@
       "tier": "funnel",
       "verb": "BOOK",
       "greenThreshold": 98,
-      "actual": 233,
+      "actual": 243,
       "goal": 364
     },
     {
