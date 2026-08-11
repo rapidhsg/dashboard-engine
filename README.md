@@ -40,7 +40,7 @@ hasn't fired yet, it silently falls back to the individual reports, so the board
 
 Exact definition of every number, straight from the source reports.
 
-### rr1 — Quarterly Thermometer (quarter-to-date, e.g. Apr 1 → today)
+### rr1 — Quarterly Thermometer (quarter-to-date, e.g. Jul 1 → today)
 | Metric | Source report | Definition |
 |---|---|---|
 | Sales $$$ Contracted | Sales Revenue | Σ Contract Amount where **Approved Date** is in the quarter and Work Type ∈ {New, Repair, Upsell/Change Order} (excludes Insurance, Inspection, Service) |
