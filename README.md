@@ -4,7 +4,7 @@ Auto-updates the Rapid Roofing dashboards (rr1 quarterly thermometer, rr2 sales 
 from Acculynx — no manual CSV downloads, no retyping.
 
 ## How it works
-Every ~2 hours a GitHub Action runs `transform/build.mjs`, which:
+Every 15 minutes during business hours (~5 AM–6 PM ET) a GitHub Action runs `transform/build.mjs`, which:
 1. Pulls the **freshest copy of each report** via the API — across the *bundled* schedules (each delivers all 5 reports) and the individual single-report schedules as a fallback (`runs/latest → recipients → download fileUrl`).
 2. Computes both dashboards' numbers with calibrated formulas (`transform/lib/compute.mjs`).
 3. Runs a **validation gate** — if any report is missing/short/stale, it publishes nothing
@@ -29,7 +29,7 @@ matched to reports by filename prefix (`completed_jobs`, `sales_revenue`, …). 
 hasn't fired yet, it silently falls back to the individual reports, so the board never goes dark.
 
 **Frequency — two layers:**
-- The engine runs **every ~2 hours** (GitHub Actions cron + on-demand "Run workflow").
+- The engine runs **every 15 minutes, ~5 AM–6 PM ET** (GitHub Actions cron `2,17,32,47 9-22` UTC; quiet overnight) + on-demand "Run workflow".
 - Data is only as fresh as Acculynx *generates* the reports. The bundled schedules run **intraday
   (e.g. 12pm + 4pm)** on top of the **5am** individual reports — so numbers refresh a few times a day,
   and the engine auto-picks whichever ran most recently. Add more scheduled times in Acculynx (drop
@@ -49,7 +49,7 @@ Exact definition of every number, straight from the source reports.
 | Upsells $ | Completed Jobs | Σ Contract Amount where **Completed Milestone Date** is in the quarter and Work Type = Upsell / Change Order (installed basis — matches the CEO's "Upgrades") |
 | Leads | Leads by Source | Count where **Lead Milestone Date** is in the quarter |
 | Sits | Sits & Tev | Count where **Initial Appointment Date** is in the quarter |
-| Total Jobs Installed | Completed Jobs | Count completed in quarter, **excluding** Upsell / Change Order (not separate installs) |
+| Total Jobs Installed | Completed Jobs | Count completed in quarter, **excluding** Upsell / Change Order, **and Contract Amount > 0** (drops $0 call-backs/warranty; matches the CEO's number) |
 
 ### rr2 — Scoreboard (rolling 90 days through today), per **Primary Salesperson**
 | Metric | Source | Definition |
@@ -61,7 +61,7 @@ Exact definition of every number, straight from the source reports.
 | Rev/Sit | — | Sold $ ÷ Demos |
 | Team | — | Totals across all reps |
 
-**Setters** (grouped by **Appointment Set By** — e.g. Kelly, Joshua, Janet):
+**Setters** (grouped by **Appointment Set By** — e.g. Kelly, Joshua, Marco; new CSRs auto-appear):
 - **Appts Set** = appointments they set in the last 90 days
 - **Sold** = how many reached Approved or beyond
 - **$ Generated** = Σ Job Value of those sold
@@ -78,7 +78,7 @@ Exact definition of every number, straight from the source reports.
 - `transform/goals.json` — **the 7 quarterly goal numbers** (the only thing edited each quarter).
 - `transform/test-local.mjs` — run the formulas against a folder of CSVs (no API).
 - `rr1-data.json` / `rr2-data.json` — generated outputs (served by Pages).
-- `.github/workflows/refresh.yml` — the scheduler (here as `.github-workflows-refresh.yml` in the scaffold).
+- `.github/workflows/refresh.yml` — the scheduler.
 
 ## Secrets (repo → Settings → Secrets and variables → Actions)
 - `ACCULYNX_API_KEY` — Acculynx API key.
