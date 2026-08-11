@@ -46,10 +46,10 @@ Exact definition of every number, straight from the source reports.
 | Sales $$$ Contracted | Sales Revenue | Σ Contract Amount where **Approved Date** is in the quarter and Work Type ∈ {New, Repair, Upsell/Change Order} (excludes Insurance, Inspection, Service) |
 | Revenue In Progress | Revenue In Progress | Σ Job Value of all jobs currently in production |
 | Revenue Installed | Completed Jobs | Σ Contract Amount where **Completed Milestone Date** is in the quarter |
-| Upsells $ | Completed Jobs | Σ Contract Amount where **Completed Milestone Date** is in the quarter and Work Type = Upsell / Change Order (installed basis — matches the CEO's "Upgrades") |
+| Upsells $ | Completed Jobs | Σ Contract Amount where **Completed Milestone Date** is in the quarter and Work Type = Upsell / Change Order |
 | Leads | Leads by Source | Count where **Lead Milestone Date** is in the quarter |
 | Sits | Sits & Tev | Count where **Initial Appointment Date** is in the quarter |
-| Total Jobs Installed | Completed Jobs | Count completed in quarter, **excluding** Upsell / Change Order, **and Contract Amount > 0** (drops $0 call-backs/warranty; matches the CEO's number) |
+| Total Jobs Installed | Completed Jobs | Count completed in quarter, **excluding** Upsell / Change Order, **and Contract Amount > 0** |
 
 ### rr2 — Scoreboard (rolling 90 days through today), per **Primary Salesperson**
 | Metric | Source | Definition |
