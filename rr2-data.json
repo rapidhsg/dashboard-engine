@@ -17,21 +17,21 @@
       "name": "Francesco Ambrosio",
       "short": "FRANCESCO",
       "role": "OUTSIDE SALES LEAD",
-      "demos": 72,
+      "demos": 71,
       "sold": 20,
       "soldDollars": 629856,
-      "closeRate": 27.8,
-      "revPerSit": 8748
+      "closeRate": 28.2,
+      "revPerSit": 8871
     },
     {
       "name": "Michael Dietrich",
       "short": "MIKE DIETRICH",
       "role": "OUTSIDE SALES",
-      "demos": 151,
+      "demos": 152,
       "sold": 54,
       "soldDollars": 711148,
-      "closeRate": 35.8,
-      "revPerSit": 4710
+      "closeRate": 35.5,
+      "revPerSit": 4679
     },
     {
       "name": "Joseph Young",
@@ -58,10 +58,10 @@
     {
       "name": "JOSHUA",
       "role": "APPT SETTER",
-      "apptsSet": 238,
+      "apptsSet": 237,
       "sold": 49,
       "soldDollars": 1013885,
-      "conversion": 20.6
+      "conversion": 20.7
     },
     {
       "name": "MARCO",
