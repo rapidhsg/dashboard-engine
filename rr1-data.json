@@ -12,7 +12,7 @@
       "type": "currency",
       "tier": "headline",
       "verb": "SELL",
-      "actual": 1481791,
+      "actual": 1501791,
       "goal": 2547000
     },
     {
@@ -22,7 +22,7 @@
       "tier": "headline",
       "isCoverage": true,
       "greenThreshold": 98,
-      "actual": 477347,
+      "actual": 259746,
       "goal": 188769
     },
     {
@@ -51,7 +51,7 @@
       "tier": "funnel",
       "verb": "GET",
       "greenThreshold": 98,
-      "actual": 580,
+      "actual": 587,
       "goal": 827
     },
     {
@@ -61,7 +61,7 @@
       "tier": "funnel",
       "verb": "BOOK",
       "greenThreshold": 98,
-      "actual": 293,
+      "actual": 297,
       "goal": 364
     },
     {
