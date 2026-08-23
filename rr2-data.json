@@ -6,11 +6,11 @@
     "refreshDate": "2026-08-23"
   },
   "team": {
-    "demos": 426,
+    "demos": 427,
     "sold": 119,
     "soldDollars": 2161217,
     "closeRate": 27.9,
-    "revPerSit": 5073
+    "revPerSit": 5061
   },
   "reps": [
     {
@@ -27,11 +27,11 @@
       "name": "Michael Dietrich",
       "short": "MIKE DIETRICH",
       "role": "OUTSIDE SALES",
-      "demos": 161,
+      "demos": 162,
       "sold": 56,
       "soldDollars": 744221,
-      "closeRate": 34.8,
-      "revPerSit": 4622
+      "closeRate": 34.6,
+      "revPerSit": 4594
     },
     {
       "name": "Joseph Young",
@@ -66,10 +66,10 @@
     {
       "name": "MARCO",
       "role": "APPT SETTER",
-      "apptsSet": 116,
+      "apptsSet": 117,
       "sold": 28,
       "soldDollars": 387242,
-      "conversion": 24.1
+      "conversion": 23.9
     },
     {
       "name": "KELLY",
