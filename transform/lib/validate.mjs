@@ -8,6 +8,7 @@ const MIN_ROWS = {
   revenue_in_progress: 0, // can legitimately be a handful
   leads_by_source: 100,
   sits_tev: 40,
+  marketing_sits: 40,
 };
 
 // Columns each report MUST contain. Catches Acculynx schema changes (a renamed/removed
@@ -19,6 +20,7 @@ const REQUIRED_COLS = {
   revenue_in_progress: ["Job Value"],
   leads_by_source: ["Lead Milestone Date"],
   sits_tev: ["Initial Appointment Date", "Primary Estimate Amount", "Primary Salesperson", "Appointment Set By", "Current Milestone", "Job Value"],
+  marketing_sits: ["Initial Appointment Date", "Primary Estimate Amount"],
 };
 
 const finite = (n) => typeof n === "number" && Number.isFinite(n);

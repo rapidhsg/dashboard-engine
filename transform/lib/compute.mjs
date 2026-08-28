@@ -60,6 +60,7 @@ export function computeRr1(rows, runYmd, goals, config) {
   const rip = rows.revenue_in_progress || [];
   const lb = rows.leads_by_source || [];
   const st = rows.sits_tev || [];
+  const mk = rows.marketing_sits || [];
 
   const apprInQ = sr.filter((r) => inRange(toYmd(r["Approved Date"]), lo, hi));
   const compInQ = cj.filter((r) => inRange(toYmd(r["Completed Milestone Date"]), lo, hi));
@@ -79,7 +80,13 @@ export function computeRr1(rows, runYmd, goals, config) {
         .reduce((s, r) => s + parseMoney(r["Contract Amount"]), 0)
     ),
     leads: lb.filter((r) => inRange(toYmd(r["Lead Milestone Date"]), lo, hi)).length,
-    sits: st.filter((r) => inRange(toYmd(r["Initial Appointment Date"]), lo, hi)).length,
+    // Sits = "Marketing Sits Report (certified)", Initial Appointment Date in quarter, with a
+    // real estimate (Primary Estimate Amount > 0 = a certified sit, per CEO). The certified report
+    // is already pre-filtered to est>0, so this equals the row count; the filter is a safety net.
+    // (rr2 demos/setters still use sits_tev — that report has the Appointment Set By column.)
+    sits: mk.filter(
+      (r) => inRange(toYmd(r["Initial Appointment Date"]), lo, hi) && parseMoney(r["Primary Estimate Amount"]) > 0
+    ).length,
     // Total Jobs Installed = real installs: completed-in-quarter, excl Upsell, and Contract > 0
     // (drops $0 call-backs/warranty jobs, per CEO — matches his "Total Jobs" number).
     jobs: compInQ.filter(

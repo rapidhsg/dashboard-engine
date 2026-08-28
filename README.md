@@ -48,7 +48,7 @@ Exact definition of every number, straight from the source reports.
 | Revenue Installed | Completed Jobs | Σ Contract Amount where **Completed Milestone Date** is in the quarter |
 | Upsells $ | Completed Jobs | Σ Contract Amount where **Completed Milestone Date** is in the quarter and Work Type = Upsell / Change Order |
 | Leads | Leads by Source | Count where **Lead Milestone Date** is in the quarter |
-| Sits | Sits & Tev | Count where **Initial Appointment Date** is in the quarter |
+| Sits | Marketing Sits Report (certified) | Count where **Initial Appointment Date** is in the quarter and **Primary Estimate Amount > 0** (a certified sit) |
 | Total Jobs Installed | Completed Jobs | Count completed in quarter, **excluding** Upsell / Change Order, **and Contract Amount > 0** |
 
 ### rr2 — Scoreboard (rolling 90 days through today), per **Primary Salesperson**

@@ -12,8 +12,14 @@
     "sales_revenue": "0d43a761-4913-47bf-bb1c-bf41fe60a308",
     "revenue_in_progress": "a8efff80-8385-4421-ac8d-6d8274e75af8",
     "leads_by_source": "d16cc2fd-1833-4ca1-89c7-21e3d5fefa3f",
-    "sits_tev": "71056e69-49f2-4be3-a068-a862c55d2892"
+    "sits_tev": "71056e69-49f2-4be3-a068-a862c55d2892",
+    "marketing_sits": "6ba01ed7-d607-485b-a5d5-2696dffa2e1b"
   },
+  "_marketingSits_note": "'Marketing Sits Report (certified)' — the certified/curated sits source for the rr1 Sits metric only (it has no 'Appointment Set By' column, so rr2 setters/demos stay on sits_tev). 3 daily schedules (5 AM / 12 PM / 4 PM); 5 AM is the canonical id in 'reports', the other two are polled below for intraday freshness.",
+  "marketingSitsScheduleIds": [
+    "9e0df2ce-1e63-42fd-a5a8-b5b82caaaf46",
+    "da5e1e48-bac1-473e-8c4f-93444018636c"
+  ],
   "rollingWindowDays": 90,
   "weeksInQuarter": 13,
   "salesWorkTypes": ["New", "Repair", "Upsell / Change Order"],

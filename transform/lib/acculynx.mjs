@@ -78,6 +78,7 @@ const FILE_PREFIX = {
   revenue_in_progress: "revenue_in_progress",
   leads_by_source: "leads_by_source",
   sits_tev: "sits_tev",
+  marketing_sits: "marketing_sits",
 };
 function reportKeyForFilename(name) {
   const n = (name || "").toLowerCase();
@@ -125,6 +126,7 @@ export async function pullAll(config, apiKey) {
   const scheduleIds = [
     ...(config.bundledScheduleIds || []),
     ...Object.values(config.reports || {}),
+    ...(config.marketingSitsScheduleIds || []),
   ];
 
   const best = {}; // reportKey -> {fileUrl, runDate, name}
