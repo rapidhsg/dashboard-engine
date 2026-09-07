@@ -27,21 +27,21 @@
       "name": "Michael Dietrich",
       "short": "MIKE DIETRICH",
       "role": "OUTSIDE SALES",
-      "demos": 174,
+      "demos": 173,
       "sold": 62,
       "soldDollars": 806575,
-      "closeRate": 35.6,
-      "revPerSit": 4635
+      "closeRate": 35.8,
+      "revPerSit": 4662
     },
     {
       "name": "Joseph Young",
       "short": "JOE YOUNG",
       "role": "OUTSIDE SALES",
-      "demos": 115,
+      "demos": 116,
       "sold": 33,
       "soldDollars": 585415,
-      "closeRate": 28.7,
-      "revPerSit": 5091
+      "closeRate": 28.4,
+      "revPerSit": 5047
     },
     {
       "name": "Joseph Cassara",
@@ -66,10 +66,10 @@
     {
       "name": "MARCO",
       "role": "APPT SETTER",
-      "apptsSet": 170,
+      "apptsSet": 169,
       "sold": 40,
       "soldDollars": 544579,
-      "conversion": 23.5
+      "conversion": 23.7
     },
     {
       "name": "KELLY",
