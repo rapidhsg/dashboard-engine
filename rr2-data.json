@@ -6,11 +6,11 @@
     "refreshDate": "2026-09-07"
   },
   "team": {
-    "demos": 435,
-    "sold": 130,
-    "soldDollars": 2463511,
+    "demos": 438,
+    "sold": 131,
+    "soldDollars": 2469098,
     "closeRate": 29.9,
-    "revPerSit": 5663
+    "revPerSit": 5637
   },
   "reps": [
     {
@@ -27,21 +27,21 @@
       "name": "Michael Dietrich",
       "short": "MIKE DIETRICH",
       "role": "OUTSIDE SALES",
-      "demos": 171,
+      "demos": 174,
       "sold": 62,
       "soldDollars": 806575,
-      "closeRate": 36.3,
-      "revPerSit": 4717
+      "closeRate": 35.6,
+      "revPerSit": 4635
     },
     {
       "name": "Joseph Young",
       "short": "JOE YOUNG",
       "role": "OUTSIDE SALES",
       "demos": 115,
-      "sold": 32,
-      "soldDollars": 579828,
-      "closeRate": 27.8,
-      "revPerSit": 5042
+      "sold": 33,
+      "soldDollars": 585415,
+      "closeRate": 28.7,
+      "revPerSit": 5091
     },
     {
       "name": "Joseph Cassara",
@@ -58,18 +58,18 @@
     {
       "name": "JOSHUA",
       "role": "APPT SETTER",
-      "apptsSet": 268,
+      "apptsSet": 269,
       "sold": 62,
       "soldDollars": 1357433,
-      "conversion": 23.1
+      "conversion": 23
     },
     {
       "name": "MARCO",
       "role": "APPT SETTER",
-      "apptsSet": 167,
-      "sold": 39,
-      "soldDollars": 538992,
-      "conversion": 23.4
+      "apptsSet": 170,
+      "sold": 40,
+      "soldDollars": 544579,
+      "conversion": 23.5
     },
     {
       "name": "KELLY",
