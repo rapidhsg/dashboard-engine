@@ -12,7 +12,7 @@
       "type": "currency",
       "tier": "headline",
       "verb": "SELL",
-      "actual": 2613756,
+      "actual": 2628252,
       "goal": 2547000
     },
     {
@@ -31,7 +31,7 @@
       "type": "currency",
       "tier": "headline",
       "verb": "INSTALL",
-      "actual": 1728270,
+      "actual": 1727844,
       "goal": 2454000
     },
     {
@@ -41,7 +41,7 @@
       "tier": "headline",
       "verb": "ADD",
       "greenThreshold": 98,
-      "actual": 201115,
+      "actual": 201036,
       "goal": 171780
     },
     {
@@ -51,7 +51,7 @@
       "tier": "funnel",
       "verb": "GET",
       "greenThreshold": 98,
-      "actual": 933,
+      "actual": 936,
       "goal": 827
     },
     {
@@ -61,7 +61,7 @@
       "tier": "funnel",
       "verb": "BOOK",
       "greenThreshold": 98,
-      "actual": 432,
+      "actual": 436,
       "goal": 364
     },
     {
