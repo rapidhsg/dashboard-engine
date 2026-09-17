@@ -3,73 +3,73 @@
     "label": "Q3 2026",
     "startDate": "2026-07-01",
     "endDate": "2026-09-30",
-    "refreshDate": "2026-09-16"
+    "refreshDate": "2026-09-17"
   },
   "team": {
-    "demos": 456,
+    "demos": 451,
     "sold": 144,
     "soldDollars": 2666039,
-    "closeRate": 31.6,
-    "revPerSit": 5847
+    "closeRate": 31.9,
+    "revPerSit": 5911
   },
   "reps": [
     {
       "name": "Francesco Ambrosio",
       "short": "FRANCESCO",
       "role": "OUTSIDE SALES LEAD",
-      "demos": 79,
+      "demos": 78,
       "sold": 27,
       "soldDollars": 954964,
-      "closeRate": 34.2,
-      "revPerSit": 12088
+      "closeRate": 34.6,
+      "revPerSit": 12243
     },
     {
       "name": "Michael Dietrich",
       "short": "MIKE DIETRICH",
       "role": "OUTSIDE SALES",
-      "demos": 181,
+      "demos": 178,
       "sold": 69,
       "soldDollars": 899733,
-      "closeRate": 38.1,
-      "revPerSit": 4971
+      "closeRate": 38.8,
+      "revPerSit": 5055
     },
     {
       "name": "Joseph Young",
       "short": "JOE YOUNG",
       "role": "OUTSIDE SALES",
-      "demos": 127,
+      "demos": 128,
       "sold": 38,
       "soldDollars": 666303,
-      "closeRate": 29.9,
-      "revPerSit": 5246
+      "closeRate": 29.7,
+      "revPerSit": 5205
     },
     {
       "name": "Joseph Cassara",
       "short": "JOE CASSARA",
       "role": "OUTSIDE SALES",
-      "demos": 69,
+      "demos": 67,
       "sold": 10,
       "soldDollars": 145039,
-      "closeRate": 14.5,
-      "revPerSit": 2102
+      "closeRate": 14.9,
+      "revPerSit": 2165
     }
   ],
   "setters": [
     {
       "name": "JOSHUA",
       "role": "APPT SETTER",
-      "apptsSet": 266,
-      "sold": 62,
-      "soldDollars": 1347762,
-      "conversion": 23.3
+      "apptsSet": 264,
+      "sold": 61,
+      "soldDollars": 1345662,
+      "conversion": 23.1
     },
     {
       "name": "MARCO",
       "role": "APPT SETTER",
-      "apptsSet": 204,
+      "apptsSet": 208,
       "sold": 55,
       "soldDollars": 790994,
-      "conversion": 27
+      "conversion": 26.4
     },
     {
       "name": "KELLY",
