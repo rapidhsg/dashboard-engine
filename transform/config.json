@@ -2,10 +2,11 @@
   "asOfDate": null,
   "_asOfDate_note": "Pins the dashboards to this date's quarter/window. null = auto-roll with the calendar (now live on Q3). Set to a 'YYYY-MM-DD' string to pin.",
   "acculynxBaseUrl": "https://api.acculynx.com/api/v2",
-  "_bundled_note": "bundledScheduleIds = schedules that each deliver ALL 5 reports (created for intraday freshness). The engine pulls the freshest run per report across bundled + individual schedules. 'reports' below are single-report schedules kept as a fallback so the board never goes dark.",
+  "_bundled_note": "bundledScheduleIds = schedules that each deliver ALL 5 reports (created for intraday freshness). The engine pulls the freshest run per report across bundled + individual schedules. 'reports' below are single-report schedules kept as a fallback so the board never goes dark. Bundle run times (CEO, 2026-09-21): 801230fa=10 AM, bd095835=3 PM, 8dd78278=6 PM ET.",
   "bundledScheduleIds": [
     "801230fa-733e-464e-82e9-f732da00f9a2",
-    "bd095835-a9a8-41d8-8463-7970265d290a"
+    "bd095835-a9a8-41d8-8463-7970265d290a",
+    "8dd78278-eaa7-4c8a-aff2-40c3f6d84bf7"
   ],
   "reports": {
     "completed_jobs": "95aa8ce4-c719-4420-b741-cbf2707887bb",
