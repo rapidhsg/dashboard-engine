@@ -71,7 +71,16 @@ export function computeRr1(rows, runYmd, goals, config) {
         .filter((r) => config.salesWorkTypes.includes(r["Work Type"]))
         .reduce((s, r) => s + parseMoney(r["Contract Amount"]), 0)
     ),
-    in_progress: round(rip.reduce((s, r) => s + parseMoney(r["Job Value"]), 0)),
+    // Revenue In Progress = remaining revenue that will INSTALL this quarter (per CEO): Approved
+    // jobs (report pre-filters Milestone=Approved) whose Crew End Date is on/after today AND
+    // on/before quarter end — i.e. scheduled to finish this quarter. Excludes past-due crew-end
+    // jobs (CEO's call) and anything ending next quarter. Removes the old overlap with Revenue
+    // Installed (completed jobs are no longer Approved, so they drop out of the report).
+    in_progress: round(
+      rip
+        .filter((r) => inRange(toYmd(r["Crew End Date"]), runYmd, q.endDate))
+        .reduce((s, r) => s + parseMoney(r["Job Value"]), 0)
+    ),
     revenue: round(compInQ.reduce((s, r) => s + parseMoney(r["Contract Amount"]), 0)),
     // Upsells = INSTALLED basis (Completed Jobs completed-in-quarter, per CEO), not approved.
     upsells: round(

@@ -17,7 +17,7 @@ const MIN_ROWS = {
 const REQUIRED_COLS = {
   completed_jobs: ["Current Milestone", "Completed Milestone Date", "Contract Amount", "Work Type"],
   sales_revenue: ["Contract Amount", "Approved Date", "Work Type", "Primary Salesperson"],
-  revenue_in_progress: ["Job Value"],
+  revenue_in_progress: ["Job Value", "Crew End Date"],
   leads_by_source: ["Lead Milestone Date"],
   sits_tev: ["Initial Appointment Date", "Primary Estimate Amount", "Primary Salesperson", "Appointment Set By", "Current Milestone", "Job Value"],
   marketing_sits: ["Initial Appointment Date", "Primary Estimate Amount"],

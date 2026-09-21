@@ -44,7 +44,7 @@ Exact definition of every number, straight from the source reports.
 | Metric | Source report | Definition |
 |---|---|---|
 | Sales $$$ Contracted | Sales Revenue | Σ Contract Amount where **Approved Date** is in the quarter and Work Type ∈ {New, Repair, Upsell/Change Order} (excludes Insurance, Inspection, Service) |
-| Revenue In Progress | Revenue In Progress | Σ Job Value of all jobs currently in production |
+| Revenue In Progress | Revenue In Progress | Σ Job Value of Approved jobs whose **Crew End Date** is between today and quarter-end (remaining installs due this quarter; excludes past-due and next-quarter jobs) |
 | Revenue Installed | Completed Jobs | Σ Contract Amount where **Completed Milestone Date** is in the quarter |
 | Upsells $ | Completed Jobs | Σ Contract Amount where **Completed Milestone Date** is in the quarter and Work Type = Upsell / Change Order |
 | Leads | Leads by Source | Count where **Lead Milestone Date** is in the quarter |
