@@ -5,6 +5,10 @@
     "endDate": "2026-09-30",
     "refreshDate": "2026-09-24"
   },
+  "goals": {
+    "revPerSit": 5700,
+    "closeRate": 35
+  },
   "team": {
     "demos": 409,
     "sold": 154,
