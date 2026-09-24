@@ -204,6 +204,8 @@ export function computeRr2(rows, runYmd, config) {
     quarter: { ...q, refreshDate: runYmd },
     // green-highlight thresholds for the scoreboard (Rev/Sit, Close Rate) — from config, one spot.
     goals: config.rr2Goals || { revPerSit: 5700, closeRate: 35 },
+    // remaining rep slots shown as "WE'RE HIRING / OPEN SEAT" (auto-balances as reps are added).
+    openSeats: Math.max(0, (config.rr2TargetSlots || 0) - reps.length),
     team,
     reps,
     setters,
