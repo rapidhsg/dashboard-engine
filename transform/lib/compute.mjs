@@ -49,6 +49,23 @@ export function minusDays(runYmd, days) {
 const inRange = (ymd, lo, hi) => ymd != null && ymd >= lo && ymd <= hi;
 const round = (n) => Math.round(n);
 
+// RR# = leading token of the "Job Name" column ("RR-3584: William Ragone" -> "RR-3584").
+const rrNumber = (r) => String(r["Job Name"] || "").split(/[:\s]/)[0].trim();
+
+// Sum Job Value once per distinct RR# (never count the same job twice — a job with several
+// order rows, e.g. roof + gutter under one RR#, is one revenue). First row per RR# wins.
+function dedupeByRR(rows) {
+  const seen = new Set();
+  let total = 0;
+  for (const r of rows) {
+    const rr = rrNumber(r);
+    if (rr && seen.has(rr)) continue;
+    if (rr) seen.add(rr);
+    total += parseMoney(r["Job Value"]);
+  }
+  return total;
+}
+
 // ---------- rr1 ----------
 export function computeRr1(rows, runYmd, goals, config) {
   const q = quarterFor(runYmd);
@@ -71,16 +88,13 @@ export function computeRr1(rows, runYmd, goals, config) {
         .filter((r) => config.salesWorkTypes.includes(r["Work Type"]))
         .reduce((s, r) => s + parseMoney(r["Contract Amount"]), 0)
     ),
-    // Revenue In Progress = remaining revenue that will INSTALL this quarter (per CEO): Approved
-    // jobs (report pre-filters Milestone=Approved) whose Crew End Date is on/after today AND
-    // on/before quarter end — i.e. scheduled to finish this quarter. Excludes past-due crew-end
-    // jobs (CEO's call) and anything ending next quarter. Removes the old overlap with Revenue
-    // Installed (completed jobs are no longer Approved, so they drop out of the report).
-    in_progress: round(
-      rip
-        .filter((r) => inRange(toYmd(r["Crew End Date"]), runYmd, q.endDate))
-        .reduce((s, r) => s + parseMoney(r["Job Value"]), 0)
-    ),
+    // Revenue In Progress = revenue that will INSTALL this quarter (per CEO/Michael): Approved
+    // jobs (report pre-filters Milestone=Approved) whose Crew End Date falls in THIS quarter
+    // (incl. ones whose date recently passed but aren't marked installed yet), deduped by RR#.
+    // Excludes jobs ending next quarter. NEVER count the same RR# twice — a job with multiple
+    // order rows (e.g. roof + gutter under one RR#) is one revenue, counted once (NOT by customer
+    // name — one customer can have several RR#s). RR# = leading token of "Job Name".
+    in_progress: round(dedupeByRR(rip.filter((r) => inRange(toYmd(r["Crew End Date"]), lo, q.endDate)))),
     revenue: round(compInQ.reduce((s, r) => s + parseMoney(r["Contract Amount"]), 0)),
     // Upsells = INSTALLED basis (Completed Jobs completed-in-quarter, per CEO), not approved.
     upsells: round(
