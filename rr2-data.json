@@ -9,12 +9,13 @@
     "revPerSit": 5700,
     "closeRate": 35
   },
+  "openSeats": 2,
   "team": {
-    "demos": 416,
-    "sold": 147,
-    "soldDollars": 2675085,
-    "closeRate": 35.3,
-    "revPerSit": 6430
+    "demos": 417,
+    "sold": 148,
+    "soldDollars": 2691560,
+    "closeRate": 35.5,
+    "revPerSit": 6455
   },
   "reps": [
     {
@@ -31,11 +32,11 @@
       "name": "Michael Dietrich",
       "short": "MIKE DIETRICH",
       "role": "OUTSIDE SALES",
-      "demos": 191,
-      "sold": 79,
-      "soldDollars": 1041843,
-      "closeRate": 41.4,
-      "revPerSit": 5455
+      "demos": 192,
+      "sold": 80,
+      "soldDollars": 1058318,
+      "closeRate": 41.7,
+      "revPerSit": 5512
     },
     {
       "name": "Joseph Young",
@@ -80,10 +81,10 @@
     {
       "name": "MARCO",
       "role": "APPT SETTER",
-      "apptsSet": 191,
-      "sold": 65,
-      "soldDollars": 978356,
-      "conversion": 34
+      "apptsSet": 192,
+      "sold": 66,
+      "soldDollars": 994831,
+      "conversion": 34.4
     },
     {
       "name": "KELLY",
