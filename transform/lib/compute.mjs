@@ -202,6 +202,8 @@ export function computeRr2(rows, runYmd, config) {
 
   return {
     quarter: { ...q, refreshDate: runYmd },
+    // green-highlight thresholds for the scoreboard (Rev/Sit, Close Rate) — from config, one spot.
+    goals: config.rr2Goals || { revPerSit: 5700, closeRate: 35 },
     team,
     reps,
     setters,

@@ -23,6 +23,8 @@
   ],
   "rollingWindowDays": 90,
   "weeksInQuarter": 13,
+  "_rr2Goals_note": "rr2 scoreboard green-highlight thresholds (change in one spot). A rep's Rev/Sit or Close Rate turns green when it is >= the threshold (checked independently).",
+  "rr2Goals": { "revPerSit": 5700, "closeRate": 35 },
   "salesWorkTypes": ["New", "Repair", "Upsell / Change Order"],
   "upsellWorkType": "Upsell / Change Order",
   "soldMilestones": ["Approved", "Completed", "Invoiced", "Closed"],
