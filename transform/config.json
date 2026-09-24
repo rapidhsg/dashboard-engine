@@ -37,11 +37,13 @@
     { "key": "sits",        "label": "Sits",                  "type": "count",    "tier": "funnel",   "verb": "BOOK", "greenThreshold": 98 },
     { "key": "jobs",        "label": "Total Jobs Installed",  "type": "count",    "tier": "funnel",   "verb": "INSTALL", "greenThreshold": 98 }
   ],
+  "_reps_note": "fullName MUST match the report 'Primary Salesperson' string exactly. Franco is entered reversed in Acculynx (first='Querlim' last='Franco' -> report shows 'Querlim Franco'), so fullName='Querlim Franco' but we display 'FRANCO QUERLIM'. Joe Cassara removed (left the company 2026-09-24).",
   "reps": [
-    { "fullName": "Francesco Ambrosio", "short": "FRANCESCO",    "role": "OUTSIDE SALES LEAD" },
-    { "fullName": "Michael Dietrich",   "short": "MIKE DIETRICH","role": "OUTSIDE SALES" },
-    { "fullName": "Joseph Young",       "short": "JOE YOUNG",    "role": "OUTSIDE SALES" },
-    { "fullName": "Joseph Cassara",     "short": "JOE CASSARA",  "role": "OUTSIDE SALES" }
+    { "fullName": "Francesco Ambrosio", "short": "FRANCESCO",     "role": "OUTSIDE SALES LEAD" },
+    { "fullName": "Michael Dietrich",   "short": "MIKE DIETRICH", "role": "OUTSIDE SALES" },
+    { "fullName": "Joseph Young",       "short": "JOE YOUNG",     "role": "OUTSIDE SALES" },
+    { "fullName": "Steve Burns",        "short": "STEVE BURNS",   "role": "OUTSIDE SALES" },
+    { "fullName": "Querlim Franco",     "short": "FRANCO QUERLIM","role": "OUTSIDE SALES" }
   ],
   "_setter_note": "Show every 'Appointment Set By' value EXCEPT these junk/inactive buckets (case-insensitive; blanks always excluded). New CSRs auto-appear. Janet excluded — left the company 2026-07-07.",
   "setterExclude": ["Other", "N/A", "Bryan", "Janet"],
