@@ -11,42 +11,42 @@
   },
   "openSeats": 2,
   "team": {
-    "demos": 415,
-    "sold": 145,
-    "soldDollars": 2625881,
-    "closeRate": 34.9,
-    "revPerSit": 6327
+    "demos": 420,
+    "sold": 146,
+    "soldDollars": 2629481,
+    "closeRate": 34.8,
+    "revPerSit": 6261
   },
   "reps": [
     {
       "name": "Francesco Ambrosio",
       "short": "FRANCESCO",
       "role": "OUTSIDE SALES LEAD",
-      "demos": 83,
+      "demos": 84,
       "sold": 29,
       "soldDollars": 967189,
-      "closeRate": 34.9,
-      "revPerSit": 11653
+      "closeRate": 34.5,
+      "revPerSit": 11514
     },
     {
       "name": "Michael Dietrich",
       "short": "MIKE DIETRICH",
       "role": "OUTSIDE SALES",
-      "demos": 191,
-      "sold": 78,
-      "soldDollars": 1010639,
-      "closeRate": 40.8,
-      "revPerSit": 5291
+      "demos": 194,
+      "sold": 79,
+      "soldDollars": 1014239,
+      "closeRate": 40.7,
+      "revPerSit": 5228
     },
     {
       "name": "Joseph Young",
       "short": "JOE YOUNG",
       "role": "OUTSIDE SALES",
-      "demos": 138,
+      "demos": 139,
       "sold": 38,
       "soldDollars": 648053,
-      "closeRate": 27.5,
-      "revPerSit": 4696
+      "closeRate": 27.3,
+      "revPerSit": 4662
     },
     {
       "name": "Steve Burns",
@@ -73,17 +73,17 @@
     {
       "name": "JOSHUA",
       "role": "APPT SETTER",
-      "apptsSet": 199,
+      "apptsSet": 201,
       "sold": 56,
       "soldDollars": 1219428,
-      "conversion": 28.1
+      "conversion": 27.9
     },
     {
       "name": "MARCO",
       "role": "APPT SETTER",
-      "apptsSet": 192,
-      "sold": 66,
-      "soldDollars": 994831,
+      "apptsSet": 195,
+      "sold": 67,
+      "soldDollars": 998431,
       "conversion": 34.4
     },
     {
