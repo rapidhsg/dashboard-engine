@@ -3,7 +3,7 @@
     "label": "Q3 2026",
     "startDate": "2026-07-01",
     "endDate": "2026-09-30",
-    "refreshDate": "2026-09-24"
+    "refreshDate": "2026-09-25"
   },
   "metrics": [
     {
@@ -12,7 +12,7 @@
       "type": "currency",
       "tier": "headline",
       "verb": "SELL",
-      "actual": 3048381,
+      "actual": 3048331,
       "goal": 2547000
     },
     {
@@ -22,7 +22,7 @@
       "tier": "headline",
       "isCoverage": true,
       "greenThreshold": 98,
-      "actual": 270975,
+      "actual": 382297,
       "goal": 188769
     },
     {
@@ -31,7 +31,7 @@
       "type": "currency",
       "tier": "headline",
       "verb": "INSTALL",
-      "actual": 2059762,
+      "actual": 2094068,
       "goal": 2454000
     },
     {
@@ -51,7 +51,7 @@
       "tier": "funnel",
       "verb": "GET",
       "greenThreshold": 98,
-      "actual": 1048,
+      "actual": 1058,
       "goal": 827
     },
     {
@@ -61,7 +61,7 @@
       "tier": "funnel",
       "verb": "BOOK",
       "greenThreshold": 98,
-      "actual": 485,
+      "actual": 486,
       "goal": 364
     },
     {
@@ -71,7 +71,7 @@
       "tier": "funnel",
       "verb": "INSTALL",
       "greenThreshold": 98,
-      "actual": 124,
+      "actual": 127,
       "goal": 128
     }
   ]

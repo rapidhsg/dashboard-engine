@@ -3,7 +3,7 @@
     "label": "Q3 2026",
     "startDate": "2026-07-01",
     "endDate": "2026-09-30",
-    "refreshDate": "2026-09-24"
+    "refreshDate": "2026-09-25"
   },
   "goals": {
     "revPerSit": 5700,
@@ -11,11 +11,11 @@
   },
   "openSeats": 2,
   "team": {
-    "demos": 417,
-    "sold": 148,
-    "soldDollars": 2691560,
-    "closeRate": 35.5,
-    "revPerSit": 6455
+    "demos": 415,
+    "sold": 145,
+    "soldDollars": 2625881,
+    "closeRate": 34.9,
+    "revPerSit": 6327
   },
   "reps": [
     {
@@ -32,27 +32,27 @@
       "name": "Michael Dietrich",
       "short": "MIKE DIETRICH",
       "role": "OUTSIDE SALES",
-      "demos": 192,
-      "sold": 80,
-      "soldDollars": 1058318,
-      "closeRate": 41.7,
-      "revPerSit": 5512
+      "demos": 191,
+      "sold": 78,
+      "soldDollars": 1010639,
+      "closeRate": 40.8,
+      "revPerSit": 5291
     },
     {
       "name": "Joseph Young",
       "short": "JOE YOUNG",
       "role": "OUTSIDE SALES",
-      "demos": 140,
-      "sold": 39,
-      "soldDollars": 666053,
-      "closeRate": 27.9,
-      "revPerSit": 4758
+      "demos": 138,
+      "sold": 38,
+      "soldDollars": 648053,
+      "closeRate": 27.5,
+      "revPerSit": 4696
     },
     {
       "name": "Steve Burns",
       "short": "STEVE BURNS",
       "role": "OUTSIDE SALES",
-      "demos": 2,
+      "demos": 3,
       "sold": 0,
       "soldDollars": 0,
       "closeRate": 0,
@@ -73,10 +73,10 @@
     {
       "name": "JOSHUA",
       "role": "APPT SETTER",
-      "apptsSet": 202,
-      "sold": 57,
-      "soldDollars": 1236803,
-      "conversion": 28.2
+      "apptsSet": 199,
+      "sold": 56,
+      "soldDollars": 1219428,
+      "conversion": 28.1
     },
     {
       "name": "MARCO",
