@@ -3,7 +3,7 @@
     "label": "Q3 2026",
     "startDate": "2026-07-01",
     "endDate": "2026-09-30",
-    "refreshDate": "2026-09-25"
+    "refreshDate": "2026-09-26"
   },
   "goals": {
     "revPerSit": 5700,
@@ -11,11 +11,11 @@
   },
   "openSeats": 2,
   "team": {
-    "demos": 420,
-    "sold": 146,
-    "soldDollars": 2629481,
-    "closeRate": 34.8,
-    "revPerSit": 6261
+    "demos": 421,
+    "sold": 145,
+    "soldDollars": 2622203,
+    "closeRate": 34.4,
+    "revPerSit": 6229
   },
   "reps": [
     {
@@ -33,20 +33,20 @@
       "short": "MIKE DIETRICH",
       "role": "OUTSIDE SALES",
       "demos": 194,
-      "sold": 79,
-      "soldDollars": 1014239,
-      "closeRate": 40.7,
-      "revPerSit": 5228
+      "sold": 78,
+      "soldDollars": 1006961,
+      "closeRate": 40.2,
+      "revPerSit": 5191
     },
     {
       "name": "Joseph Young",
       "short": "JOE YOUNG",
       "role": "OUTSIDE SALES",
-      "demos": 139,
+      "demos": 140,
       "sold": 38,
       "soldDollars": 648053,
-      "closeRate": 27.3,
-      "revPerSit": 4662
+      "closeRate": 27.1,
+      "revPerSit": 4629
     },
     {
       "name": "Steve Burns",
@@ -81,10 +81,10 @@
     {
       "name": "MARCO",
       "role": "APPT SETTER",
-      "apptsSet": 195,
+      "apptsSet": 196,
       "sold": 67,
       "soldDollars": 998431,
-      "conversion": 34.4
+      "conversion": 34.2
     },
     {
       "name": "KELLY",
