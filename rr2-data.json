@@ -3,7 +3,7 @@
     "label": "Q3 2026",
     "startDate": "2026-07-01",
     "endDate": "2026-09-30",
-    "refreshDate": "2026-09-26"
+    "refreshDate": "2026-09-27"
   },
   "goals": {
     "revPerSit": 5700,
@@ -11,11 +11,11 @@
   },
   "openSeats": 2,
   "team": {
-    "demos": 421,
+    "demos": 420,
     "sold": 145,
     "soldDollars": 2622203,
-    "closeRate": 34.4,
-    "revPerSit": 6229
+    "closeRate": 34.5,
+    "revPerSit": 6243
   },
   "reps": [
     {
@@ -32,11 +32,11 @@
       "name": "Michael Dietrich",
       "short": "MIKE DIETRICH",
       "role": "OUTSIDE SALES",
-      "demos": 194,
+      "demos": 193,
       "sold": 78,
       "soldDollars": 1006961,
-      "closeRate": 40.2,
-      "revPerSit": 5191
+      "closeRate": 40.4,
+      "revPerSit": 5217
     },
     {
       "name": "Joseph Young",
