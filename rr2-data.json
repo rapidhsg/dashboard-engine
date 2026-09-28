@@ -11,11 +11,11 @@
   },
   "openSeats": 2,
   "team": {
-    "demos": 420,
+    "demos": 419,
     "sold": 145,
     "soldDollars": 2622203,
-    "closeRate": 34.5,
-    "revPerSit": 6243
+    "closeRate": 34.6,
+    "revPerSit": 6258
   },
   "reps": [
     {
@@ -52,7 +52,7 @@
       "name": "Steve Burns",
       "short": "STEVE BURNS",
       "role": "OUTSIDE SALES",
-      "demos": 3,
+      "demos": 2,
       "sold": 0,
       "soldDollars": 0,
       "closeRate": 0,
@@ -81,10 +81,10 @@
     {
       "name": "MARCO",
       "role": "APPT SETTER",
-      "apptsSet": 196,
+      "apptsSet": 195,
       "sold": 67,
       "soldDollars": 998431,
-      "conversion": 34.2
+      "conversion": 34.4
     },
     {
       "name": "KELLY",
