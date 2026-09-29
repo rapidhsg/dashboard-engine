@@ -11,22 +11,22 @@
   },
   "openSeats": 2,
   "team": {
-    "demos": 432,
+    "demos": 434,
     "sold": 149,
     "soldDollars": 2657400,
-    "closeRate": 34.5,
-    "revPerSit": 6151
+    "closeRate": 34.3,
+    "revPerSit": 6123
   },
   "reps": [
     {
       "name": "Francesco Ambrosio",
       "short": "FRANCESCO",
       "role": "OUTSIDE SALES LEAD",
-      "demos": 81,
+      "demos": 82,
       "sold": 30,
       "soldDollars": 964519,
-      "closeRate": 37,
-      "revPerSit": 11908
+      "closeRate": 36.6,
+      "revPerSit": 11762
     },
     {
       "name": "Michael Dietrich",
@@ -52,7 +52,7 @@
       "name": "Steve Burns",
       "short": "STEVE BURNS",
       "role": "OUTSIDE SALES",
-      "demos": 5,
+      "demos": 6,
       "sold": 0,
       "soldDollars": 0,
       "closeRate": 0,
@@ -73,10 +73,10 @@
     {
       "name": "JOSHUA",
       "role": "APPT SETTER",
-      "apptsSet": 201,
+      "apptsSet": 203,
       "sold": 57,
       "soldDollars": 1197107,
-      "conversion": 28.4
+      "conversion": 28.1
     },
     {
       "name": "MARCO",
