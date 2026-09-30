@@ -3,7 +3,7 @@
     "label": "Q3 2026",
     "startDate": "2026-07-01",
     "endDate": "2026-09-30",
-    "refreshDate": "2026-09-29"
+    "refreshDate": "2026-09-30"
   },
   "goals": {
     "revPerSit": 5700,
@@ -11,22 +11,22 @@
   },
   "openSeats": 2,
   "team": {
-    "demos": 434,
+    "demos": 430,
     "sold": 149,
-    "soldDollars": 2657400,
-    "closeRate": 34.3,
-    "revPerSit": 6123
+    "soldDollars": 2555900,
+    "closeRate": 34.7,
+    "revPerSit": 5944
   },
   "reps": [
     {
       "name": "Francesco Ambrosio",
       "short": "FRANCESCO",
       "role": "OUTSIDE SALES LEAD",
-      "demos": 82,
-      "sold": 30,
-      "soldDollars": 964519,
-      "closeRate": 36.6,
-      "revPerSit": 11762
+      "demos": 80,
+      "sold": 29,
+      "soldDollars": 840519,
+      "closeRate": 36.3,
+      "revPerSit": 10506
     },
     {
       "name": "Michael Dietrich",
@@ -42,11 +42,11 @@
       "name": "Joseph Young",
       "short": "JOE YOUNG",
       "role": "OUTSIDE SALES",
-      "demos": 143,
-      "sold": 40,
-      "soldDollars": 672982,
-      "closeRate": 28,
-      "revPerSit": 4706
+      "demos": 141,
+      "sold": 41,
+      "soldDollars": 695482,
+      "closeRate": 29.1,
+      "revPerSit": 4932
     },
     {
       "name": "Steve Burns",
@@ -73,26 +73,18 @@
     {
       "name": "JOSHUA",
       "role": "APPT SETTER",
-      "apptsSet": 203,
+      "apptsSet": 202,
       "sold": 57,
       "soldDollars": 1197107,
-      "conversion": 28.1
+      "conversion": 28.2
     },
     {
       "name": "MARCO",
       "role": "APPT SETTER",
-      "apptsSet": 206,
+      "apptsSet": 205,
       "sold": 71,
-      "soldDollars": 1076972,
-      "conversion": 34.5
-    },
-    {
-      "name": "KELLY",
-      "role": "APPT SETTER",
-      "apptsSet": 1,
-      "sold": 1,
-      "soldDollars": 124000,
-      "conversion": 100
+      "soldDollars": 1071668,
+      "conversion": 34.6
     }
   ]
 }
