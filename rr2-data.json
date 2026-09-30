@@ -11,42 +11,42 @@
   },
   "openSeats": 2,
   "team": {
-    "demos": 430,
-    "sold": 149,
-    "soldDollars": 2555900,
-    "closeRate": 34.7,
-    "revPerSit": 5944
+    "demos": 436,
+    "sold": 152,
+    "soldDollars": 2568143,
+    "closeRate": 34.9,
+    "revPerSit": 5890
   },
   "reps": [
     {
       "name": "Francesco Ambrosio",
       "short": "FRANCESCO",
       "role": "OUTSIDE SALES LEAD",
-      "demos": 80,
+      "demos": 82,
       "sold": 29,
       "soldDollars": 840519,
-      "closeRate": 36.3,
-      "revPerSit": 10506
+      "closeRate": 35.4,
+      "revPerSit": 10250
     },
     {
       "name": "Michael Dietrich",
       "short": "MIKE DIETRICH",
       "role": "OUTSIDE SALES",
-      "demos": 199,
-      "sold": 79,
-      "soldDollars": 1019899,
-      "closeRate": 39.7,
-      "revPerSit": 5125
+      "demos": 200,
+      "sold": 80,
+      "soldDollars": 1022899,
+      "closeRate": 40,
+      "revPerSit": 5114
     },
     {
       "name": "Joseph Young",
       "short": "JOE YOUNG",
       "role": "OUTSIDE SALES",
-      "demos": 141,
-      "sold": 41,
-      "soldDollars": 695482,
-      "closeRate": 29.1,
-      "revPerSit": 4932
+      "demos": 143,
+      "sold": 42,
+      "soldDollars": 701475,
+      "closeRate": 29.4,
+      "revPerSit": 4905
     },
     {
       "name": "Steve Burns",
@@ -62,29 +62,29 @@
       "name": "Querlim Franco",
       "short": "FRANCO QUERLIM",
       "role": "OUTSIDE SALES",
-      "demos": 4,
-      "sold": 0,
-      "soldDollars": 0,
-      "closeRate": 0,
-      "revPerSit": 0
+      "demos": 5,
+      "sold": 1,
+      "soldDollars": 3250,
+      "closeRate": 20,
+      "revPerSit": 650
     }
   ],
   "setters": [
     {
       "name": "JOSHUA",
       "role": "APPT SETTER",
-      "apptsSet": 202,
-      "sold": 57,
-      "soldDollars": 1197107,
-      "conversion": 28.2
+      "apptsSet": 204,
+      "sold": 58,
+      "soldDollars": 1200107,
+      "conversion": 28.4
     },
     {
       "name": "MARCO",
       "role": "APPT SETTER",
-      "apptsSet": 205,
-      "sold": 71,
-      "soldDollars": 1071668,
-      "conversion": 34.6
+      "apptsSet": 209,
+      "sold": 72,
+      "soldDollars": 1074918,
+      "conversion": 34.4
     }
   ]
 }
