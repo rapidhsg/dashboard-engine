@@ -31,10 +31,10 @@
   "upsellWorkType": "Upsell / Change Order",
   "soldMilestones": ["Approved", "Completed", "Invoiced", "Closed"],
   "rr1Metrics": [
-    { "key": "sales",       "label": "Sales $$$ Contracted", "type": "currency", "tier": "headline", "verb": "SELL" },
+    { "key": "sales",       "label": "Sales",                 "type": "currency", "tier": "headline", "verb": "SELL" },
     { "key": "in_progress", "label": "Revenue In Progress",   "type": "currency", "tier": "headline", "isCoverage": true, "greenThreshold": 98 },
     { "key": "revenue",     "label": "Revenue Installed",     "type": "currency", "tier": "headline", "verb": "INSTALL" },
-    { "key": "upsells",     "label": "Upsells $",             "type": "currency", "tier": "headline", "verb": "ADD", "greenThreshold": 98 },
+    { "key": "upsells",     "label": "Upgrades",              "type": "currency", "tier": "headline", "verb": "ADD", "greenThreshold": 98 },
     { "key": "leads",       "label": "Leads",                 "type": "count",    "tier": "funnel",   "verb": "GET", "greenThreshold": 98 },
     { "key": "sits",        "label": "Sits",                  "type": "count",    "tier": "funnel",   "verb": "BOOK", "greenThreshold": 98 },
     { "key": "jobs",        "label": "Total Jobs Installed",  "type": "count",    "tier": "funnel",   "verb": "INSTALL", "greenThreshold": 98 }
