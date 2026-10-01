@@ -11,11 +11,11 @@
   },
   "openSeats": 2,
   "team": {
-    "demos": 436,
-    "sold": 152,
-    "soldDollars": 2568143,
-    "closeRate": 34.9,
-    "revPerSit": 5890
+    "demos": 440,
+    "sold": 153,
+    "soldDollars": 2592067,
+    "closeRate": 34.8,
+    "revPerSit": 5891
   },
   "reps": [
     {
@@ -32,27 +32,27 @@
       "name": "Michael Dietrich",
       "short": "MIKE DIETRICH",
       "role": "OUTSIDE SALES",
-      "demos": 200,
+      "demos": 201,
       "sold": 80,
-      "soldDollars": 1022899,
-      "closeRate": 40,
-      "revPerSit": 5114
+      "soldDollars": 1022323,
+      "closeRate": 39.8,
+      "revPerSit": 5086
     },
     {
       "name": "Joseph Young",
       "short": "JOE YOUNG",
       "role": "OUTSIDE SALES",
-      "demos": 143,
-      "sold": 42,
-      "soldDollars": 701475,
-      "closeRate": 29.4,
-      "revPerSit": 4905
+      "demos": 144,
+      "sold": 43,
+      "soldDollars": 725975,
+      "closeRate": 29.9,
+      "revPerSit": 5041
     },
     {
       "name": "Steve Burns",
       "short": "STEVE BURNS",
       "role": "OUTSIDE SALES",
-      "demos": 6,
+      "demos": 7,
       "sold": 0,
       "soldDollars": 0,
       "closeRate": 0,
@@ -62,29 +62,29 @@
       "name": "Querlim Franco",
       "short": "FRANCO QUERLIM",
       "role": "OUTSIDE SALES",
-      "demos": 5,
+      "demos": 6,
       "sold": 1,
       "soldDollars": 3250,
-      "closeRate": 20,
-      "revPerSit": 650
+      "closeRate": 16.7,
+      "revPerSit": 542
     }
   ],
   "setters": [
     {
       "name": "JOSHUA",
       "role": "APPT SETTER",
-      "apptsSet": 204,
+      "apptsSet": 207,
       "sold": 58,
       "soldDollars": 1200107,
-      "conversion": 28.4
+      "conversion": 28
     },
     {
       "name": "MARCO",
       "role": "APPT SETTER",
-      "apptsSet": 209,
-      "sold": 72,
-      "soldDollars": 1074918,
-      "conversion": 34.4
+      "apptsSet": 210,
+      "sold": 73,
+      "soldDollars": 1098842,
+      "conversion": 34.8
     }
   ]
 }
