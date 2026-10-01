@@ -8,11 +8,11 @@
   "metrics": [
     {
       "key": "sales",
-      "label": "Sales $$$ Contracted",
+      "label": "Sales",
       "type": "currency",
       "tier": "headline",
       "verb": "SELL",
-      "actual": 27001,
+      "actual": 30601,
       "goal": 3018750
     },
     {
@@ -36,7 +36,7 @@
     },
     {
       "key": "upsells",
-      "label": "Upsells $",
+      "label": "Upgrades",
       "type": "currency",
       "tier": "headline",
       "verb": "ADD",
@@ -51,7 +51,7 @@
       "tier": "funnel",
       "verb": "GET",
       "greenThreshold": 98,
-      "actual": 10,
+      "actual": 17,
       "goal": 1278
     },
     {
