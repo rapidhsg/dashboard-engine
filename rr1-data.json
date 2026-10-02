@@ -13,7 +13,7 @@
       "tier": "headline",
       "verb": "SELL",
       "actual": 30601,
-      "goal": 3018750
+      "goal": 3026000
     },
     {
       "key": "in_progress",
@@ -32,7 +32,7 @@
       "tier": "headline",
       "verb": "INSTALL",
       "actual": 31300,
-      "goal": 2898000
+      "goal": 2905000
     },
     {
       "key": "upsells",
