@@ -11,11 +11,11 @@
   },
   "openSeats": 2,
   "team": {
-    "demos": 456,
+    "demos": 458,
     "sold": 157,
     "soldDollars": 2631943,
-    "closeRate": 34.4,
-    "revPerSit": 5772
+    "closeRate": 34.3,
+    "revPerSit": 5747
   },
   "reps": [
     {
@@ -42,11 +42,11 @@
       "name": "Joseph Young",
       "short": "JOE YOUNG",
       "role": "OUTSIDE SALES",
-      "demos": 147,
+      "demos": 148,
       "sold": 44,
       "soldDollars": 726350,
-      "closeRate": 29.9,
-      "revPerSit": 4941
+      "closeRate": 29.7,
+      "revPerSit": 4908
     },
     {
       "name": "Steve Burns",
@@ -62,29 +62,29 @@
       "name": "Querlim Franco",
       "short": "FRANCO QUERLIM",
       "role": "OUTSIDE SALES",
-      "demos": 9,
+      "demos": 10,
       "sold": 1,
       "soldDollars": 3250,
-      "closeRate": 11.1,
-      "revPerSit": 361
+      "closeRate": 10,
+      "revPerSit": 325
     }
   ],
   "setters": [
     {
       "name": "JOSHUA",
       "role": "APPT SETTER",
-      "apptsSet": 211,
+      "apptsSet": 212,
       "sold": 59,
       "soldDollars": 1185108,
-      "conversion": 28
+      "conversion": 27.8
     },
     {
       "name": "MARCO",
       "role": "APPT SETTER",
-      "apptsSet": 219,
+      "apptsSet": 220,
       "sold": 74,
       "soldDollars": 1099217,
-      "conversion": 33.8
+      "conversion": 33.6
     }
   ]
 }
