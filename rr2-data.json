@@ -11,42 +11,42 @@
   },
   "openSeats": 2,
   "team": {
-    "demos": 452,
-    "sold": 154,
-    "soldDollars": 2615943,
-    "closeRate": 34.1,
-    "revPerSit": 5787
+    "demos": 456,
+    "sold": 157,
+    "soldDollars": 2631943,
+    "closeRate": 34.4,
+    "revPerSit": 5772
   },
   "reps": [
     {
       "name": "Francesco Ambrosio",
       "short": "FRANCESCO",
       "role": "OUTSIDE SALES LEAD",
-      "demos": 84,
-      "sold": 30,
-      "soldDollars": 864020,
-      "closeRate": 35.7,
-      "revPerSit": 10286
+      "demos": 85,
+      "sold": 31,
+      "soldDollars": 880020,
+      "closeRate": 36.5,
+      "revPerSit": 10353
     },
     {
       "name": "Michael Dietrich",
       "short": "MIKE DIETRICH",
       "role": "OUTSIDE SALES",
       "demos": 204,
-      "sold": 80,
+      "sold": 81,
       "soldDollars": 1022323,
-      "closeRate": 39.2,
+      "closeRate": 39.7,
       "revPerSit": 5011
     },
     {
       "name": "Joseph Young",
       "short": "JOE YOUNG",
       "role": "OUTSIDE SALES",
-      "demos": 145,
-      "sold": 43,
+      "demos": 147,
+      "sold": 44,
       "soldDollars": 726350,
-      "closeRate": 29.7,
-      "revPerSit": 5009
+      "closeRate": 29.9,
+      "revPerSit": 4941
     },
     {
       "name": "Steve Burns",
@@ -62,29 +62,29 @@
       "name": "Querlim Franco",
       "short": "FRANCO QUERLIM",
       "role": "OUTSIDE SALES",
-      "demos": 8,
+      "demos": 9,
       "sold": 1,
       "soldDollars": 3250,
-      "closeRate": 12.5,
-      "revPerSit": 406
+      "closeRate": 11.1,
+      "revPerSit": 361
     }
   ],
   "setters": [
     {
       "name": "JOSHUA",
       "role": "APPT SETTER",
-      "apptsSet": 210,
-      "sold": 58,
+      "apptsSet": 211,
+      "sold": 59,
       "soldDollars": 1185108,
-      "conversion": 27.6
+      "conversion": 28
     },
     {
       "name": "MARCO",
       "role": "APPT SETTER",
-      "apptsSet": 217,
-      "sold": 73,
+      "apptsSet": 219,
+      "sold": 74,
       "soldDollars": 1099217,
-      "conversion": 33.6
+      "conversion": 33.8
     }
   ]
 }
