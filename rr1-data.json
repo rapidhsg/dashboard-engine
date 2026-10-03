@@ -12,7 +12,7 @@
       "type": "currency",
       "tier": "headline",
       "verb": "SELL",
-      "actual": 104540,
+      "actual": 107540,
       "goal": 3018750
     },
     {
@@ -22,7 +22,7 @@
       "tier": "headline",
       "isCoverage": true,
       "greenThreshold": 98,
-      "actual": 636747,
+      "actual": 639747,
       "goal": 222923
     },
     {
