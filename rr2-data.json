@@ -11,11 +11,11 @@
   },
   "openSeats": 2,
   "team": {
-    "demos": 461,
-    "sold": 157,
-    "soldDollars": 2660737,
-    "closeRate": 34.1,
-    "revPerSit": 5772
+    "demos": 466,
+    "sold": 158,
+    "soldDollars": 2654937,
+    "closeRate": 33.9,
+    "revPerSit": 5697
   },
   "reps": [
     {
@@ -24,29 +24,29 @@
       "role": "OUTSIDE SALES LEAD",
       "demos": 85,
       "sold": 31,
-      "soldDollars": 880020,
+      "soldDollars": 878820,
       "closeRate": 36.5,
-      "revPerSit": 10353
+      "revPerSit": 10339
     },
     {
       "name": "Michael Dietrich",
       "short": "MIKE DIETRICH",
       "role": "OUTSIDE SALES",
-      "demos": 205,
-      "sold": 81,
-      "soldDollars": 1051117,
-      "closeRate": 39.5,
-      "revPerSit": 5127
+      "demos": 206,
+      "sold": 80,
+      "soldDollars": 1046517,
+      "closeRate": 38.8,
+      "revPerSit": 5080
     },
     {
       "name": "Joseph Young",
       "short": "JOE YOUNG",
       "role": "OUTSIDE SALES",
-      "demos": 149,
+      "demos": 152,
       "sold": 44,
       "soldDollars": 726350,
-      "closeRate": 29.5,
-      "revPerSit": 4875
+      "closeRate": 28.9,
+      "revPerSit": 4779
     },
     {
       "name": "Steve Burns",
@@ -62,29 +62,29 @@
       "name": "Querlim Franco",
       "short": "FRANCO QUERLIM",
       "role": "OUTSIDE SALES",
-      "demos": 10,
-      "sold": 1,
+      "demos": 11,
+      "sold": 3,
       "soldDollars": 3250,
-      "closeRate": 10,
-      "revPerSit": 325
+      "closeRate": 27.3,
+      "revPerSit": 295
     }
   ],
   "setters": [
     {
       "name": "JOSHUA",
       "role": "APPT SETTER",
-      "apptsSet": 213,
-      "sold": 59,
-      "soldDollars": 1185108,
-      "conversion": 27.7
+      "apptsSet": 216,
+      "sold": 60,
+      "soldDollars": 1183908,
+      "conversion": 27.8
     },
     {
       "name": "MARCO",
       "role": "APPT SETTER",
-      "apptsSet": 222,
-      "sold": 74,
-      "soldDollars": 1128011,
-      "conversion": 33.3
+      "apptsSet": 223,
+      "sold": 73,
+      "soldDollars": 1123411,
+      "conversion": 32.7
     }
   ]
 }
