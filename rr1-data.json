@@ -3,7 +3,7 @@
     "label": "Q4 2026",
     "startDate": "2026-10-01",
     "endDate": "2026-12-31",
-    "refreshDate": "2026-10-03"
+    "refreshDate": "2026-10-04"
   },
   "metrics": [
     {
@@ -22,7 +22,7 @@
       "tier": "headline",
       "isCoverage": true,
       "greenThreshold": 98,
-      "actual": 639747,
+      "actual": 867205,
       "goal": 222923
     },
     {
@@ -51,7 +51,7 @@
       "tier": "funnel",
       "verb": "GET",
       "greenThreshold": 98,
-      "actual": 51,
+      "actual": 56,
       "goal": 1278
     },
     {
@@ -61,7 +61,7 @@
       "tier": "funnel",
       "verb": "BOOK",
       "greenThreshold": 98,
-      "actual": 28,
+      "actual": 29,
       "goal": 575
     },
     {
