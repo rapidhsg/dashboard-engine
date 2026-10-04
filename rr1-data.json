@@ -61,7 +61,7 @@
       "tier": "funnel",
       "verb": "BOOK",
       "greenThreshold": 98,
-      "actual": 29,
+      "actual": 30,
       "goal": 575
     },
     {
