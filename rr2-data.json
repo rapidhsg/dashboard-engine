@@ -3,7 +3,7 @@
     "label": "Q4 2026",
     "startDate": "2026-10-01",
     "endDate": "2026-12-31",
-    "refreshDate": "2026-10-07"
+    "refreshDate": "2026-10-08"
   },
   "goals": {
     "revPerSit": 5700,
@@ -11,48 +11,48 @@
   },
   "openSeats": 2,
   "team": {
-    "demos": 467,
-    "sold": 158,
-    "soldDollars": 2733970,
-    "closeRate": 33.8,
-    "revPerSit": 5854
+    "demos": 469,
+    "sold": 156,
+    "soldDollars": 2734890,
+    "closeRate": 33.3,
+    "revPerSit": 5831
   },
   "reps": [
     {
       "name": "Francesco Ambrosio",
       "short": "FRANCESCO",
       "role": "OUTSIDE SALES LEAD",
-      "demos": 81,
+      "demos": 82,
       "sold": 28,
       "soldDollars": 865820,
-      "closeRate": 34.6,
-      "revPerSit": 10689
+      "closeRate": 34.1,
+      "revPerSit": 10559
     },
     {
       "name": "Michael Dietrich",
       "short": "MIKE DIETRICH",
       "role": "OUTSIDE SALES",
-      "demos": 204,
-      "sold": 80,
-      "soldDollars": 1047753,
-      "closeRate": 39.2,
-      "revPerSit": 5136
+      "demos": 202,
+      "sold": 79,
+      "soldDollars": 1049273,
+      "closeRate": 39.1,
+      "revPerSit": 5194
     },
     {
       "name": "Joseph Young",
       "short": "JOE YOUNG",
       "role": "OUTSIDE SALES",
-      "demos": 150,
-      "sold": 42,
-      "soldDollars": 703774,
-      "closeRate": 28,
-      "revPerSit": 4692
+      "demos": 151,
+      "sold": 41,
+      "soldDollars": 703174,
+      "closeRate": 27.2,
+      "revPerSit": 4657
     },
     {
       "name": "Steve Burns",
       "short": "STEVE BURNS",
       "role": "OUTSIDE SALES",
-      "demos": 16,
+      "demos": 18,
       "sold": 0,
       "soldDollars": 0,
       "closeRate": 0,
@@ -74,17 +74,17 @@
       "name": "JOSHUA",
       "role": "APPT SETTER",
       "apptsSet": 221,
-      "sold": 58,
-      "soldDollars": 1200627,
-      "conversion": 26.2
+      "sold": 56,
+      "soldDollars": 1173515,
+      "conversion": 25.3
     },
     {
       "name": "MARCO",
       "role": "APPT SETTER",
-      "apptsSet": 227,
+      "apptsSet": 229,
       "sold": 75,
-      "soldDollars": 1148973,
-      "conversion": 33
+      "soldDollars": 1152873,
+      "conversion": 32.8
     }
   ]
 }

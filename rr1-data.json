@@ -3,7 +3,7 @@
     "label": "Q4 2026",
     "startDate": "2026-10-01",
     "endDate": "2026-12-31",
-    "refreshDate": "2026-10-07"
+    "refreshDate": "2026-10-08"
   },
   "metrics": [
     {
@@ -12,7 +12,7 @@
       "type": "currency",
       "tier": "headline",
       "verb": "SELL",
-      "actual": 283929,
+      "actual": 287829,
       "goal": 3769500
     },
     {
@@ -22,7 +22,7 @@
       "tier": "headline",
       "isCoverage": true,
       "greenThreshold": 98,
-      "actual": 855953,
+      "actual": 823571,
       "goal": 263865
     },
     {
@@ -31,7 +31,7 @@
       "type": "currency",
       "tier": "headline",
       "verb": "INSTALL",
-      "actual": 218800,
+      "actual": 284575,
       "goal": 3430245
     },
     {
@@ -41,7 +41,7 @@
       "tier": "headline",
       "verb": "ADD",
       "greenThreshold": 98,
-      "actual": 19000,
+      "actual": 40300,
       "goal": 274420
     },
     {
@@ -51,7 +51,7 @@
       "tier": "funnel",
       "verb": "GET",
       "greenThreshold": 98,
-      "actual": 109,
+      "actual": 119,
       "goal": 1596
     },
     {
@@ -71,7 +71,7 @@
       "tier": "funnel",
       "verb": "INSTALL",
       "greenThreshold": 98,
-      "actual": 15,
+      "actual": 18,
       "goal": 196
     }
   ]
