@@ -28,12 +28,12 @@
     "jobs": 128
   },
   "Q4 2026": {
-    "sales": 3018750,
-    "in_progress": 222923,
-    "revenue": 2898000,
-    "upsells": 202860,
-    "leads": 1278,
-    "sits": 575,
-    "jobs": 166
+    "sales": 3769500,
+    "in_progress": 263865,
+    "revenue": 3430245,
+    "upsells": 274420,
+    "leads": 1596,
+    "sits": 718,
+    "jobs": 196
   }
 }
