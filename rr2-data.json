@@ -3,7 +3,7 @@
     "label": "Q4 2026",
     "startDate": "2026-10-01",
     "endDate": "2026-12-31",
-    "refreshDate": "2026-10-08"
+    "refreshDate": "2026-10-09"
   },
   "goals": {
     "revPerSit": 5700,
@@ -11,51 +11,51 @@
   },
   "openSeats": 2,
   "team": {
-    "demos": 469,
+    "demos": 467,
     "sold": 159,
-    "soldDollars": 2750890,
-    "closeRate": 33.9,
-    "revPerSit": 5865
+    "soldDollars": 2750740,
+    "closeRate": 34,
+    "revPerSit": 5890
   },
   "reps": [
     {
       "name": "Francesco Ambrosio",
       "short": "FRANCESCO",
       "role": "OUTSIDE SALES LEAD",
-      "demos": 82,
+      "demos": 79,
       "sold": 29,
       "soldDollars": 881820,
-      "closeRate": 35.4,
-      "revPerSit": 10754
+      "closeRate": 36.7,
+      "revPerSit": 11162
     },
     {
       "name": "Michael Dietrich",
       "short": "MIKE DIETRICH",
       "role": "OUTSIDE SALES",
-      "demos": 202,
+      "demos": 205,
       "sold": 80,
-      "soldDollars": 1049273,
-      "closeRate": 39.6,
-      "revPerSit": 5194
+      "soldDollars": 1049123,
+      "closeRate": 39,
+      "revPerSit": 5118
     },
     {
       "name": "Joseph Young",
       "short": "JOE YOUNG",
       "role": "OUTSIDE SALES",
-      "demos": 151,
+      "demos": 148,
       "sold": 41,
       "soldDollars": 703174,
-      "closeRate": 27.2,
-      "revPerSit": 4657
+      "closeRate": 27.7,
+      "revPerSit": 4751
     },
     {
       "name": "Steve Burns",
       "short": "STEVE BURNS",
       "role": "OUTSIDE SALES",
-      "demos": 18,
+      "demos": 19,
       "sold": 1,
       "soldDollars": 0,
-      "closeRate": 5.6,
+      "closeRate": 5.3,
       "revPerSit": 0
     },
     {
@@ -73,17 +73,17 @@
     {
       "name": "JOSHUA",
       "role": "APPT SETTER",
-      "apptsSet": 221,
+      "apptsSet": 220,
       "sold": 58,
       "soldDollars": 1173515,
-      "conversion": 26.2
+      "conversion": 26.4
     },
     {
       "name": "MARCO",
       "role": "APPT SETTER",
       "apptsSet": 229,
       "sold": 76,
-      "soldDollars": 1168873,
+      "soldDollars": 1168723,
       "conversion": 33.2
     }
   ]
