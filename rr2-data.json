@@ -11,11 +11,11 @@
   },
   "openSeats": 2,
   "team": {
-    "demos": 475,
-    "sold": 163,
-    "soldDollars": 2887086,
-    "closeRate": 34.3,
-    "revPerSit": 6078
+    "demos": 476,
+    "sold": 165,
+    "soldDollars": 2939019,
+    "closeRate": 34.7,
+    "revPerSit": 6174
   },
   "reps": [
     {
@@ -62,11 +62,11 @@
       "name": "Querlim Franco",
       "short": "FRANCO QUERLIM",
       "role": "OUTSIDE SALES",
-      "demos": 20,
-      "sold": 9,
-      "soldDollars": 131499,
-      "closeRate": 45,
-      "revPerSit": 6575
+      "demos": 21,
+      "sold": 11,
+      "soldDollars": 183432,
+      "closeRate": 52.4,
+      "revPerSit": 8735
     }
   ],
   "setters": [
@@ -74,17 +74,17 @@
       "name": "JOSHUA",
       "role": "APPT SETTER",
       "apptsSet": 224,
-      "sold": 61,
-      "soldDollars": 1280552,
-      "conversion": 27.2
+      "sold": 62,
+      "soldDollars": 1308093,
+      "conversion": 27.7
     },
     {
       "name": "MARCO",
       "role": "APPT SETTER",
-      "apptsSet": 233,
-      "sold": 76,
-      "soldDollars": 1193751,
-      "conversion": 32.6
+      "apptsSet": 234,
+      "sold": 77,
+      "soldDollars": 1218143,
+      "conversion": 32.9
     }
   ]
 }
