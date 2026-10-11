@@ -3,7 +3,7 @@
     "label": "Q4 2026",
     "startDate": "2026-10-01",
     "endDate": "2026-12-31",
-    "refreshDate": "2026-10-10"
+    "refreshDate": "2026-10-11"
   },
   "goals": {
     "revPerSit": 5700,
@@ -11,11 +11,11 @@
   },
   "openSeats": 2,
   "team": {
-    "demos": 476,
+    "demos": 477,
     "sold": 165,
     "soldDollars": 2939019,
-    "closeRate": 34.7,
-    "revPerSit": 6174
+    "closeRate": 34.6,
+    "revPerSit": 6161
   },
   "reps": [
     {
@@ -32,11 +32,11 @@
       "name": "Michael Dietrich",
       "short": "MIKE DIETRICH",
       "role": "OUTSIDE SALES",
-      "demos": 203,
+      "demos": 202,
       "sold": 82,
       "soldDollars": 1127740,
-      "closeRate": 40.4,
-      "revPerSit": 5555
+      "closeRate": 40.6,
+      "revPerSit": 5583
     },
     {
       "name": "Joseph Young",
@@ -52,11 +52,11 @@
       "name": "Steve Burns",
       "short": "STEVE BURNS",
       "role": "OUTSIDE SALES",
-      "demos": 21,
+      "demos": 23,
       "sold": 1,
       "soldDollars": 16853,
-      "closeRate": 4.8,
-      "revPerSit": 803
+      "closeRate": 4.3,
+      "revPerSit": 733
     },
     {
       "name": "Querlim Franco",
@@ -73,18 +73,18 @@
     {
       "name": "JOSHUA",
       "role": "APPT SETTER",
-      "apptsSet": 224,
-      "sold": 62,
-      "soldDollars": 1308093,
-      "conversion": 27.7
+      "apptsSet": 223,
+      "sold": 61,
+      "soldDollars": 1304278,
+      "conversion": 27.4
     },
     {
       "name": "MARCO",
       "role": "APPT SETTER",
-      "apptsSet": 234,
+      "apptsSet": 236,
       "sold": 77,
       "soldDollars": 1218143,
-      "conversion": 32.9
+      "conversion": 32.6
     }
   ]
 }
