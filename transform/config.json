@@ -1,54 +1,109 @@
 {
   "asOfDate": null,
-  "_asOfDate_note": "Pins the dashboards to this date's quarter/window. null = auto-roll with the calendar (now live on Q3). Set to a 'YYYY-MM-DD' string to pin.",
-  "acculynxBaseUrl": "https://api.acculynx.com/api/v2",
-  "_bundled_note": "bundledScheduleIds = schedules that each deliver ALL 5 reports (created for intraday freshness). The engine pulls the freshest run per report across bundled + individual schedules. 'reports' below are single-report schedules kept as a fallback so the board never goes dark. Bundle run times (CEO, 2026-09-21): 801230fa=10 AM, bd095835=3 PM, 8dd78278=6 PM ET.",
-  "bundledScheduleIds": [
-    "801230fa-733e-464e-82e9-f732da00f9a2",
-    "bd095835-a9a8-41d8-8463-7970265d290a",
-    "8dd78278-eaa7-4c8a-aff2-40c3f6d84bf7"
-  ],
-  "reports": {
-    "completed_jobs": "95aa8ce4-c719-4420-b741-cbf2707887bb",
-    "sales_revenue": "0d43a761-4913-47bf-bb1c-bf41fe60a308",
-    "revenue_in_progress": "a8efff80-8385-4421-ac8d-6d8274e75af8",
-    "leads_by_source": "d16cc2fd-1833-4ca1-89c7-21e3d5fefa3f",
-    "sits_tev": "71056e69-49f2-4be3-a068-a862c55d2892",
-    "marketing_sits": "6ba01ed7-d607-485b-a5d5-2696dffa2e1b"
-  },
-  "_marketingSits_note": "'Marketing Sits Report (certified)' — the certified/curated sits source for the rr1 Sits metric only (it has no 'Appointment Set By' column, so rr2 setters/demos stay on sits_tev). 3 daily schedules (5 AM / 12 PM / 4 PM); 5 AM is the canonical id in 'reports', the other two are polled below for intraday freshness.",
-  "marketingSitsScheduleIds": [
-    "9e0df2ce-1e63-42fd-a5a8-b5b82caaaf46",
-    "da5e1e48-bac1-473e-8c4f-93444018636c"
-  ],
+  "_asOfDate_note": "Pins the dashboards to this date's quarter/window. null = auto-roll with the calendar.",
   "rollingWindowDays": 90,
-  "weeksInQuarter": 13,
   "_rr2Goals_note": "rr2 scoreboard green-highlight thresholds (change in one spot). A rep's Rev/Sit or Close Rate turns green when it is >= the threshold (checked independently).",
-  "rr2Goals": { "revPerSit": 5700, "closeRate": 35 },
+  "rr2Goals": {
+    "revPerSit": 5700,
+    "closeRate": 35
+  },
   "_rr2TargetSlots_note": "Total rep slots on the scoreboard. Reps fill top-down; any remaining slots show as 'WE'RE HIRING / OPEN SEAT'. openSeats = max(0, rr2TargetSlots - reps). 7 slots with 5 reps = 2 open seats.",
   "rr2TargetSlots": 7,
-  "salesWorkTypes": ["New", "Repair", "Upsell / Change Order"],
-  "upsellWorkType": "Upsell / Change Order",
-  "soldMilestones": ["Approved", "Completed", "Invoiced", "Closed"],
   "rr1Metrics": [
-    { "key": "sales",       "label": "Sales",                 "type": "currency", "tier": "headline", "verb": "SELL" },
-    { "key": "in_progress", "label": "Revenue In Progress",   "type": "currency", "tier": "headline", "isCoverage": true, "greenThreshold": 98 },
-    { "key": "revenue",     "label": "Revenue Installed",     "type": "currency", "tier": "headline", "verb": "INSTALL" },
-    { "key": "upsells",     "label": "Upgrades",              "type": "currency", "tier": "headline", "verb": "ADD", "greenThreshold": 98 },
-    { "key": "leads",       "label": "Leads",                 "type": "count",    "tier": "funnel",   "verb": "GET", "greenThreshold": 98 },
-    { "key": "sits",        "label": "Sits",                  "type": "count",    "tier": "funnel",   "verb": "BOOK", "greenThreshold": 98 },
-    { "key": "jobs",        "label": "Total Jobs Installed",  "type": "count",    "tier": "funnel",   "verb": "INSTALL", "greenThreshold": 98 }
+    {
+      "key": "sales",
+      "label": "Sales",
+      "type": "currency",
+      "tier": "headline",
+      "verb": "SELL"
+    },
+    {
+      "key": "in_progress",
+      "label": "Revenue In Progress",
+      "type": "currency",
+      "tier": "headline",
+      "isCoverage": true,
+      "greenThreshold": 98
+    },
+    {
+      "key": "revenue",
+      "label": "Revenue Installed",
+      "type": "currency",
+      "tier": "headline",
+      "verb": "INSTALL"
+    },
+    {
+      "key": "upsells",
+      "label": "Upgrades",
+      "type": "currency",
+      "tier": "headline",
+      "verb": "ADD",
+      "greenThreshold": 98
+    },
+    {
+      "key": "leads",
+      "label": "Leads",
+      "type": "count",
+      "tier": "funnel",
+      "verb": "GET",
+      "greenThreshold": 98
+    },
+    {
+      "key": "sits",
+      "label": "Sits",
+      "type": "count",
+      "tier": "funnel",
+      "verb": "BOOK",
+      "greenThreshold": 98
+    },
+    {
+      "key": "jobs",
+      "label": "Total Jobs Installed",
+      "type": "count",
+      "tier": "funnel",
+      "verb": "INSTALL",
+      "greenThreshold": 98
+    }
   ],
-  "_reps_note": "fullName MUST match the report 'Primary Salesperson' string exactly. Franco is entered reversed in Acculynx (first='Querlim' last='Franco' -> report shows 'Querlim Franco'), so fullName='Querlim Franco' but we display 'FRANCO QUERLIM'. Joe Cassara removed (left the company 2026-09-24).",
-  "reps": [
-    { "fullName": "Francesco Ambrosio", "short": "FRANCESCO",     "role": "OUTSIDE SALES LEAD" },
-    { "fullName": "Michael Dietrich",   "short": "MIKE DIETRICH", "role": "OUTSIDE SALES" },
-    { "fullName": "Joseph Young",       "short": "JOE YOUNG",     "role": "OUTSIDE SALES" },
-    { "fullName": "Steve Burns",        "short": "STEVE BURNS",   "role": "OUTSIDE SALES" },
-    { "fullName": "Querlim Franco",     "short": "FRANCO QUERLIM","role": "OUTSIDE SALES" }
+  "_reps_note": "Display names only. WHO is on the sales team comes from rr-metrics settings.json (sales_team). Add a rep there; add a row here only to set a nicer display name/role.",
+  "_setter_note": "Show every 'Appointment Set By' value EXCEPT these junk/inactive buckets (case-insensitive; blanks always excluded). New CSRs auto-appear. Janet excluded \u2014 left the company 2026-07-07.",
+  "setterExclude": [
+    "Other",
+    "N/A",
+    "Bryan",
+    "Janet"
   ],
-  "_setter_note": "Show every 'Appointment Set By' value EXCEPT these junk/inactive buckets (case-insensitive; blanks always excluded). New CSRs auto-appear. Janet excluded — left the company 2026-07-07.",
-  "setterExclude": ["Other", "N/A", "Bryan", "Janet"],
   "rhsg": "LONG ISLAND, NY",
-  "alertRecipients": ["joseph@rapidrestore.com", "segun@mycoresystem.com"]
+  "alertRecipients": [
+    "joseph@rapidrestore.com",
+    "segun@mycoresystem.com"
+  ],
+  "_source_note": "All data and metric rules come from rapidhsg/rr-metrics-data (data branch = AccuLynx sends, main branch = locked rules). This file only holds display settings. Never add an AccuLynx report or a metric definition here.",
+  "repDisplay": [
+    {
+      "fullName": "Francesco Ambrosio",
+      "short": "FRANCESCO",
+      "role": "OUTSIDE SALES LEAD"
+    },
+    {
+      "fullName": "Michael Dietrich",
+      "short": "MIKE DIETRICH",
+      "role": "OUTSIDE SALES"
+    },
+    {
+      "fullName": "Joseph Young",
+      "short": "JOE YOUNG",
+      "role": "OUTSIDE SALES"
+    },
+    {
+      "fullName": "Steve Burns",
+      "short": "STEVE BURNS",
+      "role": "OUTSIDE SALES"
+    },
+    {
+      "fullName": "Querlim Franco",
+      "short": "FRANCO QUERLIM",
+      "role": "OUTSIDE SALES"
+    }
+  ]
 }

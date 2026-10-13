@@ -1,15 +1,17 @@
-# Place this file at  .github/workflows/refresh.yml  in the dashboard-engine repo.
-# (kept here as .github-workflows-refresh.yml only because this scaffold folder isn't the repo)
-
 name: refresh-dashboards
+
+# Builds rr1-data.json / rr2-data.json from the ONE shared source, rr-metrics:
+#   data  = rapidhsg/rr-metrics-data, branch "data" (AccuLynx sends, refreshed every 15 min)
+#   rules = rapidhsg/rr-metrics-data, branch "main" (locked metric rules)
+# This repo no longer calls AccuLynx and holds no metric definitions.
 
 on:
   schedule:
-    - cron: "2,17,32,47 9-23 * * *" # every 15 min, UTC 9-23 — covers report runs 5 AM–6 PM ET incl. 6 PM ET (=22:00 UTC summer / 23:00 UTC winter); quiet overnight
-  workflow_dispatch: {} # manual "Run workflow" button
+    - cron: "2,17,32,47 * * * *" # every 15 min, a few minutes after each rr-metrics pull
+  workflow_dispatch: {}
 
 permissions:
-  contents: write # allows committing the JSON back to the repo
+  contents: write
 
 concurrency:
   group: refresh
@@ -21,16 +23,34 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: actions/setup-node@v4
+      - name: Get the rr-metrics rules (main)
+        uses: actions/checkout@v4
         with:
-          node-version: "24"
+          repository: rapidhsg/rr-metrics-data
+          ref: main
+          path: rrm
+          sparse-checkout: rules
+
+      - name: Get the rr-metrics data (data)
+        uses: actions/checkout@v4
+        with:
+          repository: rapidhsg/rr-metrics-data
+          ref: data
+          path: rrd
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install pandas
 
       - name: Build dashboard data
         env:
-          ACCULYNX_API_KEY: ${{ secrets.ACCULYNX_API_KEY }}
-          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          RRM_RULES: rrm/rules
+          RRM_DATA: rrd/data
           OUTPUT_DIR: ${{ github.workspace }}
-        run: node transform/build.mjs
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+        run: python transform/build.py
 
       - name: Commit refreshed data (only if changed)
         run: |
