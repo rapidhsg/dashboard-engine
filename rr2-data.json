@@ -3,7 +3,7 @@
     "label": "Q4 2026",
     "startDate": "2026-10-01",
     "endDate": "2026-12-31",
-    "refreshDate": "2026-10-12"
+    "refreshDate": "2026-10-13"
   },
   "goals": {
     "revPerSit": 5700,
@@ -11,80 +11,85 @@
   },
   "openSeats": 2,
   "team": {
-    "demos": 477,
-    "sold": 169,
-    "soldDollars": 2987210,
-    "closeRate": 35.4,
-    "revPerSit": 6262
+    "demos": 465,
+    "sold": 152,
+    "soldDollars": 2786638,
+    "closeRate": 32.7,
+    "revPerSit": 5993
   },
   "reps": [
     {
       "name": "Francesco Ambrosio",
       "short": "FRANCESCO",
       "role": "OUTSIDE SALES LEAD",
-      "demos": 77,
-      "sold": 30,
-      "soldDollars": 907820,
-      "closeRate": 39,
-      "revPerSit": 11790
+      "demos": 69,
+      "sold": 29,
+      "soldDollars": 905318,
+      "closeRate": 42.0,
+      "revPerSit": 13121
     },
     {
       "name": "Michael Dietrich",
       "short": "MIKE DIETRICH",
       "role": "OUTSIDE SALES",
-      "demos": 200,
-      "sold": 84,
-      "soldDollars": 1167876,
-      "closeRate": 42,
-      "revPerSit": 5839
+      "demos": 197,
+      "sold": 73,
+      "soldDollars": 1040116,
+      "closeRate": 37.1,
+      "revPerSit": 5280
     },
     {
       "name": "Joseph Young",
       "short": "JOE YOUNG",
       "role": "OUTSIDE SALES",
-      "demos": 153,
-      "sold": 41,
-      "soldDollars": 703174,
-      "closeRate": 26.8,
-      "revPerSit": 4596
+      "demos": 152,
+      "sold": 36,
+      "soldDollars": 632864,
+      "closeRate": 23.7,
+      "revPerSit": 4164
     },
     {
       "name": "Steve Burns",
       "short": "STEVE BURNS",
       "role": "OUTSIDE SALES",
-      "demos": 23,
+      "demos": 22,
       "sold": 2,
       "soldDollars": 19875,
-      "closeRate": 8.7,
-      "revPerSit": 864
+      "closeRate": 9.1,
+      "revPerSit": 903
     },
     {
       "name": "Querlim Franco",
       "short": "FRANCO QUERLIM",
       "role": "OUTSIDE SALES",
-      "demos": 24,
+      "demos": 25,
       "sold": 12,
       "soldDollars": 188465,
-      "closeRate": 50,
-      "revPerSit": 7853
+      "closeRate": 48.0,
+      "revPerSit": 7539
     }
   ],
   "setters": [
     {
       "name": "JOSHUA",
       "role": "APPT SETTER",
-      "apptsSet": 221,
-      "sold": 64,
-      "soldDollars": 1348140,
-      "conversion": 29
+      "apptsSet": 322,
+      "sold": 63,
+      "soldDollars": 1312460,
+      "conversion": 19.6
     },
     {
       "name": "MARCO",
       "role": "APPT SETTER",
-      "apptsSet": 239,
-      "sold": 78,
-      "soldDollars": 1232374,
-      "conversion": 32.6
+      "apptsSet": 359,
+      "sold": 83,
+      "soldDollars": 1299344,
+      "conversion": 23.1
     }
-  ]
+  ],
+  "source": {
+    "data": "rapidhsg/rr-metrics-data@data",
+    "rules": "rapidhsg/rr-metrics-data@main",
+    "acculynxRun": "2026-10-13T13:04:29.5166667Z"
+  }
 }
