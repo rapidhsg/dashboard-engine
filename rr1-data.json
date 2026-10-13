@@ -5,6 +5,18 @@
     "endDate": "2026-12-31",
     "refreshDate": "2026-10-13"
   },
+  "freshness": {
+    "acculynxRun": "2026-10-13T16:04:26.8366667Z",
+    "scheduleET": [
+      "06:00",
+      "09:00",
+      "12:00",
+      "15:00",
+      "18:00"
+    ],
+    "lagMinutes": 20,
+    "builtAt": "2026-10-13T17:35:33.881709+00:00"
+  },
   "metrics": [
     {
       "key": "sales",
@@ -22,7 +34,7 @@
       "tier": "headline",
       "isCoverage": true,
       "greenThreshold": 98,
-      "actual": 930258,
+      "actual": 923558,
       "goal": 263865
     },
     {
@@ -31,7 +43,7 @@
       "type": "currency",
       "tier": "headline",
       "verb": "INSTALL",
-      "actual": 450352,
+      "actual": 457052,
       "goal": 3430245
     },
     {
@@ -41,7 +53,7 @@
       "tier": "headline",
       "verb": "ADD",
       "greenThreshold": 98,
-      "actual": 56575,
+      "actual": 63275,
       "goal": 274420
     },
     {
@@ -51,7 +63,7 @@
       "tier": "funnel",
       "verb": "GET",
       "greenThreshold": 98,
-      "actual": 162,
+      "actual": 163,
       "goal": 1596
     },
     {
