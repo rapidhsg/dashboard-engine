@@ -99,7 +99,9 @@ def main():
     rip, _ = rr.revenue_in_progress(str(DATA / "Revenue_In_Progress_latest.csv"), q["startDate"], q["endDate"])
     actuals = {"sales": m["sales"], "in_progress": rip, "revenue": m["revenue"], "upsells": m["upgrades"],
                "leads": m["leads"], "sits": m["sits"], "jobs": m["jobs_installed"]}
-    rr1 = {"quarter": {**q, "refreshDate": run_ymd},
+    fresh = {"acculynxRun": run_iso, "scheduleET": CONFIG.get("acculynxScheduleET", []),
+             "lagMinutes": CONFIG.get("refreshLagMinutes", 20), "builtAt": datetime.now(ZoneInfo("UTC")).isoformat()}
+    rr1 = {"quarter": {**q, "refreshDate": run_ymd}, "freshness": fresh,
            "metrics": [{**x, "actual": round(actuals[x["key"]]), "goal": goals[x["key"]]} for x in CONFIG["rr1Metrics"]]}
 
     # 3. RR2: rolling window, certified close rate rules, current sales team from settings.json.
@@ -140,7 +142,7 @@ def main():
                         "conversion": round(100 * won.sum() / len(g), 1) if len(g) else 0})
     setters.sort(key=lambda s: -s["soldDollars"])
 
-    rr2 = {"quarter": {**q, "refreshDate": run_ymd}, "goals": CONFIG.get("rr2Goals"),
+    rr2 = {"quarter": {**q, "refreshDate": run_ymd}, "freshness": fresh, "goals": CONFIG.get("rr2Goals"),
            "openSeats": max(0, CONFIG.get("rr2TargetSlots", 0) - len(reps)),
            "team": team, "reps": reps, "setters": setters,
            "source": {"data": "rapidhsg/rr-metrics-data@data", "rules": "rapidhsg/rr-metrics-data@main", "acculynxRun": run_iso}}

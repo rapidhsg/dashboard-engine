@@ -105,5 +105,14 @@
       "short": "FRANCO QUERLIM",
       "role": "OUTSIDE SALES"
     }
-  ]
+  ],
+  "_freshness_note": "Freshness chip on RR1/RR2: AccuLynx sends the job export at these Eastern times; the boards update about refreshLagMinutes later (pull + build). Change here if the AccuLynx schedule changes.",
+  "acculynxScheduleET": [
+    "06:00",
+    "09:00",
+    "12:00",
+    "15:00",
+    "18:00"
+  ],
+  "refreshLagMinutes": 20
 }
