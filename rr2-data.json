@@ -12,10 +12,10 @@
   "openSeats": 2,
   "team": {
     "demos": 465,
-    "sold": 152,
-    "soldDollars": 2786638,
-    "closeRate": 32.7,
-    "revPerSit": 5993
+    "sold": 163,
+    "soldDollars": 2901448,
+    "closeRate": 35.1,
+    "revPerSit": 6240
   },
   "reps": [
     {
@@ -33,20 +33,20 @@
       "short": "MIKE DIETRICH",
       "role": "OUTSIDE SALES",
       "demos": 197,
-      "sold": 73,
-      "soldDollars": 1040116,
-      "closeRate": 37.1,
-      "revPerSit": 5280
+      "sold": 79,
+      "soldDollars": 1084616,
+      "closeRate": 40.1,
+      "revPerSit": 5506
     },
     {
       "name": "Joseph Young",
       "short": "JOE YOUNG",
       "role": "OUTSIDE SALES",
       "demos": 152,
-      "sold": 36,
-      "soldDollars": 632864,
-      "closeRate": 23.7,
-      "revPerSit": 4164
+      "sold": 41,
+      "soldDollars": 703174,
+      "closeRate": 27.0,
+      "revPerSit": 4626
     },
     {
       "name": "Steve Burns",
