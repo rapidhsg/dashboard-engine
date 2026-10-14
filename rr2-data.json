@@ -6,7 +6,7 @@
     "refreshDate": "2026-10-14"
   },
   "freshness": {
-    "acculynxRun": "2026-10-14T10:04:46.09Z",
+    "acculynxRun": "2026-10-14T13:04:35.4966667Z",
     "scheduleET": [
       "06:00",
       "09:00",
@@ -15,7 +15,7 @@
       "18:00"
     ],
     "lagMinutes": 20,
-    "builtAt": "2026-10-14T10:22:03.149431+00:00"
+    "builtAt": "2026-10-14T13:23:06.346151+00:00"
   },
   "goals": {
     "revPerSit": 5700,
@@ -23,11 +23,11 @@
   },
   "openSeats": 2,
   "team": {
-    "demos": 477,
+    "demos": 480,
     "sold": 167,
     "soldDollars": 2955353,
-    "closeRate": 35.0,
-    "revPerSit": 6196
+    "closeRate": 34.8,
+    "revPerSit": 6157
   },
   "reps": [
     {
@@ -64,11 +64,11 @@
       "name": "Steve Burns",
       "short": "STEVE BURNS",
       "role": "OUTSIDE SALES",
-      "demos": 24,
+      "demos": 27,
       "sold": 3,
       "soldDollars": 23314,
-      "closeRate": 12.5,
-      "revPerSit": 971
+      "closeRate": 11.1,
+      "revPerSit": 863
     },
     {
       "name": "Querlim Franco",
@@ -102,6 +102,6 @@
   "source": {
     "data": "rapidhsg/rr-metrics-data@data",
     "rules": "rapidhsg/rr-metrics-data@main",
-    "acculynxRun": "2026-10-14T10:04:46.09Z"
+    "acculynxRun": "2026-10-14T13:04:35.4966667Z"
   }
 }
