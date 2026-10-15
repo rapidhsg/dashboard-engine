@@ -6,7 +6,7 @@
     "refreshDate": "2026-10-15"
   },
   "freshness": {
-    "acculynxRun": "2026-10-15T10:04:43.4366667Z",
+    "acculynxRun": "2026-10-15T13:04:40.8066667Z",
     "scheduleET": [
       "06:00",
       "09:00",
@@ -15,7 +15,7 @@
       "18:00"
     ],
     "lagMinutes": 20,
-    "builtAt": "2026-10-15T10:21:48.693983+00:00"
+    "builtAt": "2026-10-15T13:23:29.237949+00:00"
   },
   "goals": {
     "revPerSit": 5700,
@@ -24,10 +24,10 @@
   "openSeats": 2,
   "team": {
     "demos": 484,
-    "sold": 167,
-    "soldDollars": 2954782,
-    "closeRate": 34.5,
-    "revPerSit": 6105
+    "sold": 166,
+    "soldDollars": 2929188,
+    "closeRate": 34.3,
+    "revPerSit": 6052
   },
   "reps": [
     {
@@ -45,10 +45,10 @@
       "short": "MIKE DIETRICH",
       "role": "OUTSIDE SALES",
       "demos": 201,
-      "sold": 80,
-      "soldDollars": 1124911,
-      "closeRate": 39.8,
-      "revPerSit": 5597
+      "sold": 79,
+      "soldDollars": 1097107,
+      "closeRate": 39.3,
+      "revPerSit": 5458
     },
     {
       "name": "Joseph Young",
@@ -56,9 +56,9 @@
       "role": "OUTSIDE SALES",
       "demos": 153,
       "sold": 42,
-      "soldDollars": 707119,
+      "soldDollars": 709329,
       "closeRate": 27.5,
-      "revPerSit": 4622
+      "revPerSit": 4636
     },
     {
       "name": "Steve Burns",
@@ -87,21 +87,21 @@
       "role": "APPT SETTER",
       "apptsSet": 371,
       "sold": 87,
-      "soldDollars": 1368344,
+      "soldDollars": 1370554,
       "conversion": 23.5
     },
     {
       "name": "JOSHUA",
       "role": "APPT SETTER",
       "apptsSet": 321,
-      "sold": 63,
-      "soldDollars": 1089759,
-      "conversion": 19.6
+      "sold": 62,
+      "soldDollars": 1087559,
+      "conversion": 19.3
     }
   ],
   "source": {
     "data": "rapidhsg/rr-metrics-data@data",
     "rules": "rapidhsg/rr-metrics-data@main",
-    "acculynxRun": "2026-10-15T10:04:43.4366667Z"
+    "acculynxRun": "2026-10-15T13:04:40.8066667Z"
   }
 }
