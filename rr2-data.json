@@ -3,10 +3,10 @@
     "label": "Q4 2026",
     "startDate": "2026-10-01",
     "endDate": "2026-12-31",
-    "refreshDate": "2026-10-14"
+    "refreshDate": "2026-10-15"
   },
   "freshness": {
-    "acculynxRun": "2026-10-14T22:04:22.25Z",
+    "acculynxRun": "2026-10-15T10:04:43.4366667Z",
     "scheduleET": [
       "06:00",
       "09:00",
@@ -15,7 +15,7 @@
       "18:00"
     ],
     "lagMinutes": 20,
-    "builtAt": "2026-10-15T10:14:45.839806+00:00"
+    "builtAt": "2026-10-15T10:21:48.693983+00:00"
   },
   "goals": {
     "revPerSit": 5700,
@@ -23,11 +23,11 @@
   },
   "openSeats": 2,
   "team": {
-    "demos": 486,
-    "sold": 168,
-    "soldDollars": 2958572,
-    "closeRate": 34.6,
-    "revPerSit": 6088
+    "demos": 484,
+    "sold": 167,
+    "soldDollars": 2954782,
+    "closeRate": 34.5,
+    "revPerSit": 6105
   },
   "reps": [
     {
@@ -44,21 +44,21 @@
       "name": "Michael Dietrich",
       "short": "MIKE DIETRICH",
       "role": "OUTSIDE SALES",
-      "demos": 202,
-      "sold": 81,
-      "soldDollars": 1128701,
-      "closeRate": 40.1,
-      "revPerSit": 5588
+      "demos": 201,
+      "sold": 80,
+      "soldDollars": 1124911,
+      "closeRate": 39.8,
+      "revPerSit": 5597
     },
     {
       "name": "Joseph Young",
       "short": "JOE YOUNG",
       "role": "OUTSIDE SALES",
-      "demos": 154,
+      "demos": 153,
       "sold": 42,
       "soldDollars": 707119,
-      "closeRate": 27.3,
-      "revPerSit": 4592
+      "closeRate": 27.5,
+      "revPerSit": 4622
     },
     {
       "name": "Steve Burns",
@@ -85,23 +85,23 @@
     {
       "name": "MARCO",
       "role": "APPT SETTER",
-      "apptsSet": 372,
+      "apptsSet": 371,
       "sold": 87,
       "soldDollars": 1368344,
-      "conversion": 23.4
+      "conversion": 23.5
     },
     {
       "name": "JOSHUA",
       "role": "APPT SETTER",
-      "apptsSet": 324,
-      "sold": 64,
-      "soldDollars": 1113458,
-      "conversion": 19.8
+      "apptsSet": 321,
+      "sold": 63,
+      "soldDollars": 1089759,
+      "conversion": 19.6
     }
   ],
   "source": {
     "data": "rapidhsg/rr-metrics-data@data",
     "rules": "rapidhsg/rr-metrics-data@main",
-    "acculynxRun": "2026-10-14T22:04:22.25Z"
+    "acculynxRun": "2026-10-15T10:04:43.4366667Z"
   }
 }
