@@ -6,7 +6,7 @@
     "refreshDate": "2026-10-16"
   },
   "freshness": {
-    "acculynxRun": "2026-10-16T13:04:41.9166667Z",
+    "acculynxRun": "2026-10-16T16:12:10.86Z",
     "scheduleET": [
       "06:00",
       "09:00",
@@ -15,7 +15,7 @@
       "18:00"
     ],
     "lagMinutes": 20,
-    "builtAt": "2026-10-16T14:43:02.304255+00:00"
+    "builtAt": "2026-10-16T16:22:06.717375+00:00"
   },
   "metrics": [
     {
@@ -34,7 +34,7 @@
       "tier": "headline",
       "isCoverage": true,
       "greenThreshold": 98,
-      "actual": 978498,
+      "actual": 930230,
       "goal": 263865
     },
     {
@@ -43,7 +43,7 @@
       "type": "currency",
       "tier": "headline",
       "verb": "INSTALL",
-      "actual": 522393,
+      "actual": 571503,
       "goal": 3430245
     },
     {
@@ -63,7 +63,7 @@
       "tier": "funnel",
       "verb": "GET",
       "greenThreshold": 98,
-      "actual": 203,
+      "actual": 207,
       "goal": 1596
     },
     {
@@ -73,7 +73,7 @@
       "tier": "funnel",
       "verb": "BOOK",
       "greenThreshold": 98,
-      "actual": 133,
+      "actual": 135,
       "goal": 718
     },
     {
@@ -83,7 +83,7 @@
       "tier": "funnel",
       "verb": "INSTALL",
       "greenThreshold": 98,
-      "actual": 33,
+      "actual": 35,
       "goal": 196
     }
   ]
