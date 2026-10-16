@@ -6,7 +6,7 @@
     "refreshDate": "2026-10-16"
   },
   "freshness": {
-    "acculynxRun": "2026-10-16T19:04:22.44Z",
+    "acculynxRun": "2026-10-16T22:04:17.9Z",
     "scheduleET": [
       "06:00",
       "09:00",
@@ -15,7 +15,7 @@
       "18:00"
     ],
     "lagMinutes": 20,
-    "builtAt": "2026-10-16T21:36:20.482138+00:00"
+    "builtAt": "2026-10-16T22:21:41.318030+00:00"
   },
   "goals": {
     "revPerSit": 5700,
@@ -23,11 +23,11 @@
   },
   "openSeats": 2,
   "team": {
-    "demos": 496,
-    "sold": 168,
-    "soldDollars": 2953313,
-    "closeRate": 33.9,
-    "revPerSit": 5954
+    "demos": 497,
+    "sold": 169,
+    "soldDollars": 2952833,
+    "closeRate": 34.0,
+    "revPerSit": 5941
   },
   "reps": [
     {
@@ -45,10 +45,10 @@
       "short": "MIKE DIETRICH",
       "role": "OUTSIDE SALES",
       "demos": 203,
-      "sold": 79,
-      "soldDollars": 1097948,
-      "closeRate": 38.9,
-      "revPerSit": 5409
+      "sold": 80,
+      "soldDollars": 1097468,
+      "closeRate": 39.4,
+      "revPerSit": 5406
     },
     {
       "name": "Joseph Young",
@@ -74,11 +74,11 @@
       "name": "Querlim Franco",
       "short": "FRANCO QUERLIM",
       "role": "OUTSIDE SALES",
-      "demos": 36,
+      "demos": 37,
       "sold": 12,
       "soldDollars": 188465,
-      "closeRate": 33.3,
-      "revPerSit": 5235
+      "closeRate": 32.4,
+      "revPerSit": 5094
     }
   ],
   "setters": [
@@ -86,22 +86,22 @@
       "name": "MARCO",
       "role": "APPT SETTER",
       "apptsSet": 376,
-      "sold": 89,
+      "sold": 90,
       "soldDollars": 1394679,
-      "conversion": 23.7
+      "conversion": 23.9
     },
     {
       "name": "JOSHUA",
       "role": "APPT SETTER",
       "apptsSet": 321,
       "sold": 62,
-      "soldDollars": 1087559,
+      "soldDollars": 1087079,
       "conversion": 19.3
     }
   ],
   "source": {
     "data": "rapidhsg/rr-metrics-data@data",
     "rules": "rapidhsg/rr-metrics-data@main",
-    "acculynxRun": "2026-10-16T19:04:22.44Z"
+    "acculynxRun": "2026-10-16T22:04:17.9Z"
   }
 }
