@@ -6,7 +6,7 @@
     "refreshDate": "2026-10-16"
   },
   "freshness": {
-    "acculynxRun": "2026-10-16T18:11:12.1066667Z",
+    "acculynxRun": "2026-10-16T19:04:22.44Z",
     "scheduleET": [
       "06:00",
       "09:00",
@@ -15,7 +15,7 @@
       "18:00"
     ],
     "lagMinutes": 20,
-    "builtAt": "2026-10-16T18:26:24.177686+00:00"
+    "builtAt": "2026-10-16T19:22:14.284344+00:00"
   },
   "metrics": [
     {
@@ -63,7 +63,7 @@
       "tier": "funnel",
       "verb": "GET",
       "greenThreshold": 98,
-      "actual": 209,
+      "actual": 210,
       "goal": 1596
     },
     {
@@ -73,7 +73,7 @@
       "tier": "funnel",
       "verb": "BOOK",
       "greenThreshold": 98,
-      "actual": 136,
+      "actual": 138,
       "goal": 718
     },
     {
