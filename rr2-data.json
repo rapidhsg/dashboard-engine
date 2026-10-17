@@ -3,10 +3,10 @@
     "label": "Q4 2026",
     "startDate": "2026-10-01",
     "endDate": "2026-12-31",
-    "refreshDate": "2026-10-16"
+    "refreshDate": "2026-10-17"
   },
   "freshness": {
-    "acculynxRun": "2026-10-16T22:04:17.9Z",
+    "acculynxRun": "2026-10-17T10:04:32.03Z",
     "scheduleET": [
       "06:00",
       "09:00",
@@ -15,7 +15,7 @@
       "18:00"
     ],
     "lagMinutes": 20,
-    "builtAt": "2026-10-17T08:30:29.750966+00:00"
+    "builtAt": "2026-10-17T10:22:25.752754+00:00"
   },
   "goals": {
     "revPerSit": 5700,
@@ -23,11 +23,11 @@
   },
   "openSeats": 2,
   "team": {
-    "demos": 497,
-    "sold": 169,
-    "soldDollars": 2952833,
-    "closeRate": 34.0,
-    "revPerSit": 5941
+    "demos": 498,
+    "sold": 168,
+    "soldDollars": 2950033,
+    "closeRate": 33.7,
+    "revPerSit": 5924
   },
   "reps": [
     {
@@ -45,10 +45,10 @@
       "short": "MIKE DIETRICH",
       "role": "OUTSIDE SALES",
       "demos": 203,
-      "sold": 80,
-      "soldDollars": 1097468,
-      "closeRate": 39.4,
-      "revPerSit": 5406
+      "sold": 79,
+      "soldDollars": 1094668,
+      "closeRate": 38.9,
+      "revPerSit": 5392
     },
     {
       "name": "Joseph Young",
@@ -74,11 +74,11 @@
       "name": "Querlim Franco",
       "short": "FRANCO QUERLIM",
       "role": "OUTSIDE SALES",
-      "demos": 37,
+      "demos": 38,
       "sold": 12,
       "soldDollars": 188465,
-      "closeRate": 32.4,
-      "revPerSit": 5094
+      "closeRate": 31.6,
+      "revPerSit": 4960
     }
   ],
   "setters": [
@@ -93,15 +93,15 @@
     {
       "name": "JOSHUA",
       "role": "APPT SETTER",
-      "apptsSet": 321,
-      "sold": 62,
-      "soldDollars": 1087079,
-      "conversion": 19.3
+      "apptsSet": 318,
+      "sold": 61,
+      "soldDollars": 1083073,
+      "conversion": 19.2
     }
   ],
   "source": {
     "data": "rapidhsg/rr-metrics-data@data",
     "rules": "rapidhsg/rr-metrics-data@main",
-    "acculynxRun": "2026-10-16T22:04:17.9Z"
+    "acculynxRun": "2026-10-17T10:04:32.03Z"
   }
 }
