@@ -6,7 +6,7 @@
     "refreshDate": "2026-10-17"
   },
   "freshness": {
-    "acculynxRun": "2026-10-17T10:04:32.03Z",
+    "acculynxRun": "2026-10-17T13:04:24.6033333Z",
     "scheduleET": [
       "06:00",
       "09:00",
@@ -15,7 +15,7 @@
       "18:00"
     ],
     "lagMinutes": 20,
-    "builtAt": "2026-10-17T12:22:14.783938+00:00"
+    "builtAt": "2026-10-17T13:21:55.714810+00:00"
   },
   "goals": {
     "revPerSit": 5700,
@@ -23,11 +23,11 @@
   },
   "openSeats": 2,
   "team": {
-    "demos": 498,
+    "demos": 499,
     "sold": 168,
-    "soldDollars": 2950033,
+    "soldDollars": 2957533,
     "closeRate": 33.7,
-    "revPerSit": 5924
+    "revPerSit": 5927
   },
   "reps": [
     {
@@ -74,11 +74,11 @@
       "name": "Querlim Franco",
       "short": "FRANCO QUERLIM",
       "role": "OUTSIDE SALES",
-      "demos": 38,
+      "demos": 39,
       "sold": 12,
-      "soldDollars": 188465,
-      "closeRate": 31.6,
-      "revPerSit": 4960
+      "soldDollars": 195965,
+      "closeRate": 30.8,
+      "revPerSit": 5025
     }
   ],
   "setters": [
@@ -87,7 +87,7 @@
       "role": "APPT SETTER",
       "apptsSet": 376,
       "sold": 90,
-      "soldDollars": 1394679,
+      "soldDollars": 1402179,
       "conversion": 23.9
     },
     {
@@ -102,6 +102,6 @@
   "source": {
     "data": "rapidhsg/rr-metrics-data@data",
     "rules": "rapidhsg/rr-metrics-data@main",
-    "acculynxRun": "2026-10-17T10:04:32.03Z"
+    "acculynxRun": "2026-10-17T13:04:24.6033333Z"
   }
 }
