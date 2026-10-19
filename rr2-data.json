@@ -6,7 +6,7 @@
     "refreshDate": "2026-10-19"
   },
   "freshness": {
-    "acculynxRun": "2026-10-19T16:04:30.26Z",
+    "acculynxRun": "2026-10-19T19:04:25.71Z",
     "scheduleET": [
       "06:00",
       "09:00",
@@ -15,7 +15,7 @@
       "18:00"
     ],
     "lagMinutes": 20,
-    "builtAt": "2026-10-19T16:24:34.193713+00:00"
+    "builtAt": "2026-10-19T19:22:18.687749+00:00"
   },
   "goals": {
     "revPerSit": 5700,
@@ -23,11 +23,11 @@
   },
   "openSeats": 1,
   "team": {
-    "demos": 472,
+    "demos": 475,
     "sold": 168,
     "soldDollars": 3001218,
-    "closeRate": 35.6,
-    "revPerSit": 6359
+    "closeRate": 35.4,
+    "revPerSit": 6318
   },
   "reps": [
     {
@@ -54,21 +54,21 @@
       "name": "Joseph Young",
       "short": "JOE YOUNG",
       "role": "OUTSIDE SALES",
-      "demos": 154,
+      "demos": 155,
       "sold": 44,
       "soldDollars": 736041,
-      "closeRate": 28.6,
-      "revPerSit": 4779
+      "closeRate": 28.4,
+      "revPerSit": 4749
     },
     {
       "name": "Querlim Franco",
       "short": "FRANCO QUERLIM",
       "role": "OUTSIDE SALES",
-      "demos": 41,
+      "demos": 43,
       "sold": 12,
       "soldDollars": 195965,
-      "closeRate": 29.3,
-      "revPerSit": 4780
+      "closeRate": 27.9,
+      "revPerSit": 4557
     },
     {
       "name": "Leomar Santana",
@@ -95,10 +95,10 @@
     {
       "name": "MARCO",
       "role": "APPT SETTER",
-      "apptsSet": 373,
+      "apptsSet": 379,
       "sold": 88,
       "soldDollars": 1369288,
-      "conversion": 23.6
+      "conversion": 23.2
     },
     {
       "name": "JOSHUA",
@@ -112,6 +112,6 @@
   "source": {
     "data": "rapidhsg/rr-metrics-data@data",
     "rules": "rapidhsg/rr-metrics-data@main",
-    "acculynxRun": "2026-10-19T16:04:30.26Z"
+    "acculynxRun": "2026-10-19T19:04:25.71Z"
   }
 }
