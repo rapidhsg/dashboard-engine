@@ -6,7 +6,7 @@
     "refreshDate": "2026-10-20"
   },
   "freshness": {
-    "acculynxRun": "2026-10-20T19:04:31.21Z",
+    "acculynxRun": "2026-10-20T22:04:13.6133333Z",
     "scheduleET": [
       "06:00",
       "09:00",
@@ -15,7 +15,7 @@
       "18:00"
     ],
     "lagMinutes": 20,
-    "builtAt": "2026-10-20T21:56:04.491580+00:00"
+    "builtAt": "2026-10-20T22:22:20.185452+00:00"
   },
   "goals": {
     "revPerSit": 5700,
@@ -23,11 +23,11 @@
   },
   "openSeats": 1,
   "team": {
-    "demos": 480,
+    "demos": 483,
     "sold": 167,
     "soldDollars": 2986612,
-    "closeRate": 34.8,
-    "revPerSit": 6222
+    "closeRate": 34.6,
+    "revPerSit": 6183
   },
   "reps": [
     {
@@ -44,31 +44,31 @@
       "name": "Michael Dietrich",
       "short": "MIKE DIETRICH",
       "role": "OUTSIDE SALES",
-      "demos": 207,
+      "demos": 208,
       "sold": 80,
       "soldDollars": 1140333,
-      "closeRate": 38.6,
-      "revPerSit": 5509
+      "closeRate": 38.5,
+      "revPerSit": 5482
     },
     {
       "name": "Joseph Young",
       "short": "JOE YOUNG",
       "role": "OUTSIDE SALES",
-      "demos": 155,
+      "demos": 156,
       "sold": 44,
       "soldDollars": 736041,
-      "closeRate": 28.4,
-      "revPerSit": 4749
+      "closeRate": 28.2,
+      "revPerSit": 4718
     },
     {
       "name": "Querlim Franco",
       "short": "FRANCO QUERLIM",
       "role": "OUTSIDE SALES",
-      "demos": 46,
+      "demos": 47,
       "sold": 12,
       "soldDollars": 195965,
-      "closeRate": 26.1,
-      "revPerSit": 4260
+      "closeRate": 25.5,
+      "revPerSit": 4169
     },
     {
       "name": "Leomar Santana",
@@ -95,10 +95,10 @@
     {
       "name": "MARCO",
       "role": "APPT SETTER",
-      "apptsSet": 381,
+      "apptsSet": 384,
       "sold": 88,
       "soldDollars": 1355110,
-      "conversion": 23.1
+      "conversion": 22.9
     },
     {
       "name": "JOSHUA",
@@ -112,6 +112,6 @@
   "source": {
     "data": "rapidhsg/rr-metrics-data@data",
     "rules": "rapidhsg/rr-metrics-data@main",
-    "acculynxRun": "2026-10-20T19:04:31.21Z"
+    "acculynxRun": "2026-10-20T22:04:13.6133333Z"
   }
 }
