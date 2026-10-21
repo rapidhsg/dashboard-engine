@@ -6,7 +6,7 @@
     "refreshDate": "2026-10-21"
   },
   "freshness": {
-    "acculynxRun": "2026-10-21T16:04:39.7533333Z",
+    "acculynxRun": "2026-10-21T19:04:34.5766667Z",
     "scheduleET": [
       "06:00",
       "09:00",
@@ -15,7 +15,7 @@
       "18:00"
     ],
     "lagMinutes": 20,
-    "builtAt": "2026-10-21T16:23:02.425392+00:00"
+    "builtAt": "2026-10-21T19:24:36.632239+00:00"
   },
   "goals": {
     "revPerSit": 5700,
@@ -23,11 +23,11 @@
   },
   "openSeats": 1,
   "team": {
-    "demos": 483,
+    "demos": 486,
     "sold": 165,
-    "soldDollars": 2926276,
-    "closeRate": 34.2,
-    "revPerSit": 6059
+    "soldDollars": 2967632,
+    "closeRate": 34.0,
+    "revPerSit": 6106
   },
   "reps": [
     {
@@ -44,31 +44,31 @@
       "name": "Michael Dietrich",
       "short": "MIKE DIETRICH",
       "role": "OUTSIDE SALES",
-      "demos": 209,
+      "demos": 210,
       "sold": 79,
-      "soldDollars": 1131936,
-      "closeRate": 37.8,
-      "revPerSit": 5416
+      "soldDollars": 1148986,
+      "closeRate": 37.6,
+      "revPerSit": 5471
     },
     {
       "name": "Joseph Young",
       "short": "JOE YOUNG",
       "role": "OUTSIDE SALES",
-      "demos": 156,
+      "demos": 157,
       "sold": 43,
-      "soldDollars": 694580,
-      "closeRate": 27.6,
-      "revPerSit": 4452
+      "soldDollars": 718886,
+      "closeRate": 27.4,
+      "revPerSit": 4579
     },
     {
       "name": "Querlim Franco",
       "short": "FRANCO QUERLIM",
       "role": "OUTSIDE SALES",
-      "demos": 47,
+      "demos": 48,
       "sold": 12,
       "soldDollars": 195965,
-      "closeRate": 25.5,
-      "revPerSit": 4169
+      "closeRate": 25.0,
+      "revPerSit": 4083
     },
     {
       "name": "Leomar Santana",
@@ -95,10 +95,10 @@
     {
       "name": "MARCO",
       "role": "APPT SETTER",
-      "apptsSet": 379,
+      "apptsSet": 385,
       "sold": 90,
-      "soldDollars": 1355110,
-      "conversion": 23.7
+      "soldDollars": 1396467,
+      "conversion": 23.4
     },
     {
       "name": "JOSHUA",
@@ -112,6 +112,6 @@
   "source": {
     "data": "rapidhsg/rr-metrics-data@data",
     "rules": "rapidhsg/rr-metrics-data@main",
-    "acculynxRun": "2026-10-21T16:04:39.7533333Z"
+    "acculynxRun": "2026-10-21T19:04:34.5766667Z"
   }
 }
