@@ -15,7 +15,7 @@
       "18:00"
     ],
     "lagMinutes": 20,
-    "builtAt": "2026-10-24T13:22:23.676007+00:00"
+    "builtAt": "2026-10-24T16:09:48.981026+00:00"
   },
   "goals": {
     "revPerSit": 5700,
@@ -23,11 +23,11 @@
   },
   "openSeats": 1,
   "team": {
-    "demos": 491,
+    "demos": 494,
     "sold": 163,
     "soldDollars": 2754955,
-    "closeRate": 33.2,
-    "revPerSit": 5611
+    "closeRate": 33.0,
+    "revPerSit": 5577
   },
   "reps": [
     {
@@ -71,13 +71,13 @@
       "revPerSit": 4139
     },
     {
-      "name": "Leomar Santana",
-      "short": "LEOMAR SANTANA",
+      "name": "Leo Santana",
+      "short": "LEO SANTANA",
       "role": "OUTSIDE SALES",
-      "demos": 0,
+      "demos": 3,
       "sold": 0,
       "soldDollars": 0,
-      "closeRate": 0,
+      "closeRate": 0.0,
       "revPerSit": 0
     },
     {
