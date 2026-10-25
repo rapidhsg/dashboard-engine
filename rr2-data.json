@@ -6,7 +6,7 @@
     "refreshDate": "2026-10-25"
   },
   "freshness": {
-    "acculynxRun": "2026-10-25T16:04:37.5433333Z",
+    "acculynxRun": "2026-10-25T19:04:33.1966667Z",
     "scheduleET": [
       "06:00",
       "09:00",
@@ -15,7 +15,7 @@
       "18:00"
     ],
     "lagMinutes": 20,
-    "builtAt": "2026-10-25T19:20:11.288990+00:00"
+    "builtAt": "2026-10-25T19:22:13.530204+00:00"
   },
   "goals": {
     "revPerSit": 5700,
@@ -95,10 +95,10 @@
     {
       "name": "MARCO",
       "role": "APPT SETTER",
-      "apptsSet": 384,
+      "apptsSet": 388,
       "sold": 94,
       "soldDollars": 1468002,
-      "conversion": 24.5
+      "conversion": 24.2
     },
     {
       "name": "JOSHUA",
@@ -112,6 +112,6 @@
   "source": {
     "data": "rapidhsg/rr-metrics-data@data",
     "rules": "rapidhsg/rr-metrics-data@main",
-    "acculynxRun": "2026-10-25T16:04:37.5433333Z"
+    "acculynxRun": "2026-10-25T19:04:33.1966667Z"
   }
 }
