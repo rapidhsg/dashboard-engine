@@ -3,10 +3,10 @@
     "label": "Q4 2026",
     "startDate": "2026-10-01",
     "endDate": "2026-12-31",
-    "refreshDate": "2026-10-24"
+    "refreshDate": "2026-10-25"
   },
   "freshness": {
-    "acculynxRun": "2026-10-24T22:04:23.35Z",
+    "acculynxRun": "2026-10-25T10:05:03.3866667Z",
     "scheduleET": [
       "06:00",
       "09:00",
@@ -15,7 +15,7 @@
       "18:00"
     ],
     "lagMinutes": 20,
-    "builtAt": "2026-10-25T06:59:31.924448+00:00"
+    "builtAt": "2026-10-25T10:22:47.813306+00:00"
   },
   "goals": {
     "revPerSit": 5700,
@@ -24,10 +24,10 @@
   "openSeats": 1,
   "team": {
     "demos": 497,
-    "sold": 164,
-    "soldDollars": 2772296,
-    "closeRate": 33.0,
-    "revPerSit": 5578
+    "sold": 166,
+    "soldDollars": 2805994,
+    "closeRate": 33.4,
+    "revPerSit": 5646
   },
   "reps": [
     {
@@ -45,10 +45,10 @@
       "short": "MIKE DIETRICH",
       "role": "OUTSIDE SALES",
       "demos": 212,
-      "sold": 80,
-      "soldDollars": 1160824,
-      "closeRate": 37.7,
-      "revPerSit": 5476
+      "sold": 81,
+      "soldDollars": 1176295,
+      "closeRate": 38.2,
+      "revPerSit": 5549
     },
     {
       "name": "Joseph Young",
@@ -75,10 +75,10 @@
       "short": "LEO SANTANA",
       "role": "OUTSIDE SALES",
       "demos": 3,
-      "sold": 0,
-      "soldDollars": 0,
-      "closeRate": 0.0,
-      "revPerSit": 0
+      "sold": 1,
+      "soldDollars": 18227,
+      "closeRate": 33.3,
+      "revPerSit": 6076
     },
     {
       "name": "Daniel Leverich",
@@ -95,23 +95,23 @@
     {
       "name": "MARCO",
       "role": "APPT SETTER",
-      "apptsSet": 385,
+      "apptsSet": 384,
       "sold": 94,
       "soldDollars": 1467882,
-      "conversion": 24.4
+      "conversion": 24.5
     },
     {
       "name": "JOSHUA",
       "role": "APPT SETTER",
       "apptsSet": 309,
-      "sold": 60,
-      "soldDollars": 1042324,
-      "conversion": 19.4
+      "sold": 61,
+      "soldDollars": 1058551,
+      "conversion": 19.7
     }
   ],
   "source": {
     "data": "rapidhsg/rr-metrics-data@data",
     "rules": "rapidhsg/rr-metrics-data@main",
-    "acculynxRun": "2026-10-24T22:04:23.35Z"
+    "acculynxRun": "2026-10-25T10:05:03.3866667Z"
   }
 }
