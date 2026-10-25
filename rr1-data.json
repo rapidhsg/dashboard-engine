@@ -6,7 +6,7 @@
     "refreshDate": "2026-10-25"
   },
   "freshness": {
-    "acculynxRun": "2026-10-25T10:05:03.3866667Z",
+    "acculynxRun": "2026-10-25T13:04:54.5166667Z",
     "scheduleET": [
       "06:00",
       "09:00",
@@ -15,7 +15,7 @@
       "18:00"
     ],
     "lagMinutes": 20,
-    "builtAt": "2026-10-25T12:30:28.705483+00:00"
+    "builtAt": "2026-10-25T13:22:56.327641+00:00"
   },
   "metrics": [
     {
@@ -63,7 +63,7 @@
       "tier": "funnel",
       "verb": "GET",
       "greenThreshold": 98,
-      "actual": 322,
+      "actual": 323,
       "goal": 1596
     },
     {
