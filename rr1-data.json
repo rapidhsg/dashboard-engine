@@ -3,10 +3,10 @@
     "label": "Q4 2026",
     "startDate": "2026-10-01",
     "endDate": "2026-12-31",
-    "refreshDate": "2026-10-26"
+    "refreshDate": "2026-10-27"
   },
   "freshness": {
-    "acculynxRun": "2026-10-26T22:04:36.91Z",
+    "acculynxRun": "2026-10-27T10:04:58.3666667Z",
     "scheduleET": [
       "06:00",
       "09:00",
@@ -15,7 +15,7 @@
       "18:00"
     ],
     "lagMinutes": 20,
-    "builtAt": "2026-10-27T08:00:28.038905+00:00"
+    "builtAt": "2026-10-27T10:22:35.036507+00:00"
   },
   "metrics": [
     {
@@ -63,7 +63,7 @@
       "tier": "funnel",
       "verb": "GET",
       "greenThreshold": 98,
-      "actual": 331,
+      "actual": 336,
       "goal": 1596
     },
     {
@@ -73,7 +73,7 @@
       "tier": "funnel",
       "verb": "BOOK",
       "greenThreshold": 98,
-      "actual": 211,
+      "actual": 212,
       "goal": 718
     },
     {
