@@ -15,7 +15,7 @@
       "18:00"
     ],
     "lagMinutes": 20,
-    "builtAt": "2026-10-31T13:22:24.732959+00:00"
+    "builtAt": "2026-10-31T13:51:53.095256+00:00"
   },
   "goals": {
     "revPerSit": 5700,
@@ -23,11 +23,11 @@
   },
   "openSeats": 1,
   "team": {
-    "demos": 510,
-    "sold": 167,
-    "soldDollars": 2856130,
-    "closeRate": 32.7,
-    "revPerSit": 5600
+    "demos": 516,
+    "sold": 168,
+    "soldDollars": 2882273,
+    "closeRate": 32.6,
+    "revPerSit": 5586
   },
   "reps": [
     {
@@ -81,14 +81,14 @@
       "revPerSit": 2115
     },
     {
-      "name": "Daniel Leverich",
-      "short": "DANIEL LEVERICH",
+      "name": "Dan Leverich",
+      "short": "DAN LEVERICH",
       "role": "OUTSIDE SALES",
-      "demos": 0,
-      "sold": 0,
-      "soldDollars": 0,
-      "closeRate": 0,
-      "revPerSit": 0
+      "demos": 6,
+      "sold": 1,
+      "soldDollars": 26143,
+      "closeRate": 16.7,
+      "revPerSit": 4357
     }
   ],
   "setters": [
