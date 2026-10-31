@@ -6,7 +6,7 @@
     "refreshDate": "2026-10-31"
   },
   "freshness": {
-    "acculynxRun": "2026-10-31T10:04:41.6233333Z",
+    "acculynxRun": "2026-10-31T13:04:32.3133333Z",
     "scheduleET": [
       "06:00",
       "09:00",
@@ -15,7 +15,7 @@
       "18:00"
     ],
     "lagMinutes": 20,
-    "builtAt": "2026-10-31T11:00:24.784086+00:00"
+    "builtAt": "2026-10-31T13:22:24.732959+00:00"
   },
   "goals": {
     "revPerSit": 5700,
@@ -23,11 +23,11 @@
   },
   "openSeats": 1,
   "team": {
-    "demos": 509,
+    "demos": 510,
     "sold": 167,
     "soldDollars": 2856130,
-    "closeRate": 32.8,
-    "revPerSit": 5611
+    "closeRate": 32.7,
+    "revPerSit": 5600
   },
   "reps": [
     {
@@ -44,11 +44,11 @@
       "name": "Michael Dietrich",
       "short": "MIKE DIETRICH",
       "role": "OUTSIDE SALES",
-      "demos": 209,
+      "demos": 210,
       "sold": 84,
       "soldDollars": 1235779,
-      "closeRate": 40.2,
-      "revPerSit": 5913
+      "closeRate": 40.0,
+      "revPerSit": 5885
     },
     {
       "name": "Joseph Young",
@@ -112,6 +112,6 @@
   "source": {
     "data": "rapidhsg/rr-metrics-data@data",
     "rules": "rapidhsg/rr-metrics-data@main",
-    "acculynxRun": "2026-10-31T10:04:41.6233333Z"
+    "acculynxRun": "2026-10-31T13:04:32.3133333Z"
   }
 }
