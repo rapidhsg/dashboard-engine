@@ -3,10 +3,10 @@
     "label": "Q4 2026",
     "startDate": "2026-10-01",
     "endDate": "2026-12-31",
-    "refreshDate": "2026-10-31"
+    "refreshDate": "2026-11-01"
   },
   "freshness": {
-    "acculynxRun": "2026-10-31T22:04:09.2233333Z",
+    "acculynxRun": "2026-11-01T10:04:52.8866667Z",
     "scheduleET": [
       "06:00",
       "09:00",
@@ -15,7 +15,7 @@
       "18:00"
     ],
     "lagMinutes": 20,
-    "builtAt": "2026-11-01T09:36:37.200739+00:00"
+    "builtAt": "2026-11-01T11:21:41.227008+00:00"
   },
   "goals": {
     "revPerSit": 5700,
@@ -95,9 +95,9 @@
     {
       "name": "MARCO",
       "role": "APPT SETTER",
-      "apptsSet": 402,
-      "sold": 99,
-      "soldDollars": 1563439,
+      "apptsSet": 399,
+      "sold": 98,
+      "soldDollars": 1556807,
       "conversion": 24.6
     },
     {
@@ -112,6 +112,6 @@
   "source": {
     "data": "rapidhsg/rr-metrics-data@data",
     "rules": "rapidhsg/rr-metrics-data@main",
-    "acculynxRun": "2026-10-31T22:04:09.2233333Z"
+    "acculynxRun": "2026-11-01T10:04:52.8866667Z"
   }
 }
