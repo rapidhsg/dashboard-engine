@@ -6,7 +6,7 @@
     "refreshDate": "2026-11-03"
   },
   "freshness": {
-    "acculynxRun": "2026-11-03T10:04:44.6233333Z",
+    "acculynxRun": "2026-11-03T13:04:27.2666667Z",
     "scheduleET": [
       "06:00",
       "09:00",
@@ -15,7 +15,7 @@
       "18:00"
     ],
     "lagMinutes": 20,
-    "builtAt": "2026-11-03T11:23:36.038187+00:00"
+    "builtAt": "2026-11-03T14:22:19.364365+00:00"
   },
   "goals": {
     "revPerSit": 5700,
@@ -23,11 +23,11 @@
   },
   "openSeats": 1,
   "team": {
-    "demos": 499,
-    "sold": 164,
-    "soldDollars": 2834642,
-    "closeRate": 32.9,
-    "revPerSit": 5681
+    "demos": 502,
+    "sold": 167,
+    "soldDollars": 2904327,
+    "closeRate": 33.3,
+    "revPerSit": 5786
   },
   "reps": [
     {
@@ -64,11 +64,11 @@
       "name": "Querlim Franco",
       "short": "FRANCO QUERLIM",
       "role": "OUTSIDE SALES",
-      "demos": 31,
-      "sold": 10,
-      "soldDollars": 114066,
-      "closeRate": 32.3,
-      "revPerSit": 3680
+      "demos": 34,
+      "sold": 13,
+      "soldDollars": 183751,
+      "closeRate": 38.2,
+      "revPerSit": 5404
     },
     {
       "name": "Leo Santana",
@@ -112,6 +112,6 @@
   "source": {
     "data": "rapidhsg/rr-metrics-data@data",
     "rules": "rapidhsg/rr-metrics-data@main",
-    "acculynxRun": "2026-11-03T10:04:44.6233333Z"
+    "acculynxRun": "2026-11-03T13:04:27.2666667Z"
   }
 }
