@@ -6,7 +6,7 @@
     "refreshDate": "2026-11-04"
   },
   "freshness": {
-    "acculynxRun": "2026-11-04T16:04:34.94Z",
+    "acculynxRun": "2026-11-04T19:04:16.43Z",
     "scheduleET": [
       "06:00",
       "09:00",
@@ -15,7 +15,7 @@
       "18:00"
     ],
     "lagMinutes": 20,
-    "builtAt": "2026-11-04T18:48:37.168973+00:00"
+    "builtAt": "2026-11-04T20:21:43.316952+00:00"
   },
   "goals": {
     "revPerSit": 5700,
@@ -23,11 +23,11 @@
   },
   "openSeats": 1,
   "team": {
-    "demos": 512,
+    "demos": 514,
     "sold": 170,
-    "soldDollars": 2944624,
-    "closeRate": 33.2,
-    "revPerSit": 5751
+    "soldDollars": 2972879,
+    "closeRate": 33.1,
+    "revPerSit": 5784
   },
   "reps": [
     {
@@ -44,11 +44,11 @@
       "name": "Michael Dietrich",
       "short": "MIKE DIETRICH",
       "role": "OUTSIDE SALES",
-      "demos": 206,
+      "demos": 208,
       "sold": 84,
       "soldDollars": 1257021,
-      "closeRate": 40.8,
-      "revPerSit": 6102
+      "closeRate": 40.4,
+      "revPerSit": 6043
     },
     {
       "name": "Joseph Young",
@@ -66,9 +66,9 @@
       "role": "OUTSIDE SALES",
       "demos": 38,
       "sold": 13,
-      "soldDollars": 183751,
+      "soldDollars": 212006,
       "closeRate": 34.2,
-      "revPerSit": 4836
+      "revPerSit": 5579
     },
     {
       "name": "Leo Santana",
@@ -97,7 +97,7 @@
       "role": "APPT SETTER",
       "apptsSet": 403,
       "sold": 100,
-      "soldDollars": 1563324,
+      "soldDollars": 1591579,
       "conversion": 24.8
     },
     {
@@ -112,6 +112,6 @@
   "source": {
     "data": "rapidhsg/rr-metrics-data@data",
     "rules": "rapidhsg/rr-metrics-data@main",
-    "acculynxRun": "2026-11-04T16:04:34.94Z"
+    "acculynxRun": "2026-11-04T19:04:16.43Z"
   }
 }
