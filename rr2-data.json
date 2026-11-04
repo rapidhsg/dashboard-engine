@@ -6,7 +6,7 @@
     "refreshDate": "2026-11-04"
   },
   "freshness": {
-    "acculynxRun": "2026-11-04T19:04:16.43Z",
+    "acculynxRun": "2026-11-04T22:04:24.3166667Z",
     "scheduleET": [
       "06:00",
       "09:00",
@@ -15,7 +15,7 @@
       "18:00"
     ],
     "lagMinutes": 20,
-    "builtAt": "2026-11-04T20:21:43.316952+00:00"
+    "builtAt": "2026-11-04T23:22:17.365428+00:00"
   },
   "goals": {
     "revPerSit": 5700,
@@ -23,11 +23,11 @@
   },
   "openSeats": 1,
   "team": {
-    "demos": 514,
+    "demos": 518,
     "sold": 170,
     "soldDollars": 2972879,
-    "closeRate": 33.1,
-    "revPerSit": 5784
+    "closeRate": 32.8,
+    "revPerSit": 5739
   },
   "reps": [
     {
@@ -44,21 +44,21 @@
       "name": "Michael Dietrich",
       "short": "MIKE DIETRICH",
       "role": "OUTSIDE SALES",
-      "demos": 208,
+      "demos": 209,
       "sold": 84,
       "soldDollars": 1257021,
-      "closeRate": 40.4,
-      "revPerSit": 6043
+      "closeRate": 40.2,
+      "revPerSit": 6014
     },
     {
       "name": "Joseph Young",
       "short": "JOE YOUNG",
       "role": "OUTSIDE SALES",
-      "demos": 159,
+      "demos": 160,
       "sold": 37,
       "soldDollars": 659061,
-      "closeRate": 23.3,
-      "revPerSit": 4145
+      "closeRate": 23.1,
+      "revPerSit": 4119
     },
     {
       "name": "Querlim Franco",
@@ -84,11 +84,11 @@
       "name": "Dan Leverich",
       "short": "DAN LEVERICH",
       "role": "OUTSIDE SALES",
-      "demos": 10,
+      "demos": 12,
       "sold": 1,
       "soldDollars": 29003,
-      "closeRate": 10.0,
-      "revPerSit": 2900
+      "closeRate": 8.3,
+      "revPerSit": 2417
     }
   ],
   "setters": [
@@ -112,6 +112,6 @@
   "source": {
     "data": "rapidhsg/rr-metrics-data@data",
     "rules": "rapidhsg/rr-metrics-data@main",
-    "acculynxRun": "2026-11-04T19:04:16.43Z"
+    "acculynxRun": "2026-11-04T22:04:24.3166667Z"
   }
 }
