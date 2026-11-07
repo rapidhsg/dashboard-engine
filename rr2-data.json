@@ -15,7 +15,7 @@
       "18:00"
     ],
     "lagMinutes": 20,
-    "builtAt": "2026-11-07T20:59:33.036355+00:00"
+    "builtAt": "2026-11-07T22:56:05.604109+00:00"
   },
   "goals": {
     "revPerSit": 5700,
@@ -23,11 +23,11 @@
   },
   "openSeats": 1,
   "team": {
-    "demos": 529,
+    "demos": 543,
     "sold": 174,
     "soldDollars": 3039606,
-    "closeRate": 32.9,
-    "revPerSit": 5746
+    "closeRate": 32.0,
+    "revPerSit": 5598
   },
   "reps": [
     {
@@ -64,11 +64,11 @@
       "name": "Querlim Franco",
       "short": "FRANCO QUERLIM",
       "role": "OUTSIDE SALES",
-      "demos": 43,
+      "demos": 57,
       "sold": 15,
       "soldDollars": 239107,
-      "closeRate": 34.9,
-      "revPerSit": 5561
+      "closeRate": 26.3,
+      "revPerSit": 4195
     },
     {
       "name": "Leo Santana",
