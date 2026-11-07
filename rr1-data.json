@@ -3,10 +3,10 @@
     "label": "Q4 2026",
     "startDate": "2026-10-01",
     "endDate": "2026-12-31",
-    "refreshDate": "2026-11-06"
+    "refreshDate": "2026-11-07"
   },
   "freshness": {
-    "acculynxRun": "2026-11-06T22:04:16.49Z",
+    "acculynxRun": "2026-11-07T10:04:45.1466667Z",
     "scheduleET": [
       "06:00",
       "09:00",
@@ -15,7 +15,7 @@
       "18:00"
     ],
     "lagMinutes": 20,
-    "builtAt": "2026-11-07T08:37:45.066312+00:00"
+    "builtAt": "2026-11-07T11:21:57.325474+00:00"
   },
   "metrics": [
     {
@@ -24,7 +24,7 @@
       "type": "currency",
       "tier": "headline",
       "verb": "SELL",
-      "actual": 1561267,
+      "actual": 1582688,
       "goal": 3769500
     },
     {
@@ -63,7 +63,7 @@
       "tier": "funnel",
       "verb": "GET",
       "greenThreshold": 98,
-      "actual": 453,
+      "actual": 458,
       "goal": 1596
     },
     {
@@ -73,7 +73,7 @@
       "tier": "funnel",
       "verb": "BOOK",
       "greenThreshold": 98,
-      "actual": 293,
+      "actual": 294,
       "goal": 718
     },
     {
