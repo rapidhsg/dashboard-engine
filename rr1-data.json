@@ -6,7 +6,7 @@
     "refreshDate": "2026-11-10"
   },
   "freshness": {
-    "acculynxRun": "2026-11-10T19:04:04.04Z",
+    "acculynxRun": "2026-11-10T22:04:05.6866667Z",
     "scheduleET": [
       "06:00",
       "09:00",
@@ -15,7 +15,7 @@
       "18:00"
     ],
     "lagMinutes": 20,
-    "builtAt": "2026-11-10T21:27:01.538357+00:00"
+    "builtAt": "2026-11-10T23:21:51.909529+00:00"
   },
   "metrics": [
     {
@@ -24,7 +24,7 @@
       "type": "currency",
       "tier": "headline",
       "verb": "SELL",
-      "actual": 1659902,
+      "actual": 1669402,
       "goal": 3769500
     },
     {
@@ -34,7 +34,7 @@
       "tier": "headline",
       "isCoverage": true,
       "greenThreshold": 98,
-      "actual": 1124441,
+      "actual": 1133941,
       "goal": 263865
     },
     {
@@ -63,7 +63,7 @@
       "tier": "funnel",
       "verb": "GET",
       "greenThreshold": 98,
-      "actual": 500,
+      "actual": 501,
       "goal": 1596
     },
     {
@@ -73,7 +73,7 @@
       "tier": "funnel",
       "verb": "BOOK",
       "greenThreshold": 98,
-      "actual": 309,
+      "actual": 311,
       "goal": 718
     },
     {

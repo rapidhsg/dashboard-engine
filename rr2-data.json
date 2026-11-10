@@ -6,7 +6,7 @@
     "refreshDate": "2026-11-10"
   },
   "freshness": {
-    "acculynxRun": "2026-11-10T19:04:04.04Z",
+    "acculynxRun": "2026-11-10T22:04:05.6866667Z",
     "scheduleET": [
       "06:00",
       "09:00",
@@ -15,7 +15,7 @@
       "18:00"
     ],
     "lagMinutes": 20,
-    "builtAt": "2026-11-10T21:27:01.538357+00:00"
+    "builtAt": "2026-11-10T23:21:51.909529+00:00"
   },
   "goals": {
     "revPerSit": 5700,
@@ -23,11 +23,11 @@
   },
   "openSeats": 1,
   "team": {
-    "demos": 544,
-    "sold": 173,
+    "demos": 546,
+    "sold": 174,
     "soldDollars": 3033532,
-    "closeRate": 31.8,
-    "revPerSit": 5576
+    "closeRate": 31.9,
+    "revPerSit": 5556
   },
   "reps": [
     {
@@ -45,9 +45,9 @@
       "short": "MIKE DIETRICH",
       "role": "OUTSIDE SALES",
       "demos": 211,
-      "sold": 81,
+      "sold": 82,
       "soldDollars": 1251905,
-      "closeRate": 38.4,
+      "closeRate": 38.9,
       "revPerSit": 5933
     },
     {
@@ -74,44 +74,44 @@
       "name": "Leo Santana",
       "short": "LEO SANTANA",
       "role": "OUTSIDE SALES",
-      "demos": 22,
+      "demos": 23,
       "sold": 3,
       "soldDollars": 49263,
-      "closeRate": 13.6,
-      "revPerSit": 2239
+      "closeRate": 13.0,
+      "revPerSit": 2142
     },
     {
       "name": "Dan Leverich",
       "short": "DAN LEVERICH",
       "role": "OUTSIDE SALES",
-      "demos": 15,
+      "demos": 16,
       "sold": 3,
       "soldDollars": 79776,
-      "closeRate": 20.0,
-      "revPerSit": 5318
+      "closeRate": 18.8,
+      "revPerSit": 4986
     }
   ],
   "setters": [
     {
       "name": "MARCO",
       "role": "APPT SETTER",
-      "apptsSet": 404,
+      "apptsSet": 406,
       "sold": 98,
       "soldDollars": 1557579,
-      "conversion": 24.3
+      "conversion": 24.1
     },
     {
       "name": "JOSHUA",
       "role": "APPT SETTER",
       "apptsSet": 303,
-      "sold": 56,
+      "sold": 57,
       "soldDollars": 949364,
-      "conversion": 18.5
+      "conversion": 18.8
     }
   ],
   "source": {
     "data": "rapidhsg/rr-metrics-data@data",
     "rules": "rapidhsg/rr-metrics-data@main",
-    "acculynxRun": "2026-11-10T19:04:04.04Z"
+    "acculynxRun": "2026-11-10T22:04:05.6866667Z"
   }
 }
