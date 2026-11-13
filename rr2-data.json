@@ -3,10 +3,10 @@
     "label": "Q4 2026",
     "startDate": "2026-10-01",
     "endDate": "2026-12-31",
-    "refreshDate": "2026-11-12"
+    "refreshDate": "2026-11-13"
   },
   "freshness": {
-    "acculynxRun": "2026-11-12T22:03:55.9366667Z",
+    "acculynxRun": "2026-11-13T10:04:40.94Z",
     "scheduleET": [
       "06:00",
       "09:00",
@@ -15,7 +15,7 @@
       "18:00"
     ],
     "lagMinutes": 20,
-    "builtAt": "2026-11-13T07:47:44.209163+00:00"
+    "builtAt": "2026-11-13T10:06:36.576263+00:00"
   },
   "goals": {
     "revPerSit": 5700,
@@ -23,32 +23,32 @@
   },
   "openSeats": 1,
   "team": {
-    "demos": 555,
+    "demos": 552,
     "sold": 178,
     "soldDollars": 3064553,
-    "closeRate": 32.1,
-    "revPerSit": 5522
+    "closeRate": 32.2,
+    "revPerSit": 5552
   },
   "reps": [
     {
       "name": "Francesco Ambrosio",
       "short": "FRANCESCO",
       "role": "OUTSIDE SALES LEAD",
-      "demos": 81,
+      "demos": 80,
       "sold": 35,
       "soldDollars": 802275,
-      "closeRate": 43.2,
-      "revPerSit": 9905
+      "closeRate": 43.8,
+      "revPerSit": 10028
     },
     {
       "name": "Michael Dietrich",
       "short": "MIKE DIETRICH",
       "role": "OUTSIDE SALES",
-      "demos": 210,
+      "demos": 208,
       "sold": 82,
       "soldDollars": 1253606,
-      "closeRate": 39.0,
-      "revPerSit": 5970
+      "closeRate": 39.4,
+      "revPerSit": 6027
     },
     {
       "name": "Joseph Young",
@@ -95,23 +95,23 @@
     {
       "name": "MARCO",
       "role": "APPT SETTER",
-      "apptsSet": 405,
+      "apptsSet": 409,
       "sold": 100,
       "soldDollars": 1580920,
-      "conversion": 24.7
+      "conversion": 24.4
     },
     {
       "name": "JOSHUA",
       "role": "APPT SETTER",
-      "apptsSet": 305,
+      "apptsSet": 302,
       "sold": 58,
       "soldDollars": 981052,
-      "conversion": 19.0
+      "conversion": 19.2
     }
   ],
   "source": {
     "data": "rapidhsg/rr-metrics-data@data",
     "rules": "rapidhsg/rr-metrics-data@main",
-    "acculynxRun": "2026-11-12T22:03:55.9366667Z"
+    "acculynxRun": "2026-11-13T10:04:40.94Z"
   }
 }
