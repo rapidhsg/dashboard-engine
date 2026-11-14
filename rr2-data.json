@@ -6,7 +6,7 @@
     "refreshDate": "2026-11-14"
   },
   "freshness": {
-    "acculynxRun": "2026-11-14T19:04:03.95Z",
+    "acculynxRun": "2026-11-14T22:03:55.1333333Z",
     "scheduleET": [
       "06:00",
       "09:00",
@@ -15,7 +15,7 @@
       "18:00"
     ],
     "lagMinutes": 20,
-    "builtAt": "2026-11-14T20:33:41.664508+00:00"
+    "builtAt": "2026-11-14T23:23:23.833514+00:00"
   },
   "goals": {
     "revPerSit": 5700,
@@ -23,11 +23,11 @@
   },
   "openSeats": 1,
   "team": {
-    "demos": 563,
+    "demos": 566,
     "sold": 181,
     "soldDollars": 3110993,
-    "closeRate": 32.1,
-    "revPerSit": 5526
+    "closeRate": 32.0,
+    "revPerSit": 5496
   },
   "reps": [
     {
@@ -54,31 +54,31 @@
       "name": "Joseph Young",
       "short": "JOE YOUNG",
       "role": "OUTSIDE SALES",
-      "demos": 166,
+      "demos": 167,
       "sold": 37,
       "soldDollars": 627436,
-      "closeRate": 22.3,
-      "revPerSit": 3780
+      "closeRate": 22.2,
+      "revPerSit": 3757
     },
     {
       "name": "Querlim Franco",
       "short": "FRANCO QUERLIM",
       "role": "OUTSIDE SALES",
-      "demos": 61,
+      "demos": 62,
       "sold": 16,
       "soldDollars": 242507,
-      "closeRate": 26.2,
-      "revPerSit": 3976
+      "closeRate": 25.8,
+      "revPerSit": 3911
     },
     {
       "name": "Leo Santana",
       "short": "LEO SANTANA",
       "role": "OUTSIDE SALES",
-      "demos": 27,
+      "demos": 28,
       "sold": 4,
       "soldDollars": 53593,
-      "closeRate": 14.8,
-      "revPerSit": 1985
+      "closeRate": 14.3,
+      "revPerSit": 1914
     },
     {
       "name": "Dan Leverich",
@@ -112,6 +112,6 @@
   "source": {
     "data": "rapidhsg/rr-metrics-data@data",
     "rules": "rapidhsg/rr-metrics-data@main",
-    "acculynxRun": "2026-11-14T19:04:03.95Z"
+    "acculynxRun": "2026-11-14T22:03:55.1333333Z"
   }
 }
