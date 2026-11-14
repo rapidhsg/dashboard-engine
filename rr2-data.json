@@ -3,10 +3,10 @@
     "label": "Q4 2026",
     "startDate": "2026-10-01",
     "endDate": "2026-12-31",
-    "refreshDate": "2026-11-13"
+    "refreshDate": "2026-11-14"
   },
   "freshness": {
-    "acculynxRun": "2026-11-13T22:04:01.7433333Z",
+    "acculynxRun": "2026-11-14T10:04:13.25Z",
     "scheduleET": [
       "06:00",
       "09:00",
@@ -15,7 +15,7 @@
       "18:00"
     ],
     "lagMinutes": 20,
-    "builtAt": "2026-11-14T09:05:09.744035+00:00"
+    "builtAt": "2026-11-14T10:10:01.207984+00:00"
   },
   "goals": {
     "revPerSit": 5700,
@@ -23,11 +23,11 @@
   },
   "openSeats": 1,
   "team": {
-    "demos": 561,
+    "demos": 559,
     "sold": 180,
-    "soldDollars": 3083973,
-    "closeRate": 32.1,
-    "revPerSit": 5497
+    "soldDollars": 3104142,
+    "closeRate": 32.2,
+    "revPerSit": 5553
   },
   "reps": [
     {
@@ -36,19 +36,19 @@
       "role": "OUTSIDE SALES LEAD",
       "demos": 81,
       "sold": 37,
-      "soldDollars": 821695,
+      "soldDollars": 841864,
       "closeRate": 45.7,
-      "revPerSit": 10144
+      "revPerSit": 10393
     },
     {
       "name": "Michael Dietrich",
       "short": "MIKE DIETRICH",
       "role": "OUTSIDE SALES",
-      "demos": 210,
+      "demos": 208,
       "sold": 82,
       "soldDollars": 1253606,
-      "closeRate": 39.0,
-      "revPerSit": 5970
+      "closeRate": 39.4,
+      "revPerSit": 6027
     },
     {
       "name": "Joseph Young",
@@ -97,21 +97,21 @@
       "role": "APPT SETTER",
       "apptsSet": 409,
       "sold": 101,
-      "soldDollars": 1580920,
+      "soldDollars": 1601089,
       "conversion": 24.7
     },
     {
       "name": "JOSHUA",
       "role": "APPT SETTER",
-      "apptsSet": 311,
-      "sold": 59,
-      "soldDollars": 1000471,
-      "conversion": 19.0
+      "apptsSet": 310,
+      "sold": 58,
+      "soldDollars": 976057,
+      "conversion": 18.7
     }
   ],
   "source": {
     "data": "rapidhsg/rr-metrics-data@data",
     "rules": "rapidhsg/rr-metrics-data@main",
-    "acculynxRun": "2026-11-13T22:04:01.7433333Z"
+    "acculynxRun": "2026-11-14T10:04:13.25Z"
   }
 }
