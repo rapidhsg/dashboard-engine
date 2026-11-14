@@ -6,7 +6,7 @@
     "refreshDate": "2026-11-14"
   },
   "freshness": {
-    "acculynxRun": "2026-11-14T16:04:13.2733333Z",
+    "acculynxRun": "2026-11-14T19:04:03.95Z",
     "scheduleET": [
       "06:00",
       "09:00",
@@ -15,7 +15,7 @@
       "18:00"
     ],
     "lagMinutes": 20,
-    "builtAt": "2026-11-14T17:22:00.835045+00:00"
+    "builtAt": "2026-11-14T20:22:06.351377+00:00"
   },
   "goals": {
     "revPerSit": 5700,
@@ -23,11 +23,11 @@
   },
   "openSeats": 1,
   "team": {
-    "demos": 561,
+    "demos": 563,
     "sold": 181,
     "soldDollars": 3110993,
-    "closeRate": 32.3,
-    "revPerSit": 5545
+    "closeRate": 32.1,
+    "revPerSit": 5526
   },
   "reps": [
     {
@@ -54,11 +54,11 @@
       "name": "Joseph Young",
       "short": "JOE YOUNG",
       "role": "OUTSIDE SALES",
-      "demos": 165,
+      "demos": 166,
       "sold": 37,
       "soldDollars": 627436,
-      "closeRate": 22.4,
-      "revPerSit": 3803
+      "closeRate": 22.3,
+      "revPerSit": 3780
     },
     {
       "name": "Querlim Franco",
@@ -84,11 +84,11 @@
       "name": "Dan Leverich",
       "short": "DAN LEVERICH",
       "role": "OUTSIDE SALES",
-      "demos": 19,
+      "demos": 20,
       "sold": 5,
       "soldDollars": 91987,
-      "closeRate": 26.3,
-      "revPerSit": 4841
+      "closeRate": 25.0,
+      "revPerSit": 4599
     }
   ],
   "setters": [
@@ -112,6 +112,6 @@
   "source": {
     "data": "rapidhsg/rr-metrics-data@data",
     "rules": "rapidhsg/rr-metrics-data@main",
-    "acculynxRun": "2026-11-14T16:04:13.2733333Z"
+    "acculynxRun": "2026-11-14T19:04:03.95Z"
   }
 }
