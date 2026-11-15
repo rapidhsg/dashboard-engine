@@ -6,7 +6,7 @@
     "refreshDate": "2026-11-15"
   },
   "freshness": {
-    "acculynxRun": "2026-11-15T10:04:20.9266667Z",
+    "acculynxRun": "2026-11-15T13:04:03.49Z",
     "scheduleET": [
       "06:00",
       "09:00",
@@ -15,7 +15,7 @@
       "18:00"
     ],
     "lagMinutes": 20,
-    "builtAt": "2026-11-15T11:21:51.650364+00:00"
+    "builtAt": "2026-11-15T14:22:43.324594+00:00"
   },
   "goals": {
     "revPerSit": 5700,
@@ -112,6 +112,6 @@
   "source": {
     "data": "rapidhsg/rr-metrics-data@data",
     "rules": "rapidhsg/rr-metrics-data@main",
-    "acculynxRun": "2026-11-15T10:04:20.9266667Z"
+    "acculynxRun": "2026-11-15T13:04:03.49Z"
   }
 }
